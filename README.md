@@ -32,12 +32,12 @@ mzMine2: http://mzmine.github.io/
 
 ### Installing
 
-To install LipiDex, ensure you have installed the most recent version of Java and then download LipiDex [here](https://github.com/phutch89/test/archive/master.zip)
+To install LipiDex, ensure you have installed the most recent version of Java and then download LipiDex [here](https://github.com/coongroup/LipiDex/archive/master.zip)
 
 
 ### User Guide
 
-Please read the [LipiDex Wiki](https://github.com/phutch89/test/wiki#welcome-to-the-lipidex-wiki) for detailed instructions on the major functions of LipiDex.
+Please read the [LipiDex Wiki](https://github.com/coongroup/LipiDex/wiki#welcome-to-the-lipidex-wiki) for detailed instructions on the major functions of LipiDex.
 
 ### Troubleshooting
 
