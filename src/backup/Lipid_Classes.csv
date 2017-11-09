@@ -1,0 +1,36 @@
+Name,Abbreviation,HeadGroup,Adducts,Sterol,Glycerol,Sphingoid,numFattyAcids,OptimalPolarity,FA1,FA2,FA3,FA4
+Phosphatidylcholine,PC,C5H13N1O4P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Lysophosphatidylcholine,LysoPC,C5H14N1O5P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,1,+,Alkyl,none,none,none
+Plasmenylphosphatidylcholine,Plasmenyl-PC,C5H13N1O4P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,2,-,Plasmenyl,Alkyl,none,none
+Phosphatidylethanolamine,PE,C2H7N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Lysophosphatidylethanolamine,LysoPE,C2H8N1O5P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,1,-,Alkyl,none,none,none
+Plasmenylphosphatidylethanolamine,Plasmenyl-PE,C2H7N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Plasmenyl,Alkyl,none,none
+Phosphatidylserine,PS,C3H7N1O6P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Sphingomyelin,SM,C5H14N2O4P1,[M]+;[M+H]+;[M+Ac-H]-,FALSE,FALSE,TRUE,2,NA,Sphingoid,Alkyl,none,none
+Phosphatidic acid,PA,H2O4P1,[M+NH4]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Lysophosphatidic acid,LysoPA,H2O4P1,[M+NH4]+;[M-H]-,FALSE,TRUE,FALSE,1,-,Alkyl,none,none,none
+Phosphatidylinositol,PI,C6H12O9P1,[M-H]-;[M+NH4]+,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Phosphatidylglycerol,PG,C3H8O6P1,[M+NH4]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Cardiolipin,CL,C6H13O9P2,[M-H]-;[M]+;[M-2H]2-,FALSE,TRUE,FALSE,4,-,Alkyl,Alkyl,Alkyl,Alkyl
+Ceramide,Cer,O1N1H5,[M+H]+;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+Cholesteryl ester,CE,H0,[M+NH4]+,TRUE,FALSE,FALSE,1,+,Alkyl,none,none,none
+Monoacylglycerol,MG,O2H2,[M+NH4]+,FALSE,TRUE,FALSE,1,+,Alkyl,none,none,none
+Diacylglycerol,DG,O1H1,[M+NH4]+,FALSE,TRUE,FALSE,2,+,Alkyl,Alkyl,none,none
+Triacylglycerol,TG,H0,[M+NH4]+,FALSE,TRUE,FALSE,3,+,Alkyl,Alkyl,Alkyl,none
+Lysophosphatidylinositol,LysoPI,C6H13O10P1,[M-H]-,FALSE,TRUE,FALSE,1,-,Alkyl,none,none,none
+Ether Phosphatidylethanolamine,Ether-PE,C2H7N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Ether,Alkyl,none,none
+Glycerophosphoinositol Monophosphate,PIP,C6H13O12P2,[M-H]-;[M-2H]2-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Glycerophosphoinositol Biphosphate,PIP2,C6H14O15P3,[M-H]-;[M-2H]2-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Glycerophosphoinositol Triphosphate,PIP3,C6H15O18P4,[M-H]-;[M-2H]2-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Acylcarnitines,AC,C4H9NO2,[M+H]+,FALSE,TRUE,FALSE,1,+,Alkyl,none,none,none
+Ceramide-1-Phosphate,CerP,H6N1O4P1,[M+H]+;[M-H]-,FALSE,FALSE,TRUE,2,+,Sphingoid,Alkyl,none,none
+Sphingosine-1-Phosphate,S1P,H7N1O5P1,[M+H]+;[M-H]-,FALSE,FALSE,TRUE,1,+,Sphingoid,none,none,none
+Sphingosine,SP,H6N1O2,[M+H]+;[M+H-H2O]+,FALSE,FALSE,TRUE,1,+,Sphingoid,none,none,none
+Lysosphingomyelin,LysoSM,C5H18N2O5P1,[M+H]+;[M+Ac-H]-,FALSE,FALSE,TRUE,1,+,Sphingoid,none,none,none
+Platelet Activating Factor,PAF,C7H16N1O6P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,1,-,Ether,none,none,none
+Hexosyl Ceramide,HexCer,C6O6N1H15,[M+H]+;[M-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+Phytoceramide,CerNP,O2N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+Phytoceramide (1OH),CerNP-OH,O3N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+Monomethyl Phosphatidylethanolamine,PE-NMe,C3H9N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Dimethyl Phosphatidylethanolamine,PE-NMe2,C4H11N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Sulfatides,SHexCer,O9N1H15C6S1,[M+H]+;[M-H]-,FALSE,FALSE,TRUE,2,+,Sphingoid,Alkyl,none,none

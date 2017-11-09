@@ -1,0 +1,4115 @@
+Name: LysoPC 26:4 [M+Ac-H]-;
+MW: 686.4397
+PRECURSORMZ: 686.4397
+Comment: Name=LysoPC 26:4 [M+Ac-H]- Mass=686.4397 Formula=C36H65N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+612.4006 100 "-74.03965_Neutral Loss_[]"
+387.3269 999 "H0_Alkyl Fragment_[26:4]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 28:4 [M+Ac-H]-;
+MW: 714.471
+PRECURSORMZ: 714.471
+Comment: Name=LysoPC 28:4 [M+Ac-H]- Mass=714.471 Formula=C38H69N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+640.4319 100 "-74.03965_Neutral Loss_[]"
+415.3582 999 "H0_Alkyl Fragment_[28:4]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 32:4 [M+Ac-H]-;
+MW: 770.5336
+PRECURSORMZ: 770.5336
+Comment: Name=LysoPC 32:4 [M+Ac-H]- Mass=770.5336 Formula=C42H77N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+696.4945 100 "-74.03965_Neutral Loss_[]"
+471.4208 999 "H0_Alkyl Fragment_[32:4]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 34:4 [M+Ac-H]-;
+MW: 798.5649
+PRECURSORMZ: 798.5649
+Comment: Name=LysoPC 34:4 [M+Ac-H]- Mass=798.5649 Formula=C44H81N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+724.5258 100 "-74.03965_Neutral Loss_[]"
+499.4521 999 "H0_Alkyl Fragment_[34:4]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 36:4 [M+Ac-H]-;
+MW: 826.5962
+PRECURSORMZ: 826.5962
+Comment: Name=LysoPC 36:4 [M+Ac-H]- Mass=826.5962 Formula=C46H85N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+752.5571 100 "-74.03965_Neutral Loss_[]"
+527.4834 999 "H0_Alkyl Fragment_[36:4]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 38:4 [M+Ac-H]-;
+MW: 854.6275
+PRECURSORMZ: 854.6275
+Comment: Name=LysoPC 38:4 [M+Ac-H]- Mass=854.6275 Formula=C48H89N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+780.5884 100 "-74.03965_Neutral Loss_[]"
+555.5147 999 "H0_Alkyl Fragment_[38:4]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 24:5 [M+Ac-H]-;
+MW: 656.3927
+PRECURSORMZ: 656.3927
+Comment: Name=LysoPC 24:5 [M+Ac-H]- Mass=656.3927 Formula=C34H59N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+582.3536 100 "-74.03965_Neutral Loss_[]"
+357.2799 999 "H0_Alkyl Fragment_[24:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 26:5 [M+Ac-H]-;
+MW: 684.424
+PRECURSORMZ: 684.424
+Comment: Name=LysoPC 26:5 [M+Ac-H]- Mass=684.424 Formula=C36H63N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+610.3849 100 "-74.03965_Neutral Loss_[]"
+385.3112 999 "H0_Alkyl Fragment_[26:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 28:5 [M+Ac-H]-;
+MW: 712.4553
+PRECURSORMZ: 712.4553
+Comment: Name=LysoPC 28:5 [M+Ac-H]- Mass=712.4553 Formula=C38H67N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+638.4162 100 "-74.03965_Neutral Loss_[]"
+413.3425 999 "H0_Alkyl Fragment_[28:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 30:5 [M+Ac-H]-;
+MW: 740.4866
+PRECURSORMZ: 740.4866
+Comment: Name=LysoPC 30:5 [M+Ac-H]- Mass=740.4866 Formula=C40H71N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+666.4475 100 "-74.03965_Neutral Loss_[]"
+441.3738 999 "H0_Alkyl Fragment_[30:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 32:5 [M+Ac-H]-;
+MW: 768.5179
+PRECURSORMZ: 768.5179
+Comment: Name=LysoPC 32:5 [M+Ac-H]- Mass=768.5179 Formula=C42H75N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+694.4788 100 "-74.03965_Neutral Loss_[]"
+469.4051 999 "H0_Alkyl Fragment_[32:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 34:5 [M+Ac-H]-;
+MW: 796.5492
+PRECURSORMZ: 796.5492
+Comment: Name=LysoPC 34:5 [M+Ac-H]- Mass=796.5492 Formula=C44H79N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+722.5101 100 "-74.03965_Neutral Loss_[]"
+497.4364 999 "H0_Alkyl Fragment_[34:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 36:5 [M+Ac-H]-;
+MW: 824.5805
+PRECURSORMZ: 824.5805
+Comment: Name=LysoPC 36:5 [M+Ac-H]- Mass=824.5805 Formula=C46H83N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+750.5414 100 "-74.03965_Neutral Loss_[]"
+525.4677 999 "H0_Alkyl Fragment_[36:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 38:5 [M+Ac-H]-;
+MW: 852.6118
+PRECURSORMZ: 852.6118
+Comment: Name=LysoPC 38:5 [M+Ac-H]- Mass=852.6118 Formula=C48H87N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+778.5727 100 "-74.03965_Neutral Loss_[]"
+553.499 999 "H0_Alkyl Fragment_[38:5]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 26:6 [M+Ac-H]-;
+MW: 682.4084
+PRECURSORMZ: 682.4084
+Comment: Name=LysoPC 26:6 [M+Ac-H]- Mass=682.4084 Formula=C36H61N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+608.3693 100 "-74.03965_Neutral Loss_[]"
+383.2956 999 "H0_Alkyl Fragment_[26:6]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 28:6 [M+Ac-H]-;
+MW: 710.4397
+PRECURSORMZ: 710.4397
+Comment: Name=LysoPC 28:6 [M+Ac-H]- Mass=710.4397 Formula=C38H65N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+636.4006 100 "-74.03965_Neutral Loss_[]"
+411.3269 999 "H0_Alkyl Fragment_[28:6]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 30:6 [M+Ac-H]-;
+MW: 738.471
+PRECURSORMZ: 738.471
+Comment: Name=LysoPC 30:6 [M+Ac-H]- Mass=738.471 Formula=C40H69N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+664.4319 100 "-74.03965_Neutral Loss_[]"
+439.3582 999 "H0_Alkyl Fragment_[30:6]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 32:6 [M+Ac-H]-;
+MW: 766.5023
+PRECURSORMZ: 766.5023
+Comment: Name=LysoPC 32:6 [M+Ac-H]- Mass=766.5023 Formula=C42H73N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+692.4632 100 "-74.03965_Neutral Loss_[]"
+467.3895 999 "H0_Alkyl Fragment_[32:6]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 34:6 [M+Ac-H]-;
+MW: 794.5336
+PRECURSORMZ: 794.5336
+Comment: Name=LysoPC 34:6 [M+Ac-H]- Mass=794.5336 Formula=C44H77N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+720.4945 100 "-74.03965_Neutral Loss_[]"
+495.4208 999 "H0_Alkyl Fragment_[34:6]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 36:6 [M+Ac-H]-;
+MW: 822.5649
+PRECURSORMZ: 822.5649
+Comment: Name=LysoPC 36:6 [M+Ac-H]- Mass=822.5649 Formula=C46H81N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+748.5258 100 "-74.03965_Neutral Loss_[]"
+523.4521 999 "H0_Alkyl Fragment_[36:6]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPC 38:6 [M+Ac-H]-;
+MW: 850.5962
+PRECURSORMZ: 850.5962
+Comment: Name=LysoPC 38:6 [M+Ac-H]- Mass=850.5962 Formula=C48H85N1O9P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+776.5571 100 "-74.03965_Neutral Loss_[]"
+551.4834 999 "H0_Alkyl Fragment_[38:6]"
+59.0128 60 "59.01224_Fragment_[]"
+78.9579 10 "78.95734_Fragment_[]"
+152.9954 10 "152.9949_Fragment_[]"
+224.0696 10 "224.06905_Fragment_[]"
+242.0807 10 "242.08015_Fragment_[]"
+
+Name: LysoPE 26:4 [M-H]-;
+MW: 584.3716
+PRECURSORMZ: 584.3716
+Comment: Name=LysoPE 26:4 [M-H]- Mass=584.3716 Formula=C31H55N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+387.3269 999 "H0_Alkyl Fragment_[26:4]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 28:4 [M-H]-;
+MW: 612.4029
+PRECURSORMZ: 612.4029
+Comment: Name=LysoPE 28:4 [M-H]- Mass=612.4029 Formula=C33H59N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+415.3582 999 "H0_Alkyl Fragment_[28:4]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 32:4 [M-H]-;
+MW: 668.4655
+PRECURSORMZ: 668.4655
+Comment: Name=LysoPE 32:4 [M-H]- Mass=668.4655 Formula=C37H67N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+471.4208 999 "H0_Alkyl Fragment_[32:4]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 34:4 [M-H]-;
+MW: 696.4968
+PRECURSORMZ: 696.4968
+Comment: Name=LysoPE 34:4 [M-H]- Mass=696.4968 Formula=C39H71N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+499.4521 999 "H0_Alkyl Fragment_[34:4]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 36:4 [M-H]-;
+MW: 724.5281
+PRECURSORMZ: 724.5281
+Comment: Name=LysoPE 36:4 [M-H]- Mass=724.5281 Formula=C41H75N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+527.4834 999 "H0_Alkyl Fragment_[36:4]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 38:4 [M-H]-;
+MW: 752.5594
+PRECURSORMZ: 752.5594
+Comment: Name=LysoPE 38:4 [M-H]- Mass=752.5594 Formula=C43H79N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+555.5147 999 "H0_Alkyl Fragment_[38:4]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 24:5 [M-H]-;
+MW: 554.3247
+PRECURSORMZ: 554.3247
+Comment: Name=LysoPE 24:5 [M-H]- Mass=554.3247 Formula=C29H49N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+357.2799 999 "H0_Alkyl Fragment_[24:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 26:5 [M-H]-;
+MW: 582.356
+PRECURSORMZ: 582.356
+Comment: Name=LysoPE 26:5 [M-H]- Mass=582.356 Formula=C31H53N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+385.3112 999 "H0_Alkyl Fragment_[26:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 28:5 [M-H]-;
+MW: 610.3873
+PRECURSORMZ: 610.3873
+Comment: Name=LysoPE 28:5 [M-H]- Mass=610.3873 Formula=C33H57N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+413.3425 999 "H0_Alkyl Fragment_[28:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 30:5 [M-H]-;
+MW: 638.4186
+PRECURSORMZ: 638.4186
+Comment: Name=LysoPE 30:5 [M-H]- Mass=638.4186 Formula=C35H61N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+441.3738 999 "H0_Alkyl Fragment_[30:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 32:5 [M-H]-;
+MW: 666.4499
+PRECURSORMZ: 666.4499
+Comment: Name=LysoPE 32:5 [M-H]- Mass=666.4499 Formula=C37H65N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+469.4051 999 "H0_Alkyl Fragment_[32:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 34:5 [M-H]-;
+MW: 694.4812
+PRECURSORMZ: 694.4812
+Comment: Name=LysoPE 34:5 [M-H]- Mass=694.4812 Formula=C39H69N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+497.4364 999 "H0_Alkyl Fragment_[34:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 36:5 [M-H]-;
+MW: 722.5125
+PRECURSORMZ: 722.5125
+Comment: Name=LysoPE 36:5 [M-H]- Mass=722.5125 Formula=C41H73N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+525.4677 999 "H0_Alkyl Fragment_[36:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 38:5 [M-H]-;
+MW: 750.5438
+PRECURSORMZ: 750.5438
+Comment: Name=LysoPE 38:5 [M-H]- Mass=750.5438 Formula=C43H77N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+553.499 999 "H0_Alkyl Fragment_[38:5]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 26:6 [M-H]-;
+MW: 580.3403
+PRECURSORMZ: 580.3403
+Comment: Name=LysoPE 26:6 [M-H]- Mass=580.3403 Formula=C31H51N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+383.2956 999 "H0_Alkyl Fragment_[26:6]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 28:6 [M-H]-;
+MW: 608.3716
+PRECURSORMZ: 608.3716
+Comment: Name=LysoPE 28:6 [M-H]- Mass=608.3716 Formula=C33H55N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+411.3269 999 "H0_Alkyl Fragment_[28:6]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 30:6 [M-H]-;
+MW: 636.4029
+PRECURSORMZ: 636.4029
+Comment: Name=LysoPE 30:6 [M-H]- Mass=636.4029 Formula=C35H59N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+439.3582 999 "H0_Alkyl Fragment_[30:6]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 32:6 [M-H]-;
+MW: 664.4342
+PRECURSORMZ: 664.4342
+Comment: Name=LysoPE 32:6 [M-H]- Mass=664.4342 Formula=C37H63N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+467.3895 999 "H0_Alkyl Fragment_[32:6]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 34:6 [M-H]-;
+MW: 692.4655
+PRECURSORMZ: 692.4655
+Comment: Name=LysoPE 34:6 [M-H]- Mass=692.4655 Formula=C39H67N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+495.4208 999 "H0_Alkyl Fragment_[34:6]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 36:6 [M-H]-;
+MW: 720.4968
+PRECURSORMZ: 720.4968
+Comment: Name=LysoPE 36:6 [M-H]- Mass=720.4968 Formula=C41H71N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+523.4521 999 "H0_Alkyl Fragment_[36:6]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPE 38:6 [M-H]-;
+MW: 748.5281
+PRECURSORMZ: 748.5281
+Comment: Name=LysoPE 38:6 [M-H]- Mass=748.5281 Formula=C43H75N1O7P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 2
+551.4834 999 "H0_Alkyl Fragment_[38:6]"
+152.9958 100 "H0C3H6O5P1_Fragment_[]"
+
+Name: LysoPI 26:4 [M-H]-;
+MW: 703.3822
+PRECURSORMZ: 703.3822
+Comment: Name=LysoPI 26:4 [M-H]- Mass=703.3822 Formula=C35H60O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+387.3269 700 "C0H0O0N0_Alkyl Fragment_[26:4]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 28:4 [M-H]-;
+MW: 731.4135
+PRECURSORMZ: 731.4135
+Comment: Name=LysoPI 28:4 [M-H]- Mass=731.4135 Formula=C37H64O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+415.3582 700 "C0H0O0N0_Alkyl Fragment_[28:4]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 32:4 [M-H]-;
+MW: 787.4761
+PRECURSORMZ: 787.4761
+Comment: Name=LysoPI 32:4 [M-H]- Mass=787.4761 Formula=C41H72O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+471.4208 700 "C0H0O0N0_Alkyl Fragment_[32:4]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 34:4 [M-H]-;
+MW: 815.5074
+PRECURSORMZ: 815.5074
+Comment: Name=LysoPI 34:4 [M-H]- Mass=815.5074 Formula=C43H76O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+499.4521 700 "C0H0O0N0_Alkyl Fragment_[34:4]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 36:4 [M-H]-;
+MW: 843.5387
+PRECURSORMZ: 843.5387
+Comment: Name=LysoPI 36:4 [M-H]- Mass=843.5387 Formula=C45H80O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+527.4834 700 "C0H0O0N0_Alkyl Fragment_[36:4]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 38:4 [M-H]-;
+MW: 871.57
+PRECURSORMZ: 871.57
+Comment: Name=LysoPI 38:4 [M-H]- Mass=871.57 Formula=C47H84O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+555.5147 700 "C0H0O0N0_Alkyl Fragment_[38:4]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 24:5 [M-H]-;
+MW: 673.3353
+PRECURSORMZ: 673.3353
+Comment: Name=LysoPI 24:5 [M-H]- Mass=673.3353 Formula=C33H54O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+357.2799 700 "C0H0O0N0_Alkyl Fragment_[24:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 26:5 [M-H]-;
+MW: 701.3666
+PRECURSORMZ: 701.3666
+Comment: Name=LysoPI 26:5 [M-H]- Mass=701.3666 Formula=C35H58O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+385.3112 700 "C0H0O0N0_Alkyl Fragment_[26:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 28:5 [M-H]-;
+MW: 729.3979
+PRECURSORMZ: 729.3979
+Comment: Name=LysoPI 28:5 [M-H]- Mass=729.3979 Formula=C37H62O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+413.3425 700 "C0H0O0N0_Alkyl Fragment_[28:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 30:5 [M-H]-;
+MW: 757.4292
+PRECURSORMZ: 757.4292
+Comment: Name=LysoPI 30:5 [M-H]- Mass=757.4292 Formula=C39H66O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+441.3738 700 "C0H0O0N0_Alkyl Fragment_[30:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 32:5 [M-H]-;
+MW: 785.4605
+PRECURSORMZ: 785.4605
+Comment: Name=LysoPI 32:5 [M-H]- Mass=785.4605 Formula=C41H70O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+469.4051 700 "C0H0O0N0_Alkyl Fragment_[32:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 34:5 [M-H]-;
+MW: 813.4918
+PRECURSORMZ: 813.4918
+Comment: Name=LysoPI 34:5 [M-H]- Mass=813.4918 Formula=C43H74O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+497.4364 700 "C0H0O0N0_Alkyl Fragment_[34:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 36:5 [M-H]-;
+MW: 841.5231
+PRECURSORMZ: 841.5231
+Comment: Name=LysoPI 36:5 [M-H]- Mass=841.5231 Formula=C45H78O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+525.4677 700 "C0H0O0N0_Alkyl Fragment_[36:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 38:5 [M-H]-;
+MW: 869.5544
+PRECURSORMZ: 869.5544
+Comment: Name=LysoPI 38:5 [M-H]- Mass=869.5544 Formula=C47H82O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+553.499 700 "C0H0O0N0_Alkyl Fragment_[38:5]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 26:6 [M-H]-;
+MW: 699.3509
+PRECURSORMZ: 699.3509
+Comment: Name=LysoPI 26:6 [M-H]- Mass=699.3509 Formula=C35H56O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+383.2956 700 "C0H0O0N0_Alkyl Fragment_[26:6]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 28:6 [M-H]-;
+MW: 727.3822
+PRECURSORMZ: 727.3822
+Comment: Name=LysoPI 28:6 [M-H]- Mass=727.3822 Formula=C37H60O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+411.3269 700 "C0H0O0N0_Alkyl Fragment_[28:6]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 30:6 [M-H]-;
+MW: 755.4135
+PRECURSORMZ: 755.4135
+Comment: Name=LysoPI 30:6 [M-H]- Mass=755.4135 Formula=C39H64O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+439.3582 700 "C0H0O0N0_Alkyl Fragment_[30:6]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 32:6 [M-H]-;
+MW: 783.4448
+PRECURSORMZ: 783.4448
+Comment: Name=LysoPI 32:6 [M-H]- Mass=783.4448 Formula=C41H68O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+467.3895 700 "C0H0O0N0_Alkyl Fragment_[32:6]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 34:6 [M-H]-;
+MW: 811.4761
+PRECURSORMZ: 811.4761
+Comment: Name=LysoPI 34:6 [M-H]- Mass=811.4761 Formula=C43H72O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+495.4208 700 "C0H0O0N0_Alkyl Fragment_[34:6]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 36:6 [M-H]-;
+MW: 839.5074
+PRECURSORMZ: 839.5074
+Comment: Name=LysoPI 36:6 [M-H]- Mass=839.5074 Formula=C45H76O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+523.4521 700 "C0H0O0N0_Alkyl Fragment_[36:6]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: LysoPI 38:6 [M-H]-;
+MW: 867.5387
+PRECURSORMZ: 867.5387
+Comment: Name=LysoPI 38:6 [M-H]- Mass=867.5387 Formula=C47H80O12P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+78.9596 200 "78.9591_Fragment_[]"
+152.9954 999 "152.9949_Fragment_[]"
+171.0065 50 "171.00591_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+551.4834 700 "C0H0O0N0_Alkyl Fragment_[38:6]"
+333.0597 150 "333.0592_Fragment_[]"
+241.0119 500 "C6H10O8P1_Fragment_[]"
+315.0487 250 "C9H16O10P1_Fragment_[]"
+
+Name: PA 18:1_26:4 [M-H]-;
+MW: 805.5747
+PRECURSORMZ: 805.5747
+Comment: Name=PA 18:1_26:4 [M-H]- Mass=805.5747 Formula=H82O8P1C47 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+523.3194 101 "H-1_Alkyl Neutral Loss_[18:1]"
+541.33 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+387.3269 999 "H0_Alkyl Fragment_[26:4]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[26:4]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[26:4]"
+
+Name: PA 18:1_28:4 [M-H]-;
+MW: 833.606
+PRECURSORMZ: 833.606
+Comment: Name=PA 18:1_28:4 [M-H]- Mass=833.606 Formula=H86O8P1C49 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+551.3507 101 "H-1_Alkyl Neutral Loss_[18:1]"
+569.3613 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+415.3582 999 "H0_Alkyl Fragment_[28:4]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[28:4]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[28:4]"
+
+Name: PA 18:1_32:4 [M-H]-;
+MW: 889.6686
+PRECURSORMZ: 889.6686
+Comment: Name=PA 18:1_32:4 [M-H]- Mass=889.6686 Formula=H94O8P1C53 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+607.4133 101 "H-1_Alkyl Neutral Loss_[18:1]"
+625.4239 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+471.4208 999 "H0_Alkyl Fragment_[32:4]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[32:4]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[32:4]"
+
+Name: PA 18:1_34:4 [M-H]-;
+MW: 917.6999
+PRECURSORMZ: 917.6999
+Comment: Name=PA 18:1_34:4 [M-H]- Mass=917.6999 Formula=H98O8P1C55 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+635.4446 101 "H-1_Alkyl Neutral Loss_[18:1]"
+653.4552 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+499.4521 999 "H0_Alkyl Fragment_[34:4]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[34:4]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[34:4]"
+
+Name: PA 18:1_36:4 [M-H]-;
+MW: 945.7312
+PRECURSORMZ: 945.7312
+Comment: Name=PA 18:1_36:4 [M-H]- Mass=945.7312 Formula=H102O8P1C57 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+663.4759 101 "H-1_Alkyl Neutral Loss_[18:1]"
+681.4865 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+527.4834 999 "H0_Alkyl Fragment_[36:4]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[36:4]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[36:4]"
+
+Name: PA 18:1_38:4 [M-H]-;
+MW: 973.7625
+PRECURSORMZ: 973.7625
+Comment: Name=PA 18:1_38:4 [M-H]- Mass=973.7625 Formula=H106O8P1C59 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+691.5072 101 "H-1_Alkyl Neutral Loss_[18:1]"
+709.5178 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+555.5147 999 "H0_Alkyl Fragment_[38:4]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[38:4]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[38:4]"
+
+Name: PA 18:1_24:5 [M-H]-;
+MW: 775.5278
+PRECURSORMZ: 775.5278
+Comment: Name=PA 18:1_24:5 [M-H]- Mass=775.5278 Formula=H76O8P1C45 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+493.2724 101 "H-1_Alkyl Neutral Loss_[18:1]"
+511.283 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+357.2799 999 "H0_Alkyl Fragment_[24:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[24:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[24:5]"
+
+Name: PA 18:1_26:5 [M-H]-;
+MW: 803.5591
+PRECURSORMZ: 803.5591
+Comment: Name=PA 18:1_26:5 [M-H]- Mass=803.5591 Formula=H80O8P1C47 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+521.3037 101 "H-1_Alkyl Neutral Loss_[18:1]"
+539.3143 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+385.3112 999 "H0_Alkyl Fragment_[26:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[26:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[26:5]"
+
+Name: PA 18:1_28:5 [M-H]-;
+MW: 831.5904
+PRECURSORMZ: 831.5904
+Comment: Name=PA 18:1_28:5 [M-H]- Mass=831.5904 Formula=H84O8P1C49 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+549.3351 101 "H-1_Alkyl Neutral Loss_[18:1]"
+567.3456 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+413.3425 999 "H0_Alkyl Fragment_[28:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[28:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[28:5]"
+
+Name: PA 18:1_30:5 [M-H]-;
+MW: 859.6217
+PRECURSORMZ: 859.6217
+Comment: Name=PA 18:1_30:5 [M-H]- Mass=859.6217 Formula=H88O8P1C51 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+577.3664 101 "H-1_Alkyl Neutral Loss_[18:1]"
+595.3769 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+441.3738 999 "H0_Alkyl Fragment_[30:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[30:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[30:5]"
+
+Name: PA 18:1_32:5 [M-H]-;
+MW: 887.653
+PRECURSORMZ: 887.653
+Comment: Name=PA 18:1_32:5 [M-H]- Mass=887.653 Formula=H92O8P1C53 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+605.3977 101 "H-1_Alkyl Neutral Loss_[18:1]"
+623.4082 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+469.4051 999 "H0_Alkyl Fragment_[32:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[32:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[32:5]"
+
+Name: PA 18:1_34:5 [M-H]-;
+MW: 915.6843
+PRECURSORMZ: 915.6843
+Comment: Name=PA 18:1_34:5 [M-H]- Mass=915.6843 Formula=H96O8P1C55 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+633.429 101 "H-1_Alkyl Neutral Loss_[18:1]"
+651.4395 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+497.4364 999 "H0_Alkyl Fragment_[34:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[34:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[34:5]"
+
+Name: PA 18:1_36:5 [M-H]-;
+MW: 943.7156
+PRECURSORMZ: 943.7156
+Comment: Name=PA 18:1_36:5 [M-H]- Mass=943.7156 Formula=H100O8P1C57 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+661.4603 101 "H-1_Alkyl Neutral Loss_[18:1]"
+679.4708 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+525.4677 999 "H0_Alkyl Fragment_[36:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[36:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[36:5]"
+
+Name: PA 18:1_38:5 [M-H]-;
+MW: 971.7469
+PRECURSORMZ: 971.7469
+Comment: Name=PA 18:1_38:5 [M-H]- Mass=971.7469 Formula=H104O8P1C59 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+689.4916 101 "H-1_Alkyl Neutral Loss_[18:1]"
+707.5021 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+553.499 999 "H0_Alkyl Fragment_[38:5]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[38:5]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[38:5]"
+
+Name: PA 18:1_26:6 [M-H]-;
+MW: 801.5434
+PRECURSORMZ: 801.5434
+Comment: Name=PA 18:1_26:6 [M-H]- Mass=801.5434 Formula=H78O8P1C47 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+519.2881 101 "H-1_Alkyl Neutral Loss_[18:1]"
+537.2987 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+383.2956 999 "H0_Alkyl Fragment_[26:6]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[26:6]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[26:6]"
+
+Name: PA 18:1_28:6 [M-H]-;
+MW: 829.5747
+PRECURSORMZ: 829.5747
+Comment: Name=PA 18:1_28:6 [M-H]- Mass=829.5747 Formula=H82O8P1C49 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+547.3194 101 "H-1_Alkyl Neutral Loss_[18:1]"
+565.33 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+411.3269 999 "H0_Alkyl Fragment_[28:6]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[28:6]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[28:6]"
+
+Name: PA 18:1_30:6 [M-H]-;
+MW: 857.606
+PRECURSORMZ: 857.606
+Comment: Name=PA 18:1_30:6 [M-H]- Mass=857.606 Formula=H86O8P1C51 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+575.3507 101 "H-1_Alkyl Neutral Loss_[18:1]"
+593.3613 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+439.3582 999 "H0_Alkyl Fragment_[30:6]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[30:6]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[30:6]"
+
+Name: PA 18:1_32:6 [M-H]-;
+MW: 885.6373
+PRECURSORMZ: 885.6373
+Comment: Name=PA 18:1_32:6 [M-H]- Mass=885.6373 Formula=H90O8P1C53 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+603.382 101 "H-1_Alkyl Neutral Loss_[18:1]"
+621.3926 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+467.3895 999 "H0_Alkyl Fragment_[32:6]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[32:6]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[32:6]"
+
+Name: PA 18:1_34:6 [M-H]-;
+MW: 913.6686
+PRECURSORMZ: 913.6686
+Comment: Name=PA 18:1_34:6 [M-H]- Mass=913.6686 Formula=H94O8P1C55 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+631.4133 101 "H-1_Alkyl Neutral Loss_[18:1]"
+649.4239 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+495.4208 999 "H0_Alkyl Fragment_[34:6]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[34:6]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[34:6]"
+
+Name: PA 18:1_36:6 [M-H]-;
+MW: 941.6999
+PRECURSORMZ: 941.6999
+Comment: Name=PA 18:1_36:6 [M-H]- Mass=941.6999 Formula=H98O8P1C57 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+659.4446 101 "H-1_Alkyl Neutral Loss_[18:1]"
+677.4552 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+523.4521 999 "H0_Alkyl Fragment_[36:6]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[36:6]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[36:6]"
+
+Name: PA 18:1_38:6 [M-H]-;
+MW: 969.7312
+PRECURSORMZ: 969.7312
+Comment: Name=PA 18:1_38:6 [M-H]- Mass=969.7312 Formula=H102O8P1C59 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "H0_Alkyl Fragment_[18:1]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+687.4759 101 "H-1_Alkyl Neutral Loss_[18:1]"
+705.4865 100 "O1H1_Alkyl Neutral Loss_[18:1]"
+551.4834 999 "H0_Alkyl Fragment_[38:6]"
+417.2411 101 "H-1_Alkyl Neutral Loss_[38:6]"
+435.2517 100 "O1H1_Alkyl Neutral Loss_[38:6]"
+
+Name: PA 20:4_26:4 [M-H]-;
+MW: 827.5591
+PRECURSORMZ: 827.5591
+Comment: Name=PA 20:4_26:4 [M-H]- Mass=827.5591 Formula=H80O8P1C49 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+523.3194 101 "H-1_Alkyl Neutral Loss_[20:4]"
+541.33 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+387.3269 999 "H0_Alkyl Fragment_[26:4]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[26:4]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[26:4]"
+
+Name: PA 20:4_28:4 [M-H]-;
+MW: 855.5904
+PRECURSORMZ: 855.5904
+Comment: Name=PA 20:4_28:4 [M-H]- Mass=855.5904 Formula=H84O8P1C51 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+551.3507 101 "H-1_Alkyl Neutral Loss_[20:4]"
+569.3613 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+415.3582 999 "H0_Alkyl Fragment_[28:4]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[28:4]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[28:4]"
+
+Name: PA 20:4_32:4 [M-H]-;
+MW: 911.653
+PRECURSORMZ: 911.653
+Comment: Name=PA 20:4_32:4 [M-H]- Mass=911.653 Formula=H92O8P1C55 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+607.4133 101 "H-1_Alkyl Neutral Loss_[20:4]"
+625.4239 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+471.4208 999 "H0_Alkyl Fragment_[32:4]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[32:4]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[32:4]"
+
+Name: PA 20:4_34:4 [M-H]-;
+MW: 939.6843
+PRECURSORMZ: 939.6843
+Comment: Name=PA 20:4_34:4 [M-H]- Mass=939.6843 Formula=H96O8P1C57 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+635.4446 101 "H-1_Alkyl Neutral Loss_[20:4]"
+653.4552 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+499.4521 999 "H0_Alkyl Fragment_[34:4]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[34:4]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[34:4]"
+
+Name: PA 20:4_36:4 [M-H]-;
+MW: 967.7156
+PRECURSORMZ: 967.7156
+Comment: Name=PA 20:4_36:4 [M-H]- Mass=967.7156 Formula=H100O8P1C59 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+663.4759 101 "H-1_Alkyl Neutral Loss_[20:4]"
+681.4865 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+527.4834 999 "H0_Alkyl Fragment_[36:4]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[36:4]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[36:4]"
+
+Name: PA 20:4_38:4 [M-H]-;
+MW: 995.7469
+PRECURSORMZ: 995.7469
+Comment: Name=PA 20:4_38:4 [M-H]- Mass=995.7469 Formula=H104O8P1C61 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+691.5072 101 "H-1_Alkyl Neutral Loss_[20:4]"
+709.5178 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+555.5147 999 "H0_Alkyl Fragment_[38:4]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[38:4]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[38:4]"
+
+Name: PA 20:4_24:5 [M-H]-;
+MW: 797.5121
+PRECURSORMZ: 797.5121
+Comment: Name=PA 20:4_24:5 [M-H]- Mass=797.5121 Formula=H74O8P1C47 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+493.2724 101 "H-1_Alkyl Neutral Loss_[20:4]"
+511.283 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+357.2799 999 "H0_Alkyl Fragment_[24:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[24:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[24:5]"
+
+Name: PA 20:4_26:5 [M-H]-;
+MW: 825.5434
+PRECURSORMZ: 825.5434
+Comment: Name=PA 20:4_26:5 [M-H]- Mass=825.5434 Formula=H78O8P1C49 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+521.3037 101 "H-1_Alkyl Neutral Loss_[20:4]"
+539.3143 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+385.3112 999 "H0_Alkyl Fragment_[26:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[26:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[26:5]"
+
+Name: PA 20:4_28:5 [M-H]-;
+MW: 853.5747
+PRECURSORMZ: 853.5747
+Comment: Name=PA 20:4_28:5 [M-H]- Mass=853.5747 Formula=H82O8P1C51 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+549.3351 101 "H-1_Alkyl Neutral Loss_[20:4]"
+567.3456 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+413.3425 999 "H0_Alkyl Fragment_[28:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[28:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[28:5]"
+
+Name: PA 20:4_30:5 [M-H]-;
+MW: 881.606
+PRECURSORMZ: 881.606
+Comment: Name=PA 20:4_30:5 [M-H]- Mass=881.606 Formula=H86O8P1C53 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+577.3664 101 "H-1_Alkyl Neutral Loss_[20:4]"
+595.3769 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+441.3738 999 "H0_Alkyl Fragment_[30:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[30:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[30:5]"
+
+Name: PA 20:4_32:5 [M-H]-;
+MW: 909.6373
+PRECURSORMZ: 909.6373
+Comment: Name=PA 20:4_32:5 [M-H]- Mass=909.6373 Formula=H90O8P1C55 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+605.3977 101 "H-1_Alkyl Neutral Loss_[20:4]"
+623.4082 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+469.4051 999 "H0_Alkyl Fragment_[32:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[32:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[32:5]"
+
+Name: PA 20:4_34:5 [M-H]-;
+MW: 937.6686
+PRECURSORMZ: 937.6686
+Comment: Name=PA 20:4_34:5 [M-H]- Mass=937.6686 Formula=H94O8P1C57 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+633.429 101 "H-1_Alkyl Neutral Loss_[20:4]"
+651.4395 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+497.4364 999 "H0_Alkyl Fragment_[34:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[34:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[34:5]"
+
+Name: PA 20:4_36:5 [M-H]-;
+MW: 965.6999
+PRECURSORMZ: 965.6999
+Comment: Name=PA 20:4_36:5 [M-H]- Mass=965.6999 Formula=H98O8P1C59 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+661.4603 101 "H-1_Alkyl Neutral Loss_[20:4]"
+679.4708 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+525.4677 999 "H0_Alkyl Fragment_[36:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[36:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[36:5]"
+
+Name: PA 20:4_38:5 [M-H]-;
+MW: 993.7312
+PRECURSORMZ: 993.7312
+Comment: Name=PA 20:4_38:5 [M-H]- Mass=993.7312 Formula=H102O8P1C61 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+689.4916 101 "H-1_Alkyl Neutral Loss_[20:4]"
+707.5021 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+553.499 999 "H0_Alkyl Fragment_[38:5]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[38:5]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[38:5]"
+
+Name: PA 20:4_26:6 [M-H]-;
+MW: 823.5278
+PRECURSORMZ: 823.5278
+Comment: Name=PA 20:4_26:6 [M-H]- Mass=823.5278 Formula=H76O8P1C49 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+519.2881 101 "H-1_Alkyl Neutral Loss_[20:4]"
+537.2987 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+383.2956 999 "H0_Alkyl Fragment_[26:6]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[26:6]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[26:6]"
+
+Name: PA 20:4_28:6 [M-H]-;
+MW: 851.5591
+PRECURSORMZ: 851.5591
+Comment: Name=PA 20:4_28:6 [M-H]- Mass=851.5591 Formula=H80O8P1C51 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+547.3194 101 "H-1_Alkyl Neutral Loss_[20:4]"
+565.33 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+411.3269 999 "H0_Alkyl Fragment_[28:6]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[28:6]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[28:6]"
+
+Name: PA 20:4_30:6 [M-H]-;
+MW: 879.5904
+PRECURSORMZ: 879.5904
+Comment: Name=PA 20:4_30:6 [M-H]- Mass=879.5904 Formula=H84O8P1C53 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+575.3507 101 "H-1_Alkyl Neutral Loss_[20:4]"
+593.3613 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+439.3582 999 "H0_Alkyl Fragment_[30:6]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[30:6]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[30:6]"
+
+Name: PA 20:4_32:6 [M-H]-;
+MW: 907.6217
+PRECURSORMZ: 907.6217
+Comment: Name=PA 20:4_32:6 [M-H]- Mass=907.6217 Formula=H88O8P1C55 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+603.382 101 "H-1_Alkyl Neutral Loss_[20:4]"
+621.3926 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+467.3895 999 "H0_Alkyl Fragment_[32:6]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[32:6]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[32:6]"
+
+Name: PA 20:4_34:6 [M-H]-;
+MW: 935.653
+PRECURSORMZ: 935.653
+Comment: Name=PA 20:4_34:6 [M-H]- Mass=935.653 Formula=H92O8P1C57 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+631.4133 101 "H-1_Alkyl Neutral Loss_[20:4]"
+649.4239 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+495.4208 999 "H0_Alkyl Fragment_[34:6]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[34:6]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[34:6]"
+
+Name: PA 20:4_36:6 [M-H]-;
+MW: 963.6843
+PRECURSORMZ: 963.6843
+Comment: Name=PA 20:4_36:6 [M-H]- Mass=963.6843 Formula=H96O8P1C59 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+659.4446 101 "H-1_Alkyl Neutral Loss_[20:4]"
+677.4552 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+523.4521 999 "H0_Alkyl Fragment_[36:6]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[36:6]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[36:6]"
+
+Name: PA 20:4_38:6 [M-H]-;
+MW: 991.7156
+PRECURSORMZ: 991.7156
+Comment: Name=PA 20:4_38:6 [M-H]- Mass=991.7156 Formula=H100O8P1C61 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+303.233 999 "H0_Alkyl Fragment_[20:4]"
+152.9958 300 "C3H6O5P1_Fragment_[]"
+78.9591 200 "PO3_Fragment_[]"
+687.4759 101 "H-1_Alkyl Neutral Loss_[20:4]"
+705.4865 100 "O1H1_Alkyl Neutral Loss_[20:4]"
+551.4834 999 "H0_Alkyl Fragment_[38:6]"
+439.2255 101 "H-1_Alkyl Neutral Loss_[38:6]"
+457.2361 100 "O1H1_Alkyl Neutral Loss_[38:6]"
+
+Name: PC 18:1_26:4 [M+Ac-H]-;
+MW: 950.685
+PRECURSORMZ: 950.685
+Comment: Name=PC 18:1_26:4 [M+Ac-H]- Mass=950.685 Formula=C54H97N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+876.6459 100 "-74.03965731_Neutral Loss_[]"
+387.3269 999 "C0H0O0N0P0_Alkyl Fragment_[26:4]"
+
+Name: PC 18:1_28:4 [M+Ac-H]-;
+MW: 978.7163
+PRECURSORMZ: 978.7163
+Comment: Name=PC 18:1_28:4 [M+Ac-H]- Mass=978.7163 Formula=C56H101N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+904.6772 100 "-74.03965731_Neutral Loss_[]"
+415.3582 999 "C0H0O0N0P0_Alkyl Fragment_[28:4]"
+
+Name: PC 18:1_32:4 [M+Ac-H]-;
+MW: 1034.7789
+PRECURSORMZ: 1034.7789
+Comment: Name=PC 18:1_32:4 [M+Ac-H]- Mass=1034.7789 Formula=C60H109N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+960.7398 100 "-74.03965731_Neutral Loss_[]"
+471.4208 999 "C0H0O0N0P0_Alkyl Fragment_[32:4]"
+
+Name: PC 18:1_34:4 [M+Ac-H]-;
+MW: 1062.8102
+PRECURSORMZ: 1062.8102
+Comment: Name=PC 18:1_34:4 [M+Ac-H]- Mass=1062.8102 Formula=C62H113N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+988.7711 100 "-74.03965731_Neutral Loss_[]"
+499.4521 999 "C0H0O0N0P0_Alkyl Fragment_[34:4]"
+
+Name: PC 18:1_36:4 [M+Ac-H]-;
+MW: 1090.8415
+PRECURSORMZ: 1090.8415
+Comment: Name=PC 18:1_36:4 [M+Ac-H]- Mass=1090.8415 Formula=C64H117N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1016.8024 100 "-74.03965731_Neutral Loss_[]"
+527.4834 999 "C0H0O0N0P0_Alkyl Fragment_[36:4]"
+
+Name: PC 18:1_38:4 [M+Ac-H]-;
+MW: 1118.8728
+PRECURSORMZ: 1118.8728
+Comment: Name=PC 18:1_38:4 [M+Ac-H]- Mass=1118.8728 Formula=C66H121N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1044.8337 100 "-74.03965731_Neutral Loss_[]"
+555.5147 999 "C0H0O0N0P0_Alkyl Fragment_[38:4]"
+
+Name: PC 18:1_24:5 [M+Ac-H]-;
+MW: 920.6381
+PRECURSORMZ: 920.6381
+Comment: Name=PC 18:1_24:5 [M+Ac-H]- Mass=920.6381 Formula=C52H91N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+846.599 100 "-74.03965731_Neutral Loss_[]"
+357.2799 999 "C0H0O0N0P0_Alkyl Fragment_[24:5]"
+
+Name: PC 18:1_26:5 [M+Ac-H]-;
+MW: 948.6694
+PRECURSORMZ: 948.6694
+Comment: Name=PC 18:1_26:5 [M+Ac-H]- Mass=948.6694 Formula=C54H95N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+874.6303 100 "-74.03965731_Neutral Loss_[]"
+385.3112 999 "C0H0O0N0P0_Alkyl Fragment_[26:5]"
+
+Name: PC 18:1_28:5 [M+Ac-H]-;
+MW: 976.7007
+PRECURSORMZ: 976.7007
+Comment: Name=PC 18:1_28:5 [M+Ac-H]- Mass=976.7007 Formula=C56H99N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+902.6616 100 "-74.03965731_Neutral Loss_[]"
+413.3425 999 "C0H0O0N0P0_Alkyl Fragment_[28:5]"
+
+Name: PC 18:1_30:5 [M+Ac-H]-;
+MW: 1004.732
+PRECURSORMZ: 1004.732
+Comment: Name=PC 18:1_30:5 [M+Ac-H]- Mass=1004.732 Formula=C58H103N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+930.6929 100 "-74.03965731_Neutral Loss_[]"
+441.3738 999 "C0H0O0N0P0_Alkyl Fragment_[30:5]"
+
+Name: PC 18:1_32:5 [M+Ac-H]-;
+MW: 1032.7633
+PRECURSORMZ: 1032.7633
+Comment: Name=PC 18:1_32:5 [M+Ac-H]- Mass=1032.7633 Formula=C60H107N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+958.7242 100 "-74.03965731_Neutral Loss_[]"
+469.4051 999 "C0H0O0N0P0_Alkyl Fragment_[32:5]"
+
+Name: PC 18:1_34:5 [M+Ac-H]-;
+MW: 1060.7946
+PRECURSORMZ: 1060.7946
+Comment: Name=PC 18:1_34:5 [M+Ac-H]- Mass=1060.7946 Formula=C62H111N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+986.7555 100 "-74.03965731_Neutral Loss_[]"
+497.4364 999 "C0H0O0N0P0_Alkyl Fragment_[34:5]"
+
+Name: PC 18:1_36:5 [M+Ac-H]-;
+MW: 1088.8259
+PRECURSORMZ: 1088.8259
+Comment: Name=PC 18:1_36:5 [M+Ac-H]- Mass=1088.8259 Formula=C64H115N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1014.7868 100 "-74.03965731_Neutral Loss_[]"
+525.4677 999 "C0H0O0N0P0_Alkyl Fragment_[36:5]"
+
+Name: PC 18:1_38:5 [M+Ac-H]-;
+MW: 1116.8572
+PRECURSORMZ: 1116.8572
+Comment: Name=PC 18:1_38:5 [M+Ac-H]- Mass=1116.8572 Formula=C66H119N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1042.8181 100 "-74.03965731_Neutral Loss_[]"
+553.499 999 "C0H0O0N0P0_Alkyl Fragment_[38:5]"
+
+Name: PC 18:1_26:6 [M+Ac-H]-;
+MW: 946.6537
+PRECURSORMZ: 946.6537
+Comment: Name=PC 18:1_26:6 [M+Ac-H]- Mass=946.6537 Formula=C54H93N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+872.6146 100 "-74.03965731_Neutral Loss_[]"
+383.2956 999 "C0H0O0N0P0_Alkyl Fragment_[26:6]"
+
+Name: PC 18:1_28:6 [M+Ac-H]-;
+MW: 974.685
+PRECURSORMZ: 974.685
+Comment: Name=PC 18:1_28:6 [M+Ac-H]- Mass=974.685 Formula=C56H97N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+900.6459 100 "-74.03965731_Neutral Loss_[]"
+411.3269 999 "C0H0O0N0P0_Alkyl Fragment_[28:6]"
+
+Name: PC 18:1_30:6 [M+Ac-H]-;
+MW: 1002.7163
+PRECURSORMZ: 1002.7163
+Comment: Name=PC 18:1_30:6 [M+Ac-H]- Mass=1002.7163 Formula=C58H101N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+928.6772 100 "-74.03965731_Neutral Loss_[]"
+439.3582 999 "C0H0O0N0P0_Alkyl Fragment_[30:6]"
+
+Name: PC 18:1_32:6 [M+Ac-H]-;
+MW: 1030.7476
+PRECURSORMZ: 1030.7476
+Comment: Name=PC 18:1_32:6 [M+Ac-H]- Mass=1030.7476 Formula=C60H105N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+956.7085 100 "-74.03965731_Neutral Loss_[]"
+467.3895 999 "C0H0O0N0P0_Alkyl Fragment_[32:6]"
+
+Name: PC 18:1_34:6 [M+Ac-H]-;
+MW: 1058.7789
+PRECURSORMZ: 1058.7789
+Comment: Name=PC 18:1_34:6 [M+Ac-H]- Mass=1058.7789 Formula=C62H109N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+984.7398 100 "-74.03965731_Neutral Loss_[]"
+495.4208 999 "C0H0O0N0P0_Alkyl Fragment_[34:6]"
+
+Name: PC 18:1_36:6 [M+Ac-H]-;
+MW: 1086.8102
+PRECURSORMZ: 1086.8102
+Comment: Name=PC 18:1_36:6 [M+Ac-H]- Mass=1086.8102 Formula=C64H113N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1012.7711 100 "-74.03965731_Neutral Loss_[]"
+523.4521 999 "C0H0O0N0P0_Alkyl Fragment_[36:6]"
+
+Name: PC 18:1_38:6 [M+Ac-H]-;
+MW: 1114.8415
+PRECURSORMZ: 1114.8415
+Comment: Name=PC 18:1_38:6 [M+Ac-H]- Mass=1114.8415 Formula=C66H117N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1040.8024 100 "-74.03965731_Neutral Loss_[]"
+551.4834 999 "C0H0O0N0P0_Alkyl Fragment_[38:6]"
+
+Name: PC 20:4_26:4 [M+Ac-H]-;
+MW: 972.6694
+PRECURSORMZ: 972.6694
+Comment: Name=PC 20:4_26:4 [M+Ac-H]- Mass=972.6694 Formula=C56H95N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+898.6303 100 "-74.03965731_Neutral Loss_[]"
+387.3269 999 "C0H0O0N0P0_Alkyl Fragment_[26:4]"
+
+Name: PC 20:4_28:4 [M+Ac-H]-;
+MW: 1000.7007
+PRECURSORMZ: 1000.7007
+Comment: Name=PC 20:4_28:4 [M+Ac-H]- Mass=1000.7007 Formula=C58H99N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+926.6616 100 "-74.03965731_Neutral Loss_[]"
+415.3582 999 "C0H0O0N0P0_Alkyl Fragment_[28:4]"
+
+Name: PC 20:4_32:4 [M+Ac-H]-;
+MW: 1056.7633
+PRECURSORMZ: 1056.7633
+Comment: Name=PC 20:4_32:4 [M+Ac-H]- Mass=1056.7633 Formula=C62H107N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+982.7242 100 "-74.03965731_Neutral Loss_[]"
+471.4208 999 "C0H0O0N0P0_Alkyl Fragment_[32:4]"
+
+Name: PC 20:4_34:4 [M+Ac-H]-;
+MW: 1084.7946
+PRECURSORMZ: 1084.7946
+Comment: Name=PC 20:4_34:4 [M+Ac-H]- Mass=1084.7946 Formula=C64H111N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1010.7555 100 "-74.03965731_Neutral Loss_[]"
+499.4521 999 "C0H0O0N0P0_Alkyl Fragment_[34:4]"
+
+Name: PC 20:4_36:4 [M+Ac-H]-;
+MW: 1112.8259
+PRECURSORMZ: 1112.8259
+Comment: Name=PC 20:4_36:4 [M+Ac-H]- Mass=1112.8259 Formula=C66H115N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1038.7868 100 "-74.03965731_Neutral Loss_[]"
+527.4834 999 "C0H0O0N0P0_Alkyl Fragment_[36:4]"
+
+Name: PC 20:4_38:4 [M+Ac-H]-;
+MW: 1140.8572
+PRECURSORMZ: 1140.8572
+Comment: Name=PC 20:4_38:4 [M+Ac-H]- Mass=1140.8572 Formula=C68H119N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1066.8181 100 "-74.03965731_Neutral Loss_[]"
+555.5147 999 "C0H0O0N0P0_Alkyl Fragment_[38:4]"
+
+Name: PC 20:4_24:5 [M+Ac-H]-;
+MW: 942.6224
+PRECURSORMZ: 942.6224
+Comment: Name=PC 20:4_24:5 [M+Ac-H]- Mass=942.6224 Formula=C54H89N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+868.5833 100 "-74.03965731_Neutral Loss_[]"
+357.2799 999 "C0H0O0N0P0_Alkyl Fragment_[24:5]"
+
+Name: PC 20:4_26:5 [M+Ac-H]-;
+MW: 970.6537
+PRECURSORMZ: 970.6537
+Comment: Name=PC 20:4_26:5 [M+Ac-H]- Mass=970.6537 Formula=C56H93N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+896.6146 100 "-74.03965731_Neutral Loss_[]"
+385.3112 999 "C0H0O0N0P0_Alkyl Fragment_[26:5]"
+
+Name: PC 20:4_28:5 [M+Ac-H]-;
+MW: 998.685
+PRECURSORMZ: 998.685
+Comment: Name=PC 20:4_28:5 [M+Ac-H]- Mass=998.685 Formula=C58H97N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+924.6459 100 "-74.03965731_Neutral Loss_[]"
+413.3425 999 "C0H0O0N0P0_Alkyl Fragment_[28:5]"
+
+Name: PC 20:4_30:5 [M+Ac-H]-;
+MW: 1026.7163
+PRECURSORMZ: 1026.7163
+Comment: Name=PC 20:4_30:5 [M+Ac-H]- Mass=1026.7163 Formula=C60H101N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+952.6772 100 "-74.03965731_Neutral Loss_[]"
+441.3738 999 "C0H0O0N0P0_Alkyl Fragment_[30:5]"
+
+Name: PC 20:4_32:5 [M+Ac-H]-;
+MW: 1054.7476
+PRECURSORMZ: 1054.7476
+Comment: Name=PC 20:4_32:5 [M+Ac-H]- Mass=1054.7476 Formula=C62H105N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+980.7085 100 "-74.03965731_Neutral Loss_[]"
+469.4051 999 "C0H0O0N0P0_Alkyl Fragment_[32:5]"
+
+Name: PC 20:4_34:5 [M+Ac-H]-;
+MW: 1082.7789
+PRECURSORMZ: 1082.7789
+Comment: Name=PC 20:4_34:5 [M+Ac-H]- Mass=1082.7789 Formula=C64H109N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1008.7398 100 "-74.03965731_Neutral Loss_[]"
+497.4364 999 "C0H0O0N0P0_Alkyl Fragment_[34:5]"
+
+Name: PC 20:4_36:5 [M+Ac-H]-;
+MW: 1110.8102
+PRECURSORMZ: 1110.8102
+Comment: Name=PC 20:4_36:5 [M+Ac-H]- Mass=1110.8102 Formula=C66H113N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1036.7711 100 "-74.03965731_Neutral Loss_[]"
+525.4677 999 "C0H0O0N0P0_Alkyl Fragment_[36:5]"
+
+Name: PC 20:4_38:5 [M+Ac-H]-;
+MW: 1138.8415
+PRECURSORMZ: 1138.8415
+Comment: Name=PC 20:4_38:5 [M+Ac-H]- Mass=1138.8415 Formula=C68H117N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1064.8024 100 "-74.03965731_Neutral Loss_[]"
+553.499 999 "C0H0O0N0P0_Alkyl Fragment_[38:5]"
+
+Name: PC 20:4_26:6 [M+Ac-H]-;
+MW: 968.6381
+PRECURSORMZ: 968.6381
+Comment: Name=PC 20:4_26:6 [M+Ac-H]- Mass=968.6381 Formula=C56H91N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+894.599 100 "-74.03965731_Neutral Loss_[]"
+383.2956 999 "C0H0O0N0P0_Alkyl Fragment_[26:6]"
+
+Name: PC 20:4_28:6 [M+Ac-H]-;
+MW: 996.6694
+PRECURSORMZ: 996.6694
+Comment: Name=PC 20:4_28:6 [M+Ac-H]- Mass=996.6694 Formula=C58H95N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+922.6303 100 "-74.03965731_Neutral Loss_[]"
+411.3269 999 "C0H0O0N0P0_Alkyl Fragment_[28:6]"
+
+Name: PC 20:4_30:6 [M+Ac-H]-;
+MW: 1024.7007
+PRECURSORMZ: 1024.7007
+Comment: Name=PC 20:4_30:6 [M+Ac-H]- Mass=1024.7007 Formula=C60H99N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+950.6616 100 "-74.03965731_Neutral Loss_[]"
+439.3582 999 "C0H0O0N0P0_Alkyl Fragment_[30:6]"
+
+Name: PC 20:4_32:6 [M+Ac-H]-;
+MW: 1052.732
+PRECURSORMZ: 1052.732
+Comment: Name=PC 20:4_32:6 [M+Ac-H]- Mass=1052.732 Formula=C62H103N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+978.6929 100 "-74.03965731_Neutral Loss_[]"
+467.3895 999 "C0H0O0N0P0_Alkyl Fragment_[32:6]"
+
+Name: PC 20:4_34:6 [M+Ac-H]-;
+MW: 1080.7633
+PRECURSORMZ: 1080.7633
+Comment: Name=PC 20:4_34:6 [M+Ac-H]- Mass=1080.7633 Formula=C64H107N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1006.7242 100 "-74.03965731_Neutral Loss_[]"
+495.4208 999 "C0H0O0N0P0_Alkyl Fragment_[34:6]"
+
+Name: PC 20:4_36:6 [M+Ac-H]-;
+MW: 1108.7946
+PRECURSORMZ: 1108.7946
+Comment: Name=PC 20:4_36:6 [M+Ac-H]- Mass=1108.7946 Formula=C66H111N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1034.7555 100 "-74.03965731_Neutral Loss_[]"
+523.4521 999 "C0H0O0N0P0_Alkyl Fragment_[36:6]"
+
+Name: PC 20:4_38:6 [M+Ac-H]-;
+MW: 1136.8259
+PRECURSORMZ: 1136.8259
+Comment: Name=PC 20:4_38:6 [M+Ac-H]- Mass=1136.8259 Formula=C68H115N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 5
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+168.0428 100 "168.0423_Fragment_[]"
+224.0698 50 "224.0693_Fragment_[]"
+1062.7868 100 "-74.03965731_Neutral Loss_[]"
+551.4834 999 "C0H0O0N0P0_Alkyl Fragment_[38:6]"
+
+Name: PE 18:1_26:4 [M-H]-;
+MW: 848.6169
+PRECURSORMZ: 848.6169
+Comment: Name=PE 18:1_26:4 [M-H]- Mass=848.6169 Formula=C49H87N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+584.3722 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+343.337 200 "C-1O-2_PUFA Fragment_[26:4]"
+387.3269 999 "C0H0O0N0_Alkyl Fragment_[26:4]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[26:4]"
+
+Name: PE 18:1_28:4 [M-H]-;
+MW: 876.6482
+PRECURSORMZ: 876.6482
+Comment: Name=PE 18:1_28:4 [M-H]- Mass=876.6482 Formula=C51H91N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+612.4035 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+371.3683 200 "C-1O-2_PUFA Fragment_[28:4]"
+415.3582 999 "C0H0O0N0_Alkyl Fragment_[28:4]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[28:4]"
+
+Name: PE 18:1_32:4 [M-H]-;
+MW: 932.7108
+PRECURSORMZ: 932.7108
+Comment: Name=PE 18:1_32:4 [M-H]- Mass=932.7108 Formula=C55H99N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+668.4661 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+427.4309 200 "C-1O-2_PUFA Fragment_[32:4]"
+471.4208 999 "C0H0O0N0_Alkyl Fragment_[32:4]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[32:4]"
+
+Name: PE 18:1_34:4 [M-H]-;
+MW: 960.7421
+PRECURSORMZ: 960.7421
+Comment: Name=PE 18:1_34:4 [M-H]- Mass=960.7421 Formula=C57H103N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+696.4974 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+455.4622 200 "C-1O-2_PUFA Fragment_[34:4]"
+499.4521 999 "C0H0O0N0_Alkyl Fragment_[34:4]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[34:4]"
+
+Name: PE 18:1_36:4 [M-H]-;
+MW: 988.7734
+PRECURSORMZ: 988.7734
+Comment: Name=PE 18:1_36:4 [M-H]- Mass=988.7734 Formula=C59H107N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+724.5287 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+483.4935 200 "C-1O-2_PUFA Fragment_[36:4]"
+527.4834 999 "C0H0O0N0_Alkyl Fragment_[36:4]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[36:4]"
+
+Name: PE 18:1_38:4 [M-H]-;
+MW: 1016.8047
+PRECURSORMZ: 1016.8047
+Comment: Name=PE 18:1_38:4 [M-H]- Mass=1016.8047 Formula=C61H111N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+752.56 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+511.5248 200 "C-1O-2_PUFA Fragment_[38:4]"
+555.5147 999 "C0H0O0N0_Alkyl Fragment_[38:4]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[38:4]"
+
+Name: PE 18:1_24:5 [M-H]-;
+MW: 818.57
+PRECURSORMZ: 818.57
+Comment: Name=PE 18:1_24:5 [M-H]- Mass=818.57 Formula=C47H81N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+554.3252 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+313.2901 200 "C-1O-2_PUFA Fragment_[24:5]"
+357.2799 999 "C0H0O0N0_Alkyl Fragment_[24:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[24:5]"
+
+Name: PE 18:1_26:5 [M-H]-;
+MW: 846.6013
+PRECURSORMZ: 846.6013
+Comment: Name=PE 18:1_26:5 [M-H]- Mass=846.6013 Formula=C49H85N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+582.3565 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+341.3214 200 "C-1O-2_PUFA Fragment_[26:5]"
+385.3112 999 "C0H0O0N0_Alkyl Fragment_[26:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[26:5]"
+
+Name: PE 18:1_28:5 [M-H]-;
+MW: 874.6326
+PRECURSORMZ: 874.6326
+Comment: Name=PE 18:1_28:5 [M-H]- Mass=874.6326 Formula=C51H89N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+610.3878 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+369.3527 200 "C-1O-2_PUFA Fragment_[28:5]"
+413.3425 999 "C0H0O0N0_Alkyl Fragment_[28:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[28:5]"
+
+Name: PE 18:1_30:5 [M-H]-;
+MW: 902.6639
+PRECURSORMZ: 902.6639
+Comment: Name=PE 18:1_30:5 [M-H]- Mass=902.6639 Formula=C53H93N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+638.4191 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+397.384 200 "C-1O-2_PUFA Fragment_[30:5]"
+441.3738 999 "C0H0O0N0_Alkyl Fragment_[30:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[30:5]"
+
+Name: PE 18:1_32:5 [M-H]-;
+MW: 930.6952
+PRECURSORMZ: 930.6952
+Comment: Name=PE 18:1_32:5 [M-H]- Mass=930.6952 Formula=C55H97N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+666.4504 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+425.4153 200 "C-1O-2_PUFA Fragment_[32:5]"
+469.4051 999 "C0H0O0N0_Alkyl Fragment_[32:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[32:5]"
+
+Name: PE 18:1_34:5 [M-H]-;
+MW: 958.7265
+PRECURSORMZ: 958.7265
+Comment: Name=PE 18:1_34:5 [M-H]- Mass=958.7265 Formula=C57H101N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+694.4817 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+453.4466 200 "C-1O-2_PUFA Fragment_[34:5]"
+497.4364 999 "C0H0O0N0_Alkyl Fragment_[34:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[34:5]"
+
+Name: PE 18:1_36:5 [M-H]-;
+MW: 986.7578
+PRECURSORMZ: 986.7578
+Comment: Name=PE 18:1_36:5 [M-H]- Mass=986.7578 Formula=C59H105N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+722.513 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+481.4779 200 "C-1O-2_PUFA Fragment_[36:5]"
+525.4677 999 "C0H0O0N0_Alkyl Fragment_[36:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[36:5]"
+
+Name: PE 18:1_38:5 [M-H]-;
+MW: 1014.7891
+PRECURSORMZ: 1014.7891
+Comment: Name=PE 18:1_38:5 [M-H]- Mass=1014.7891 Formula=C61H109N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+750.5443 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+509.5092 200 "C-1O-2_PUFA Fragment_[38:5]"
+553.499 999 "C0H0O0N0_Alkyl Fragment_[38:5]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[38:5]"
+
+Name: PE 18:1_26:6 [M-H]-;
+MW: 844.5856
+PRECURSORMZ: 844.5856
+Comment: Name=PE 18:1_26:6 [M-H]- Mass=844.5856 Formula=C49H83N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+580.3409 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+339.3057 200 "C-1O-2_PUFA Fragment_[26:6]"
+383.2956 999 "C0H0O0N0_Alkyl Fragment_[26:6]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[26:6]"
+
+Name: PE 18:1_28:6 [M-H]-;
+MW: 872.6169
+PRECURSORMZ: 872.6169
+Comment: Name=PE 18:1_28:6 [M-H]- Mass=872.6169 Formula=C51H87N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+608.3722 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+367.337 200 "C-1O-2_PUFA Fragment_[28:6]"
+411.3269 999 "C0H0O0N0_Alkyl Fragment_[28:6]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[28:6]"
+
+Name: PE 18:1_30:6 [M-H]-;
+MW: 900.6482
+PRECURSORMZ: 900.6482
+Comment: Name=PE 18:1_30:6 [M-H]- Mass=900.6482 Formula=C53H91N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+636.4035 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+395.3683 200 "C-1O-2_PUFA Fragment_[30:6]"
+439.3582 999 "C0H0O0N0_Alkyl Fragment_[30:6]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[30:6]"
+
+Name: PE 18:1_32:6 [M-H]-;
+MW: 928.6795
+PRECURSORMZ: 928.6795
+Comment: Name=PE 18:1_32:6 [M-H]- Mass=928.6795 Formula=C55H95N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+664.4348 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+423.3996 200 "C-1O-2_PUFA Fragment_[32:6]"
+467.3895 999 "C0H0O0N0_Alkyl Fragment_[32:6]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[32:6]"
+
+Name: PE 18:1_34:6 [M-H]-;
+MW: 956.7108
+PRECURSORMZ: 956.7108
+Comment: Name=PE 18:1_34:6 [M-H]- Mass=956.7108 Formula=C57H99N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+692.4661 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+451.4309 200 "C-1O-2_PUFA Fragment_[34:6]"
+495.4208 999 "C0H0O0N0_Alkyl Fragment_[34:6]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[34:6]"
+
+Name: PE 18:1_36:6 [M-H]-;
+MW: 984.7421
+PRECURSORMZ: 984.7421
+Comment: Name=PE 18:1_36:6 [M-H]- Mass=984.7421 Formula=C59H103N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+720.4974 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+479.4622 200 "C-1O-2_PUFA Fragment_[36:6]"
+523.4521 999 "C0H0O0N0_Alkyl Fragment_[36:6]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[36:6]"
+
+Name: PE 18:1_38:6 [M-H]-;
+MW: 1012.7734
+PRECURSORMZ: 1012.7734
+Comment: Name=PE 18:1_38:6 [M-H]- Mass=1012.7734 Formula=C61H107N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 8
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+748.5287 100 "C0H1O1N0_Alkyl Neutral Loss_[18:1]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+507.4935 200 "C-1O-2_PUFA Fragment_[38:6]"
+551.4834 999 "C0H0O0N0_Alkyl Fragment_[38:6]"
+478.2939 100 "C0H1O1N0_Alkyl Neutral Loss_[38:6]"
+
+Name: PE 20:4_26:4 [M-H]-;
+MW: 870.6013
+PRECURSORMZ: 870.6013
+Comment: Name=PE 20:4_26:4 [M-H]- Mass=870.6013 Formula=C51H85N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+584.3722 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+343.337 200 "C-1O-2_PUFA Fragment_[26:4]"
+387.3269 999 "C0H0O0N0_Alkyl Fragment_[26:4]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[26:4]"
+
+Name: PE 20:4_28:4 [M-H]-;
+MW: 898.6326
+PRECURSORMZ: 898.6326
+Comment: Name=PE 20:4_28:4 [M-H]- Mass=898.6326 Formula=C53H89N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+612.4035 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+371.3683 200 "C-1O-2_PUFA Fragment_[28:4]"
+415.3582 999 "C0H0O0N0_Alkyl Fragment_[28:4]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[28:4]"
+
+Name: PE 20:4_32:4 [M-H]-;
+MW: 954.6952
+PRECURSORMZ: 954.6952
+Comment: Name=PE 20:4_32:4 [M-H]- Mass=954.6952 Formula=C57H97N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+668.4661 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+427.4309 200 "C-1O-2_PUFA Fragment_[32:4]"
+471.4208 999 "C0H0O0N0_Alkyl Fragment_[32:4]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[32:4]"
+
+Name: PE 20:4_34:4 [M-H]-;
+MW: 982.7265
+PRECURSORMZ: 982.7265
+Comment: Name=PE 20:4_34:4 [M-H]- Mass=982.7265 Formula=C59H101N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+696.4974 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+455.4622 200 "C-1O-2_PUFA Fragment_[34:4]"
+499.4521 999 "C0H0O0N0_Alkyl Fragment_[34:4]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[34:4]"
+
+Name: PE 20:4_36:4 [M-H]-;
+MW: 1010.7578
+PRECURSORMZ: 1010.7578
+Comment: Name=PE 20:4_36:4 [M-H]- Mass=1010.7578 Formula=C61H105N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+724.5287 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+483.4935 200 "C-1O-2_PUFA Fragment_[36:4]"
+527.4834 999 "C0H0O0N0_Alkyl Fragment_[36:4]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[36:4]"
+
+Name: PE 20:4_38:4 [M-H]-;
+MW: 1038.7891
+PRECURSORMZ: 1038.7891
+Comment: Name=PE 20:4_38:4 [M-H]- Mass=1038.7891 Formula=C63H109N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+752.56 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+511.5248 200 "C-1O-2_PUFA Fragment_[38:4]"
+555.5147 999 "C0H0O0N0_Alkyl Fragment_[38:4]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[38:4]"
+
+Name: PE 20:4_24:5 [M-H]-;
+MW: 840.5543
+PRECURSORMZ: 840.5543
+Comment: Name=PE 20:4_24:5 [M-H]- Mass=840.5543 Formula=C49H79N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+554.3252 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+313.2901 200 "C-1O-2_PUFA Fragment_[24:5]"
+357.2799 999 "C0H0O0N0_Alkyl Fragment_[24:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[24:5]"
+
+Name: PE 20:4_26:5 [M-H]-;
+MW: 868.5856
+PRECURSORMZ: 868.5856
+Comment: Name=PE 20:4_26:5 [M-H]- Mass=868.5856 Formula=C51H83N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+582.3565 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+341.3214 200 "C-1O-2_PUFA Fragment_[26:5]"
+385.3112 999 "C0H0O0N0_Alkyl Fragment_[26:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[26:5]"
+
+Name: PE 20:4_28:5 [M-H]-;
+MW: 896.6169
+PRECURSORMZ: 896.6169
+Comment: Name=PE 20:4_28:5 [M-H]- Mass=896.6169 Formula=C53H87N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+610.3878 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+369.3527 200 "C-1O-2_PUFA Fragment_[28:5]"
+413.3425 999 "C0H0O0N0_Alkyl Fragment_[28:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[28:5]"
+
+Name: PE 20:4_30:5 [M-H]-;
+MW: 924.6482
+PRECURSORMZ: 924.6482
+Comment: Name=PE 20:4_30:5 [M-H]- Mass=924.6482 Formula=C55H91N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+638.4191 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+397.384 200 "C-1O-2_PUFA Fragment_[30:5]"
+441.3738 999 "C0H0O0N0_Alkyl Fragment_[30:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[30:5]"
+
+Name: PE 20:4_32:5 [M-H]-;
+MW: 952.6795
+PRECURSORMZ: 952.6795
+Comment: Name=PE 20:4_32:5 [M-H]- Mass=952.6795 Formula=C57H95N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+666.4504 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+425.4153 200 "C-1O-2_PUFA Fragment_[32:5]"
+469.4051 999 "C0H0O0N0_Alkyl Fragment_[32:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[32:5]"
+
+Name: PE 20:4_34:5 [M-H]-;
+MW: 980.7108
+PRECURSORMZ: 980.7108
+Comment: Name=PE 20:4_34:5 [M-H]- Mass=980.7108 Formula=C59H99N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+694.4817 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+453.4466 200 "C-1O-2_PUFA Fragment_[34:5]"
+497.4364 999 "C0H0O0N0_Alkyl Fragment_[34:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[34:5]"
+
+Name: PE 20:4_36:5 [M-H]-;
+MW: 1008.7421
+PRECURSORMZ: 1008.7421
+Comment: Name=PE 20:4_36:5 [M-H]- Mass=1008.7421 Formula=C61H103N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+722.513 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+481.4779 200 "C-1O-2_PUFA Fragment_[36:5]"
+525.4677 999 "C0H0O0N0_Alkyl Fragment_[36:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[36:5]"
+
+Name: PE 20:4_38:5 [M-H]-;
+MW: 1036.7734
+PRECURSORMZ: 1036.7734
+Comment: Name=PE 20:4_38:5 [M-H]- Mass=1036.7734 Formula=C63H107N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+750.5443 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+509.5092 200 "C-1O-2_PUFA Fragment_[38:5]"
+553.499 999 "C0H0O0N0_Alkyl Fragment_[38:5]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[38:5]"
+
+Name: PE 20:4_26:6 [M-H]-;
+MW: 866.57
+PRECURSORMZ: 866.57
+Comment: Name=PE 20:4_26:6 [M-H]- Mass=866.57 Formula=C51H81N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+580.3409 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+339.3057 200 "C-1O-2_PUFA Fragment_[26:6]"
+383.2956 999 "C0H0O0N0_Alkyl Fragment_[26:6]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[26:6]"
+
+Name: PE 20:4_28:6 [M-H]-;
+MW: 894.6013
+PRECURSORMZ: 894.6013
+Comment: Name=PE 20:4_28:6 [M-H]- Mass=894.6013 Formula=C53H85N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+608.3722 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+367.337 200 "C-1O-2_PUFA Fragment_[28:6]"
+411.3269 999 "C0H0O0N0_Alkyl Fragment_[28:6]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[28:6]"
+
+Name: PE 20:4_30:6 [M-H]-;
+MW: 922.6326
+PRECURSORMZ: 922.6326
+Comment: Name=PE 20:4_30:6 [M-H]- Mass=922.6326 Formula=C55H89N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+636.4035 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+395.3683 200 "C-1O-2_PUFA Fragment_[30:6]"
+439.3582 999 "C0H0O0N0_Alkyl Fragment_[30:6]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[30:6]"
+
+Name: PE 20:4_32:6 [M-H]-;
+MW: 950.6639
+PRECURSORMZ: 950.6639
+Comment: Name=PE 20:4_32:6 [M-H]- Mass=950.6639 Formula=C57H93N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+664.4348 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+423.3996 200 "C-1O-2_PUFA Fragment_[32:6]"
+467.3895 999 "C0H0O0N0_Alkyl Fragment_[32:6]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[32:6]"
+
+Name: PE 20:4_34:6 [M-H]-;
+MW: 978.6952
+PRECURSORMZ: 978.6952
+Comment: Name=PE 20:4_34:6 [M-H]- Mass=978.6952 Formula=C59H97N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+692.4661 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+451.4309 200 "C-1O-2_PUFA Fragment_[34:6]"
+495.4208 999 "C0H0O0N0_Alkyl Fragment_[34:6]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[34:6]"
+
+Name: PE 20:4_36:6 [M-H]-;
+MW: 1006.7265
+PRECURSORMZ: 1006.7265
+Comment: Name=PE 20:4_36:6 [M-H]- Mass=1006.7265 Formula=C61H101N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+720.4974 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+479.4622 200 "C-1O-2_PUFA Fragment_[36:6]"
+523.4521 999 "C0H0O0N0_Alkyl Fragment_[36:6]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[36:6]"
+
+Name: PE 20:4_38:6 [M-H]-;
+MW: 1034.7578
+PRECURSORMZ: 1034.7578
+Comment: Name=PE 20:4_38:6 [M-H]- Mass=1034.7578 Formula=C63H105N1O8P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+259.2431 200 "C-1O-2_PUFA Fragment_[20:4]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+748.5287 100 "C0H1O1N0_Alkyl Neutral Loss_[20:4]"
+78.9596 50 "78.9591_Fragment_[]"
+140.0123 50 "140.0118_Fragment_[]"
+196.0374 50 "196.03685_Fragment_[]"
+507.4935 200 "C-1O-2_PUFA Fragment_[38:6]"
+551.4834 999 "C0H0O0N0_Alkyl Fragment_[38:6]"
+500.2783 100 "C0H1O1N0_Alkyl Neutral Loss_[38:6]"
+
+Name: PG 18:1_26:4 [M-H]-;
+MW: 879.6115
+PRECURSORMZ: 879.6115
+Comment: Name=PG 18:1_26:4 [M-H]- Mass=879.6115 Formula=C50H88O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+769.5025 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+741.4712 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+387.3269 999 "C0H0O0N0P0_Alkyl Fragment_[26:4]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[26:4]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[26:4]"
+
+Name: PG 18:1_28:4 [M-H]-;
+MW: 907.6428
+PRECURSORMZ: 907.6428
+Comment: Name=PG 18:1_28:4 [M-H]- Mass=907.6428 Formula=C52H92O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+797.5338 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+769.5025 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+415.3582 999 "C0H0O0N0P0_Alkyl Fragment_[28:4]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[28:4]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[28:4]"
+
+Name: PG 18:1_32:4 [M-H]-;
+MW: 963.7054
+PRECURSORMZ: 963.7054
+Comment: Name=PG 18:1_32:4 [M-H]- Mass=963.7054 Formula=C56H100O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+853.5964 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+825.5651 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+471.4208 999 "C0H0O0N0P0_Alkyl Fragment_[32:4]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[32:4]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[32:4]"
+
+Name: PG 18:1_34:4 [M-H]-;
+MW: 991.7367
+PRECURSORMZ: 991.7367
+Comment: Name=PG 18:1_34:4 [M-H]- Mass=991.7367 Formula=C58H104O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+881.6277 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+853.5964 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+499.4521 999 "C0H0O0N0P0_Alkyl Fragment_[34:4]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[34:4]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[34:4]"
+
+Name: PG 18:1_36:4 [M-H]-;
+MW: 1019.768
+PRECURSORMZ: 1019.768
+Comment: Name=PG 18:1_36:4 [M-H]- Mass=1019.768 Formula=C60H108O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+909.659 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+881.6277 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+527.4834 999 "C0H0O0N0P0_Alkyl Fragment_[36:4]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[36:4]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[36:4]"
+
+Name: PG 18:1_38:4 [M-H]-;
+MW: 1047.7993
+PRECURSORMZ: 1047.7993
+Comment: Name=PG 18:1_38:4 [M-H]- Mass=1047.7993 Formula=C62H112O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+937.6903 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+909.659 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+555.5147 999 "C0H0O0N0P0_Alkyl Fragment_[38:4]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[38:4]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[38:4]"
+
+Name: PG 18:1_24:5 [M-H]-;
+MW: 849.5646
+PRECURSORMZ: 849.5646
+Comment: Name=PG 18:1_24:5 [M-H]- Mass=849.5646 Formula=C48H82O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+739.4556 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+711.4243 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+357.2799 999 "C0H0O0N0P0_Alkyl Fragment_[24:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[24:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[24:5]"
+
+Name: PG 18:1_26:5 [M-H]-;
+MW: 877.5959
+PRECURSORMZ: 877.5959
+Comment: Name=PG 18:1_26:5 [M-H]- Mass=877.5959 Formula=C50H86O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+767.4869 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+739.4556 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+385.3112 999 "C0H0O0N0P0_Alkyl Fragment_[26:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[26:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[26:5]"
+
+Name: PG 18:1_28:5 [M-H]-;
+MW: 905.6272
+PRECURSORMZ: 905.6272
+Comment: Name=PG 18:1_28:5 [M-H]- Mass=905.6272 Formula=C52H90O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+795.5182 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+767.4869 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+413.3425 999 "C0H0O0N0P0_Alkyl Fragment_[28:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[28:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[28:5]"
+
+Name: PG 18:1_30:5 [M-H]-;
+MW: 933.6585
+PRECURSORMZ: 933.6585
+Comment: Name=PG 18:1_30:5 [M-H]- Mass=933.6585 Formula=C54H94O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+823.5495 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+795.5182 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+441.3738 999 "C0H0O0N0P0_Alkyl Fragment_[30:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[30:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[30:5]"
+
+Name: PG 18:1_32:5 [M-H]-;
+MW: 961.6898
+PRECURSORMZ: 961.6898
+Comment: Name=PG 18:1_32:5 [M-H]- Mass=961.6898 Formula=C56H98O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+851.5808 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+823.5495 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+469.4051 999 "C0H0O0N0P0_Alkyl Fragment_[32:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[32:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[32:5]"
+
+Name: PG 18:1_34:5 [M-H]-;
+MW: 989.7211
+PRECURSORMZ: 989.7211
+Comment: Name=PG 18:1_34:5 [M-H]- Mass=989.7211 Formula=C58H102O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+879.6121 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+851.5808 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+497.4364 999 "C0H0O0N0P0_Alkyl Fragment_[34:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[34:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[34:5]"
+
+Name: PG 18:1_36:5 [M-H]-;
+MW: 1017.7524
+PRECURSORMZ: 1017.7524
+Comment: Name=PG 18:1_36:5 [M-H]- Mass=1017.7524 Formula=C60H106O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+907.6434 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+879.6121 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+525.4677 999 "C0H0O0N0P0_Alkyl Fragment_[36:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[36:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[36:5]"
+
+Name: PG 18:1_38:5 [M-H]-;
+MW: 1045.7837
+PRECURSORMZ: 1045.7837
+Comment: Name=PG 18:1_38:5 [M-H]- Mass=1045.7837 Formula=C62H110O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+935.6747 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+907.6434 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+553.499 999 "C0H0O0N0P0_Alkyl Fragment_[38:5]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[38:5]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[38:5]"
+
+Name: PG 18:1_26:6 [M-H]-;
+MW: 875.5802
+PRECURSORMZ: 875.5802
+Comment: Name=PG 18:1_26:6 [M-H]- Mass=875.5802 Formula=C50H84O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+765.4712 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+737.4399 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+383.2956 999 "C0H0O0N0P0_Alkyl Fragment_[26:6]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[26:6]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[26:6]"
+
+Name: PG 18:1_28:6 [M-H]-;
+MW: 903.6115
+PRECURSORMZ: 903.6115
+Comment: Name=PG 18:1_28:6 [M-H]- Mass=903.6115 Formula=C52H88O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+793.5025 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+765.4712 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+411.3269 999 "C0H0O0N0P0_Alkyl Fragment_[28:6]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[28:6]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[28:6]"
+
+Name: PG 18:1_30:6 [M-H]-;
+MW: 931.6428
+PRECURSORMZ: 931.6428
+Comment: Name=PG 18:1_30:6 [M-H]- Mass=931.6428 Formula=C54H92O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+821.5338 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+793.5025 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+439.3582 999 "C0H0O0N0P0_Alkyl Fragment_[30:6]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[30:6]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[30:6]"
+
+Name: PG 18:1_32:6 [M-H]-;
+MW: 959.6741
+PRECURSORMZ: 959.6741
+Comment: Name=PG 18:1_32:6 [M-H]- Mass=959.6741 Formula=C56H96O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+849.5651 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+821.5338 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+467.3895 999 "C0H0O0N0P0_Alkyl Fragment_[32:6]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[32:6]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[32:6]"
+
+Name: PG 18:1_34:6 [M-H]-;
+MW: 987.7054
+PRECURSORMZ: 987.7054
+Comment: Name=PG 18:1_34:6 [M-H]- Mass=987.7054 Formula=C58H100O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+877.5964 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+849.5651 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+495.4208 999 "C0H0O0N0P0_Alkyl Fragment_[34:6]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[34:6]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[34:6]"
+
+Name: PG 18:1_36:6 [M-H]-;
+MW: 1015.7367
+PRECURSORMZ: 1015.7367
+Comment: Name=PG 18:1_36:6 [M-H]- Mass=1015.7367 Formula=C60H104O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+905.6277 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+877.5964 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+523.4521 999 "C0H0O0N0P0_Alkyl Fragment_[36:6]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[36:6]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[36:6]"
+
+Name: PG 18:1_38:6 [M-H]-;
+MW: 1043.768
+PRECURSORMZ: 1043.768
+Comment: Name=PG 18:1_38:6 [M-H]- Mass=1043.768 Formula=C62H108O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0P0_Alkyl Fragment_[18:1]"
+933.659 7 "C10H19O2N0_Alkyl Neutral Loss_[18:1]"
+905.6277 6 "C8H15O2N0_Alkyl Neutral Loss_[18:1]"
+551.4834 999 "C0H0O0N0P0_Alkyl Fragment_[38:6]"
+663.4243 7 "C10H19O2N0_Alkyl Neutral Loss_[38:6]"
+635.393 6 "C8H15O2N0_Alkyl Neutral Loss_[38:6]"
+
+Name: PG 20:4_26:4 [M-H]-;
+MW: 901.5959
+PRECURSORMZ: 901.5959
+Comment: Name=PG 20:4_26:4 [M-H]- Mass=901.5959 Formula=C52H86O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+769.5025 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+741.4712 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+387.3269 999 "C0H0O0N0P0_Alkyl Fragment_[26:4]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[26:4]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[26:4]"
+
+Name: PG 20:4_28:4 [M-H]-;
+MW: 929.6272
+PRECURSORMZ: 929.6272
+Comment: Name=PG 20:4_28:4 [M-H]- Mass=929.6272 Formula=C54H90O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+797.5338 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+769.5025 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+415.3582 999 "C0H0O0N0P0_Alkyl Fragment_[28:4]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[28:4]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[28:4]"
+
+Name: PG 20:4_32:4 [M-H]-;
+MW: 985.6898
+PRECURSORMZ: 985.6898
+Comment: Name=PG 20:4_32:4 [M-H]- Mass=985.6898 Formula=C58H98O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+853.5964 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+825.5651 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+471.4208 999 "C0H0O0N0P0_Alkyl Fragment_[32:4]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[32:4]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[32:4]"
+
+Name: PG 20:4_34:4 [M-H]-;
+MW: 1013.7211
+PRECURSORMZ: 1013.7211
+Comment: Name=PG 20:4_34:4 [M-H]- Mass=1013.7211 Formula=C60H102O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+881.6277 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+853.5964 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+499.4521 999 "C0H0O0N0P0_Alkyl Fragment_[34:4]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[34:4]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[34:4]"
+
+Name: PG 20:4_36:4 [M-H]-;
+MW: 1041.7524
+PRECURSORMZ: 1041.7524
+Comment: Name=PG 20:4_36:4 [M-H]- Mass=1041.7524 Formula=C62H106O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+909.659 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+881.6277 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+527.4834 999 "C0H0O0N0P0_Alkyl Fragment_[36:4]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[36:4]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[36:4]"
+
+Name: PG 20:4_38:4 [M-H]-;
+MW: 1069.7837
+PRECURSORMZ: 1069.7837
+Comment: Name=PG 20:4_38:4 [M-H]- Mass=1069.7837 Formula=C64H110O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+937.6903 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+909.659 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+555.5147 999 "C0H0O0N0P0_Alkyl Fragment_[38:4]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[38:4]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[38:4]"
+
+Name: PG 20:4_24:5 [M-H]-;
+MW: 871.5489
+PRECURSORMZ: 871.5489
+Comment: Name=PG 20:4_24:5 [M-H]- Mass=871.5489 Formula=C50H80O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+739.4556 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+711.4243 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+357.2799 999 "C0H0O0N0P0_Alkyl Fragment_[24:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[24:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[24:5]"
+
+Name: PG 20:4_26:5 [M-H]-;
+MW: 899.5802
+PRECURSORMZ: 899.5802
+Comment: Name=PG 20:4_26:5 [M-H]- Mass=899.5802 Formula=C52H84O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+767.4869 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+739.4556 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+385.3112 999 "C0H0O0N0P0_Alkyl Fragment_[26:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[26:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[26:5]"
+
+Name: PG 20:4_28:5 [M-H]-;
+MW: 927.6115
+PRECURSORMZ: 927.6115
+Comment: Name=PG 20:4_28:5 [M-H]- Mass=927.6115 Formula=C54H88O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+795.5182 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+767.4869 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+413.3425 999 "C0H0O0N0P0_Alkyl Fragment_[28:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[28:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[28:5]"
+
+Name: PG 20:4_30:5 [M-H]-;
+MW: 955.6428
+PRECURSORMZ: 955.6428
+Comment: Name=PG 20:4_30:5 [M-H]- Mass=955.6428 Formula=C56H92O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+823.5495 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+795.5182 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+441.3738 999 "C0H0O0N0P0_Alkyl Fragment_[30:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[30:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[30:5]"
+
+Name: PG 20:4_32:5 [M-H]-;
+MW: 983.6741
+PRECURSORMZ: 983.6741
+Comment: Name=PG 20:4_32:5 [M-H]- Mass=983.6741 Formula=C58H96O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+851.5808 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+823.5495 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+469.4051 999 "C0H0O0N0P0_Alkyl Fragment_[32:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[32:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[32:5]"
+
+Name: PG 20:4_34:5 [M-H]-;
+MW: 1011.7054
+PRECURSORMZ: 1011.7054
+Comment: Name=PG 20:4_34:5 [M-H]- Mass=1011.7054 Formula=C60H100O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+879.6121 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+851.5808 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+497.4364 999 "C0H0O0N0P0_Alkyl Fragment_[34:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[34:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[34:5]"
+
+Name: PG 20:4_36:5 [M-H]-;
+MW: 1039.7367
+PRECURSORMZ: 1039.7367
+Comment: Name=PG 20:4_36:5 [M-H]- Mass=1039.7367 Formula=C62H104O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+907.6434 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+879.6121 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+525.4677 999 "C0H0O0N0P0_Alkyl Fragment_[36:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[36:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[36:5]"
+
+Name: PG 20:4_38:5 [M-H]-;
+MW: 1067.768
+PRECURSORMZ: 1067.768
+Comment: Name=PG 20:4_38:5 [M-H]- Mass=1067.768 Formula=C64H108O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+935.6747 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+907.6434 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+553.499 999 "C0H0O0N0P0_Alkyl Fragment_[38:5]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[38:5]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[38:5]"
+
+Name: PG 20:4_26:6 [M-H]-;
+MW: 897.5646
+PRECURSORMZ: 897.5646
+Comment: Name=PG 20:4_26:6 [M-H]- Mass=897.5646 Formula=C52H82O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+765.4712 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+737.4399 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+383.2956 999 "C0H0O0N0P0_Alkyl Fragment_[26:6]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[26:6]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[26:6]"
+
+Name: PG 20:4_28:6 [M-H]-;
+MW: 925.5959
+PRECURSORMZ: 925.5959
+Comment: Name=PG 20:4_28:6 [M-H]- Mass=925.5959 Formula=C54H86O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+793.5025 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+765.4712 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+411.3269 999 "C0H0O0N0P0_Alkyl Fragment_[28:6]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[28:6]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[28:6]"
+
+Name: PG 20:4_30:6 [M-H]-;
+MW: 953.6272
+PRECURSORMZ: 953.6272
+Comment: Name=PG 20:4_30:6 [M-H]- Mass=953.6272 Formula=C56H90O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+821.5338 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+793.5025 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+439.3582 999 "C0H0O0N0P0_Alkyl Fragment_[30:6]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[30:6]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[30:6]"
+
+Name: PG 20:4_32:6 [M-H]-;
+MW: 981.6585
+PRECURSORMZ: 981.6585
+Comment: Name=PG 20:4_32:6 [M-H]- Mass=981.6585 Formula=C58H94O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+849.5651 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+821.5338 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+467.3895 999 "C0H0O0N0P0_Alkyl Fragment_[32:6]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[32:6]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[32:6]"
+
+Name: PG 20:4_34:6 [M-H]-;
+MW: 1009.6898
+PRECURSORMZ: 1009.6898
+Comment: Name=PG 20:4_34:6 [M-H]- Mass=1009.6898 Formula=C60H98O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+877.5964 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+849.5651 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+495.4208 999 "C0H0O0N0P0_Alkyl Fragment_[34:6]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[34:6]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[34:6]"
+
+Name: PG 20:4_36:6 [M-H]-;
+MW: 1037.7211
+PRECURSORMZ: 1037.7211
+Comment: Name=PG 20:4_36:6 [M-H]- Mass=1037.7211 Formula=C62H102O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+905.6277 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+877.5964 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+523.4521 999 "C0H0O0N0P0_Alkyl Fragment_[36:6]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[36:6]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[36:6]"
+
+Name: PG 20:4_38:6 [M-H]-;
+MW: 1065.7524
+PRECURSORMZ: 1065.7524
+Comment: Name=PG 20:4_38:6 [M-H]- Mass=1065.7524 Formula=C64H106O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+152.9958 999 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0P0_Alkyl Fragment_[20:4]"
+933.659 7 "C10H19O2N0_Alkyl Neutral Loss_[20:4]"
+905.6277 6 "C8H15O2N0_Alkyl Neutral Loss_[20:4]"
+551.4834 999 "C0H0O0N0P0_Alkyl Fragment_[38:6]"
+685.4086 7 "C10H19O2N0_Alkyl Neutral Loss_[38:6]"
+657.3773 6 "C8H15O2N0_Alkyl Neutral Loss_[38:6]"
+
+Name: PS 18:1_26:4 [M-H]-;
+MW: 892.6068
+PRECURSORMZ: 892.6068
+Comment: Name=PS 18:1_26:4 [M-H]- Mass=892.6068 Formula=C50H87N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+805.5752 100 "-87.0321_Neutral Loss_[]"
+387.3269 999 "C0H0O0N0_Alkyl Fragment_[26:4]"
+523.3194 75 "C3H5O4P1_Alkyl Fragment_[26:4]"
+
+Name: PS 18:1_28:4 [M-H]-;
+MW: 920.6381
+PRECURSORMZ: 920.6381
+Comment: Name=PS 18:1_28:4 [M-H]- Mass=920.6381 Formula=C52H91N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+833.6065 100 "-87.0321_Neutral Loss_[]"
+415.3582 999 "C0H0O0N0_Alkyl Fragment_[28:4]"
+551.3507 75 "C3H5O4P1_Alkyl Fragment_[28:4]"
+
+Name: PS 18:1_32:4 [M-H]-;
+MW: 976.7007
+PRECURSORMZ: 976.7007
+Comment: Name=PS 18:1_32:4 [M-H]- Mass=976.7007 Formula=C56H99N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+889.6691 100 "-87.0321_Neutral Loss_[]"
+471.4208 999 "C0H0O0N0_Alkyl Fragment_[32:4]"
+607.4133 75 "C3H5O4P1_Alkyl Fragment_[32:4]"
+
+Name: PS 18:1_34:4 [M-H]-;
+MW: 1004.732
+PRECURSORMZ: 1004.732
+Comment: Name=PS 18:1_34:4 [M-H]- Mass=1004.732 Formula=C58H103N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+917.7004 100 "-87.0321_Neutral Loss_[]"
+499.4521 999 "C0H0O0N0_Alkyl Fragment_[34:4]"
+635.4446 75 "C3H5O4P1_Alkyl Fragment_[34:4]"
+
+Name: PS 18:1_36:4 [M-H]-;
+MW: 1032.7633
+PRECURSORMZ: 1032.7633
+Comment: Name=PS 18:1_36:4 [M-H]- Mass=1032.7633 Formula=C60H107N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+945.7317 100 "-87.0321_Neutral Loss_[]"
+527.4834 999 "C0H0O0N0_Alkyl Fragment_[36:4]"
+663.4759 75 "C3H5O4P1_Alkyl Fragment_[36:4]"
+
+Name: PS 18:1_38:4 [M-H]-;
+MW: 1060.7946
+PRECURSORMZ: 1060.7946
+Comment: Name=PS 18:1_38:4 [M-H]- Mass=1060.7946 Formula=C62H111N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+973.763 100 "-87.0321_Neutral Loss_[]"
+555.5147 999 "C0H0O0N0_Alkyl Fragment_[38:4]"
+691.5072 75 "C3H5O4P1_Alkyl Fragment_[38:4]"
+
+Name: PS 18:1_24:5 [M-H]-;
+MW: 862.5598
+PRECURSORMZ: 862.5598
+Comment: Name=PS 18:1_24:5 [M-H]- Mass=862.5598 Formula=C48H81N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+775.5283 100 "-87.0321_Neutral Loss_[]"
+357.2799 999 "C0H0O0N0_Alkyl Fragment_[24:5]"
+493.2724 75 "C3H5O4P1_Alkyl Fragment_[24:5]"
+
+Name: PS 18:1_26:5 [M-H]-;
+MW: 890.5911
+PRECURSORMZ: 890.5911
+Comment: Name=PS 18:1_26:5 [M-H]- Mass=890.5911 Formula=C50H85N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+803.5596 100 "-87.0321_Neutral Loss_[]"
+385.3112 999 "C0H0O0N0_Alkyl Fragment_[26:5]"
+521.3037 75 "C3H5O4P1_Alkyl Fragment_[26:5]"
+
+Name: PS 18:1_28:5 [M-H]-;
+MW: 918.6224
+PRECURSORMZ: 918.6224
+Comment: Name=PS 18:1_28:5 [M-H]- Mass=918.6224 Formula=C52H89N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+831.5909 100 "-87.0321_Neutral Loss_[]"
+413.3425 999 "C0H0O0N0_Alkyl Fragment_[28:5]"
+549.3351 75 "C3H5O4P1_Alkyl Fragment_[28:5]"
+
+Name: PS 18:1_30:5 [M-H]-;
+MW: 946.6537
+PRECURSORMZ: 946.6537
+Comment: Name=PS 18:1_30:5 [M-H]- Mass=946.6537 Formula=C54H93N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+859.6222 100 "-87.0321_Neutral Loss_[]"
+441.3738 999 "C0H0O0N0_Alkyl Fragment_[30:5]"
+577.3664 75 "C3H5O4P1_Alkyl Fragment_[30:5]"
+
+Name: PS 18:1_32:5 [M-H]-;
+MW: 974.685
+PRECURSORMZ: 974.685
+Comment: Name=PS 18:1_32:5 [M-H]- Mass=974.685 Formula=C56H97N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+887.6535 100 "-87.0321_Neutral Loss_[]"
+469.4051 999 "C0H0O0N0_Alkyl Fragment_[32:5]"
+605.3977 75 "C3H5O4P1_Alkyl Fragment_[32:5]"
+
+Name: PS 18:1_34:5 [M-H]-;
+MW: 1002.7163
+PRECURSORMZ: 1002.7163
+Comment: Name=PS 18:1_34:5 [M-H]- Mass=1002.7163 Formula=C58H101N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+915.6848 100 "-87.0321_Neutral Loss_[]"
+497.4364 999 "C0H0O0N0_Alkyl Fragment_[34:5]"
+633.429 75 "C3H5O4P1_Alkyl Fragment_[34:5]"
+
+Name: PS 18:1_36:5 [M-H]-;
+MW: 1030.7476
+PRECURSORMZ: 1030.7476
+Comment: Name=PS 18:1_36:5 [M-H]- Mass=1030.7476 Formula=C60H105N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+943.7161 100 "-87.0321_Neutral Loss_[]"
+525.4677 999 "C0H0O0N0_Alkyl Fragment_[36:5]"
+661.4603 75 "C3H5O4P1_Alkyl Fragment_[36:5]"
+
+Name: PS 18:1_38:5 [M-H]-;
+MW: 1058.7789
+PRECURSORMZ: 1058.7789
+Comment: Name=PS 18:1_38:5 [M-H]- Mass=1058.7789 Formula=C62H109N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+971.7474 100 "-87.0321_Neutral Loss_[]"
+553.499 999 "C0H0O0N0_Alkyl Fragment_[38:5]"
+689.4916 75 "C3H5O4P1_Alkyl Fragment_[38:5]"
+
+Name: PS 18:1_26:6 [M-H]-;
+MW: 888.5755
+PRECURSORMZ: 888.5755
+Comment: Name=PS 18:1_26:6 [M-H]- Mass=888.5755 Formula=C50H83N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+801.5439 100 "-87.0321_Neutral Loss_[]"
+383.2956 999 "C0H0O0N0_Alkyl Fragment_[26:6]"
+519.2881 75 "C3H5O4P1_Alkyl Fragment_[26:6]"
+
+Name: PS 18:1_28:6 [M-H]-;
+MW: 916.6068
+PRECURSORMZ: 916.6068
+Comment: Name=PS 18:1_28:6 [M-H]- Mass=916.6068 Formula=C52H87N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+829.5752 100 "-87.0321_Neutral Loss_[]"
+411.3269 999 "C0H0O0N0_Alkyl Fragment_[28:6]"
+547.3194 75 "C3H5O4P1_Alkyl Fragment_[28:6]"
+
+Name: PS 18:1_30:6 [M-H]-;
+MW: 944.6381
+PRECURSORMZ: 944.6381
+Comment: Name=PS 18:1_30:6 [M-H]- Mass=944.6381 Formula=C54H91N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+857.6065 100 "-87.0321_Neutral Loss_[]"
+439.3582 999 "C0H0O0N0_Alkyl Fragment_[30:6]"
+575.3507 75 "C3H5O4P1_Alkyl Fragment_[30:6]"
+
+Name: PS 18:1_32:6 [M-H]-;
+MW: 972.6694
+PRECURSORMZ: 972.6694
+Comment: Name=PS 18:1_32:6 [M-H]- Mass=972.6694 Formula=C56H95N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+885.6378 100 "-87.0321_Neutral Loss_[]"
+467.3895 999 "C0H0O0N0_Alkyl Fragment_[32:6]"
+603.382 75 "C3H5O4P1_Alkyl Fragment_[32:6]"
+
+Name: PS 18:1_34:6 [M-H]-;
+MW: 1000.7007
+PRECURSORMZ: 1000.7007
+Comment: Name=PS 18:1_34:6 [M-H]- Mass=1000.7007 Formula=C58H99N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+913.6691 100 "-87.0321_Neutral Loss_[]"
+495.4208 999 "C0H0O0N0_Alkyl Fragment_[34:6]"
+631.4133 75 "C3H5O4P1_Alkyl Fragment_[34:6]"
+
+Name: PS 18:1_36:6 [M-H]-;
+MW: 1028.732
+PRECURSORMZ: 1028.732
+Comment: Name=PS 18:1_36:6 [M-H]- Mass=1028.732 Formula=C60H103N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+941.7004 100 "-87.0321_Neutral Loss_[]"
+523.4521 999 "C0H0O0N0_Alkyl Fragment_[36:6]"
+659.4446 75 "C3H5O4P1_Alkyl Fragment_[36:6]"
+
+Name: PS 18:1_38:6 [M-H]-;
+MW: 1056.7633
+PRECURSORMZ: 1056.7633
+Comment: Name=PS 18:1_38:6 [M-H]- Mass=1056.7633 Formula=C62H107N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+417.2411 75 "C3H5O4P1_Alkyl Fragment_[18:1]"
+969.7317 100 "-87.0321_Neutral Loss_[]"
+551.4834 999 "C0H0O0N0_Alkyl Fragment_[38:6]"
+687.4759 75 "C3H5O4P1_Alkyl Fragment_[38:6]"
+
+Name: PS 20:4_26:4 [M-H]-;
+MW: 914.5911
+PRECURSORMZ: 914.5911
+Comment: Name=PS 20:4_26:4 [M-H]- Mass=914.5911 Formula=C52H85N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+827.5596 100 "-87.0321_Neutral Loss_[]"
+387.3269 999 "C0H0O0N0_Alkyl Fragment_[26:4]"
+523.3194 75 "C3H5O4P1_Alkyl Fragment_[26:4]"
+
+Name: PS 20:4_28:4 [M-H]-;
+MW: 942.6224
+PRECURSORMZ: 942.6224
+Comment: Name=PS 20:4_28:4 [M-H]- Mass=942.6224 Formula=C54H89N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+855.5909 100 "-87.0321_Neutral Loss_[]"
+415.3582 999 "C0H0O0N0_Alkyl Fragment_[28:4]"
+551.3507 75 "C3H5O4P1_Alkyl Fragment_[28:4]"
+
+Name: PS 20:4_32:4 [M-H]-;
+MW: 998.685
+PRECURSORMZ: 998.685
+Comment: Name=PS 20:4_32:4 [M-H]- Mass=998.685 Formula=C58H97N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+911.6535 100 "-87.0321_Neutral Loss_[]"
+471.4208 999 "C0H0O0N0_Alkyl Fragment_[32:4]"
+607.4133 75 "C3H5O4P1_Alkyl Fragment_[32:4]"
+
+Name: PS 20:4_34:4 [M-H]-;
+MW: 1026.7163
+PRECURSORMZ: 1026.7163
+Comment: Name=PS 20:4_34:4 [M-H]- Mass=1026.7163 Formula=C60H101N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+939.6848 100 "-87.0321_Neutral Loss_[]"
+499.4521 999 "C0H0O0N0_Alkyl Fragment_[34:4]"
+635.4446 75 "C3H5O4P1_Alkyl Fragment_[34:4]"
+
+Name: PS 20:4_36:4 [M-H]-;
+MW: 1054.7476
+PRECURSORMZ: 1054.7476
+Comment: Name=PS 20:4_36:4 [M-H]- Mass=1054.7476 Formula=C62H105N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+967.7161 100 "-87.0321_Neutral Loss_[]"
+527.4834 999 "C0H0O0N0_Alkyl Fragment_[36:4]"
+663.4759 75 "C3H5O4P1_Alkyl Fragment_[36:4]"
+
+Name: PS 20:4_38:4 [M-H]-;
+MW: 1082.7789
+PRECURSORMZ: 1082.7789
+Comment: Name=PS 20:4_38:4 [M-H]- Mass=1082.7789 Formula=C64H109N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+995.7474 100 "-87.0321_Neutral Loss_[]"
+555.5147 999 "C0H0O0N0_Alkyl Fragment_[38:4]"
+691.5072 75 "C3H5O4P1_Alkyl Fragment_[38:4]"
+
+Name: PS 20:4_24:5 [M-H]-;
+MW: 884.5442
+PRECURSORMZ: 884.5442
+Comment: Name=PS 20:4_24:5 [M-H]- Mass=884.5442 Formula=C50H79N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+797.5126 100 "-87.0321_Neutral Loss_[]"
+357.2799 999 "C0H0O0N0_Alkyl Fragment_[24:5]"
+493.2724 75 "C3H5O4P1_Alkyl Fragment_[24:5]"
+
+Name: PS 20:4_26:5 [M-H]-;
+MW: 912.5755
+PRECURSORMZ: 912.5755
+Comment: Name=PS 20:4_26:5 [M-H]- Mass=912.5755 Formula=C52H83N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+825.5439 100 "-87.0321_Neutral Loss_[]"
+385.3112 999 "C0H0O0N0_Alkyl Fragment_[26:5]"
+521.3037 75 "C3H5O4P1_Alkyl Fragment_[26:5]"
+
+Name: PS 20:4_28:5 [M-H]-;
+MW: 940.6068
+PRECURSORMZ: 940.6068
+Comment: Name=PS 20:4_28:5 [M-H]- Mass=940.6068 Formula=C54H87N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+853.5752 100 "-87.0321_Neutral Loss_[]"
+413.3425 999 "C0H0O0N0_Alkyl Fragment_[28:5]"
+549.3351 75 "C3H5O4P1_Alkyl Fragment_[28:5]"
+
+Name: PS 20:4_30:5 [M-H]-;
+MW: 968.6381
+PRECURSORMZ: 968.6381
+Comment: Name=PS 20:4_30:5 [M-H]- Mass=968.6381 Formula=C56H91N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+881.6065 100 "-87.0321_Neutral Loss_[]"
+441.3738 999 "C0H0O0N0_Alkyl Fragment_[30:5]"
+577.3664 75 "C3H5O4P1_Alkyl Fragment_[30:5]"
+
+Name: PS 20:4_32:5 [M-H]-;
+MW: 996.6694
+PRECURSORMZ: 996.6694
+Comment: Name=PS 20:4_32:5 [M-H]- Mass=996.6694 Formula=C58H95N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+909.6378 100 "-87.0321_Neutral Loss_[]"
+469.4051 999 "C0H0O0N0_Alkyl Fragment_[32:5]"
+605.3977 75 "C3H5O4P1_Alkyl Fragment_[32:5]"
+
+Name: PS 20:4_34:5 [M-H]-;
+MW: 1024.7007
+PRECURSORMZ: 1024.7007
+Comment: Name=PS 20:4_34:5 [M-H]- Mass=1024.7007 Formula=C60H99N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+937.6691 100 "-87.0321_Neutral Loss_[]"
+497.4364 999 "C0H0O0N0_Alkyl Fragment_[34:5]"
+633.429 75 "C3H5O4P1_Alkyl Fragment_[34:5]"
+
+Name: PS 20:4_36:5 [M-H]-;
+MW: 1052.732
+PRECURSORMZ: 1052.732
+Comment: Name=PS 20:4_36:5 [M-H]- Mass=1052.732 Formula=C62H103N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+965.7004 100 "-87.0321_Neutral Loss_[]"
+525.4677 999 "C0H0O0N0_Alkyl Fragment_[36:5]"
+661.4603 75 "C3H5O4P1_Alkyl Fragment_[36:5]"
+
+Name: PS 20:4_38:5 [M-H]-;
+MW: 1080.7633
+PRECURSORMZ: 1080.7633
+Comment: Name=PS 20:4_38:5 [M-H]- Mass=1080.7633 Formula=C64H107N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+993.7317 100 "-87.0321_Neutral Loss_[]"
+553.499 999 "C0H0O0N0_Alkyl Fragment_[38:5]"
+689.4916 75 "C3H5O4P1_Alkyl Fragment_[38:5]"
+
+Name: PS 20:4_26:6 [M-H]-;
+MW: 910.5598
+PRECURSORMZ: 910.5598
+Comment: Name=PS 20:4_26:6 [M-H]- Mass=910.5598 Formula=C52H81N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+823.5283 100 "-87.0321_Neutral Loss_[]"
+383.2956 999 "C0H0O0N0_Alkyl Fragment_[26:6]"
+519.2881 75 "C3H5O4P1_Alkyl Fragment_[26:6]"
+
+Name: PS 20:4_28:6 [M-H]-;
+MW: 938.5911
+PRECURSORMZ: 938.5911
+Comment: Name=PS 20:4_28:6 [M-H]- Mass=938.5911 Formula=C54H85N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+851.5596 100 "-87.0321_Neutral Loss_[]"
+411.3269 999 "C0H0O0N0_Alkyl Fragment_[28:6]"
+547.3194 75 "C3H5O4P1_Alkyl Fragment_[28:6]"
+
+Name: PS 20:4_30:6 [M-H]-;
+MW: 966.6224
+PRECURSORMZ: 966.6224
+Comment: Name=PS 20:4_30:6 [M-H]- Mass=966.6224 Formula=C56H89N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+879.5909 100 "-87.0321_Neutral Loss_[]"
+439.3582 999 "C0H0O0N0_Alkyl Fragment_[30:6]"
+575.3507 75 "C3H5O4P1_Alkyl Fragment_[30:6]"
+
+Name: PS 20:4_32:6 [M-H]-;
+MW: 994.6537
+PRECURSORMZ: 994.6537
+Comment: Name=PS 20:4_32:6 [M-H]- Mass=994.6537 Formula=C58H93N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+907.6222 100 "-87.0321_Neutral Loss_[]"
+467.3895 999 "C0H0O0N0_Alkyl Fragment_[32:6]"
+603.382 75 "C3H5O4P1_Alkyl Fragment_[32:6]"
+
+Name: PS 20:4_34:6 [M-H]-;
+MW: 1022.685
+PRECURSORMZ: 1022.685
+Comment: Name=PS 20:4_34:6 [M-H]- Mass=1022.685 Formula=C60H97N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+935.6535 100 "-87.0321_Neutral Loss_[]"
+495.4208 999 "C0H0O0N0_Alkyl Fragment_[34:6]"
+631.4133 75 "C3H5O4P1_Alkyl Fragment_[34:6]"
+
+Name: PS 20:4_36:6 [M-H]-;
+MW: 1050.7163
+PRECURSORMZ: 1050.7163
+Comment: Name=PS 20:4_36:6 [M-H]- Mass=1050.7163 Formula=C62H101N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+963.6848 100 "-87.0321_Neutral Loss_[]"
+523.4521 999 "C0H0O0N0_Alkyl Fragment_[36:6]"
+659.4446 75 "C3H5O4P1_Alkyl Fragment_[36:6]"
+
+Name: PS 20:4_38:6 [M-H]-;
+MW: 1078.7476
+PRECURSORMZ: 1078.7476
+Comment: Name=PS 20:4_38:6 [M-H]- Mass=1078.7476 Formula=C64H105N1O10P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 7
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+78.9596 200 "78.9591_Fragment_[]"
+152.9963 400 "152.9958_Fragment_[]"
+439.2255 75 "C3H5O4P1_Alkyl Fragment_[20:4]"
+991.7161 100 "-87.0321_Neutral Loss_[]"
+551.4834 999 "C0H0O0N0_Alkyl Fragment_[38:6]"
+687.4759 75 "C3H5O4P1_Alkyl Fragment_[38:6]"
+
+Name: PI 18:1_26:4 [M-H]-;
+MW: 967.6276
+PRECURSORMZ: 967.6276
+Comment: Name=PI 18:1_26:4 [M-H]- Mass=967.6276 Formula=C53H92O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+685.3722 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+387.3269 999 "C0H0O0N0_Alkyl Fragment_[26:4]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[26:4]"
+
+Name: PI 18:1_28:4 [M-H]-;
+MW: 995.6589
+PRECURSORMZ: 995.6589
+Comment: Name=PI 18:1_28:4 [M-H]- Mass=995.6589 Formula=C55H96O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+713.4035 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+415.3582 999 "C0H0O0N0_Alkyl Fragment_[28:4]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[28:4]"
+
+Name: PI 18:1_32:4 [M-H]-;
+MW: 1051.7215
+PRECURSORMZ: 1051.7215
+Comment: Name=PI 18:1_32:4 [M-H]- Mass=1051.7215 Formula=C59H104O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+769.4661 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+471.4208 999 "C0H0O0N0_Alkyl Fragment_[32:4]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[32:4]"
+
+Name: PI 18:1_34:4 [M-H]-;
+MW: 1079.7528
+PRECURSORMZ: 1079.7528
+Comment: Name=PI 18:1_34:4 [M-H]- Mass=1079.7528 Formula=C61H108O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+797.4974 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+499.4521 999 "C0H0O0N0_Alkyl Fragment_[34:4]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[34:4]"
+
+Name: PI 18:1_36:4 [M-H]-;
+MW: 1107.7841
+PRECURSORMZ: 1107.7841
+Comment: Name=PI 18:1_36:4 [M-H]- Mass=1107.7841 Formula=C63H112O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+825.5287 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+527.4834 999 "C0H0O0N0_Alkyl Fragment_[36:4]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[36:4]"
+
+Name: PI 18:1_38:4 [M-H]-;
+MW: 1135.8154
+PRECURSORMZ: 1135.8154
+Comment: Name=PI 18:1_38:4 [M-H]- Mass=1135.8154 Formula=C65H116O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+853.56 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+555.5147 999 "C0H0O0N0_Alkyl Fragment_[38:4]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[38:4]"
+
+Name: PI 18:1_24:5 [M-H]-;
+MW: 937.5806
+PRECURSORMZ: 937.5806
+Comment: Name=PI 18:1_24:5 [M-H]- Mass=937.5806 Formula=C51H86O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+655.3253 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+357.2799 999 "C0H0O0N0_Alkyl Fragment_[24:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[24:5]"
+
+Name: PI 18:1_26:5 [M-H]-;
+MW: 965.6119
+PRECURSORMZ: 965.6119
+Comment: Name=PI 18:1_26:5 [M-H]- Mass=965.6119 Formula=C53H90O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+683.3566 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+385.3112 999 "C0H0O0N0_Alkyl Fragment_[26:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[26:5]"
+
+Name: PI 18:1_28:5 [M-H]-;
+MW: 993.6432
+PRECURSORMZ: 993.6432
+Comment: Name=PI 18:1_28:5 [M-H]- Mass=993.6432 Formula=C55H94O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+711.3879 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+413.3425 999 "C0H0O0N0_Alkyl Fragment_[28:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[28:5]"
+
+Name: PI 18:1_30:5 [M-H]-;
+MW: 1021.6745
+PRECURSORMZ: 1021.6745
+Comment: Name=PI 18:1_30:5 [M-H]- Mass=1021.6745 Formula=C57H98O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+739.4192 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+441.3738 999 "C0H0O0N0_Alkyl Fragment_[30:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[30:5]"
+
+Name: PI 18:1_32:5 [M-H]-;
+MW: 1049.7058
+PRECURSORMZ: 1049.7058
+Comment: Name=PI 18:1_32:5 [M-H]- Mass=1049.7058 Formula=C59H102O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+767.4505 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+469.4051 999 "C0H0O0N0_Alkyl Fragment_[32:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[32:5]"
+
+Name: PI 18:1_34:5 [M-H]-;
+MW: 1077.7371
+PRECURSORMZ: 1077.7371
+Comment: Name=PI 18:1_34:5 [M-H]- Mass=1077.7371 Formula=C61H106O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+795.4818 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+497.4364 999 "C0H0O0N0_Alkyl Fragment_[34:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[34:5]"
+
+Name: PI 18:1_36:5 [M-H]-;
+MW: 1105.7684
+PRECURSORMZ: 1105.7684
+Comment: Name=PI 18:1_36:5 [M-H]- Mass=1105.7684 Formula=C63H110O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+823.5131 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+525.4677 999 "C0H0O0N0_Alkyl Fragment_[36:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[36:5]"
+
+Name: PI 18:1_38:5 [M-H]-;
+MW: 1133.7997
+PRECURSORMZ: 1133.7997
+Comment: Name=PI 18:1_38:5 [M-H]- Mass=1133.7997 Formula=C65H114O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+851.5444 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+553.499 999 "C0H0O0N0_Alkyl Fragment_[38:5]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[38:5]"
+
+Name: PI 18:1_26:6 [M-H]-;
+MW: 963.5963
+PRECURSORMZ: 963.5963
+Comment: Name=PI 18:1_26:6 [M-H]- Mass=963.5963 Formula=C53H88O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+681.3409 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+383.2956 999 "C0H0O0N0_Alkyl Fragment_[26:6]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[26:6]"
+
+Name: PI 18:1_28:6 [M-H]-;
+MW: 991.6276
+PRECURSORMZ: 991.6276
+Comment: Name=PI 18:1_28:6 [M-H]- Mass=991.6276 Formula=C55H92O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+709.3722 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+411.3269 999 "C0H0O0N0_Alkyl Fragment_[28:6]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[28:6]"
+
+Name: PI 18:1_30:6 [M-H]-;
+MW: 1019.6589
+PRECURSORMZ: 1019.6589
+Comment: Name=PI 18:1_30:6 [M-H]- Mass=1019.6589 Formula=C57H96O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+737.4035 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+439.3582 999 "C0H0O0N0_Alkyl Fragment_[30:6]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[30:6]"
+
+Name: PI 18:1_32:6 [M-H]-;
+MW: 1047.6902
+PRECURSORMZ: 1047.6902
+Comment: Name=PI 18:1_32:6 [M-H]- Mass=1047.6902 Formula=C59H100O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+765.4348 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+467.3895 999 "C0H0O0N0_Alkyl Fragment_[32:6]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[32:6]"
+
+Name: PI 18:1_34:6 [M-H]-;
+MW: 1075.7215
+PRECURSORMZ: 1075.7215
+Comment: Name=PI 18:1_34:6 [M-H]- Mass=1075.7215 Formula=C61H104O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+793.4661 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+495.4208 999 "C0H0O0N0_Alkyl Fragment_[34:6]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[34:6]"
+
+Name: PI 18:1_36:6 [M-H]-;
+MW: 1103.7528
+PRECURSORMZ: 1103.7528
+Comment: Name=PI 18:1_36:6 [M-H]- Mass=1103.7528 Formula=C63H108O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+821.4974 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+523.4521 999 "C0H0O0N0_Alkyl Fragment_[36:6]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[36:6]"
+
+Name: PI 18:1_38:6 [M-H]-;
+MW: 1131.7841
+PRECURSORMZ: 1131.7841
+Comment: Name=PI 18:1_38:6 [M-H]- Mass=1131.7841 Formula=C65H112O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+281.2486 999 "C0H0O0N0_Alkyl Fragment_[18:1]"
+849.5287 50 "C0H-1O0N0_Alkyl Neutral Loss_[18:1]"
+551.4834 999 "C0H0O0N0_Alkyl Fragment_[38:6]"
+579.294 50 "C0H-1O0N0_Alkyl Neutral Loss_[38:6]"
+
+Name: PI 20:4_26:4 [M-H]-;
+MW: 989.6119
+PRECURSORMZ: 989.6119
+Comment: Name=PI 20:4_26:4 [M-H]- Mass=989.6119 Formula=C55H90O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+685.3722 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+387.3269 999 "C0H0O0N0_Alkyl Fragment_[26:4]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[26:4]"
+
+Name: PI 20:4_28:4 [M-H]-;
+MW: 1017.6432
+PRECURSORMZ: 1017.6432
+Comment: Name=PI 20:4_28:4 [M-H]- Mass=1017.6432 Formula=C57H94O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+713.4035 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+415.3582 999 "C0H0O0N0_Alkyl Fragment_[28:4]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[28:4]"
+
+Name: PI 20:4_32:4 [M-H]-;
+MW: 1073.7058
+PRECURSORMZ: 1073.7058
+Comment: Name=PI 20:4_32:4 [M-H]- Mass=1073.7058 Formula=C61H102O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+769.4661 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+471.4208 999 "C0H0O0N0_Alkyl Fragment_[32:4]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[32:4]"
+
+Name: PI 20:4_34:4 [M-H]-;
+MW: 1101.7371
+PRECURSORMZ: 1101.7371
+Comment: Name=PI 20:4_34:4 [M-H]- Mass=1101.7371 Formula=C63H106O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+797.4974 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+499.4521 999 "C0H0O0N0_Alkyl Fragment_[34:4]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[34:4]"
+
+Name: PI 20:4_36:4 [M-H]-;
+MW: 1129.7684
+PRECURSORMZ: 1129.7684
+Comment: Name=PI 20:4_36:4 [M-H]- Mass=1129.7684 Formula=C65H110O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+825.5287 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+527.4834 999 "C0H0O0N0_Alkyl Fragment_[36:4]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[36:4]"
+
+Name: PI 20:4_38:4 [M-H]-;
+MW: 1157.7997
+PRECURSORMZ: 1157.7997
+Comment: Name=PI 20:4_38:4 [M-H]- Mass=1157.7997 Formula=C67H114O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+853.56 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+555.5147 999 "C0H0O0N0_Alkyl Fragment_[38:4]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[38:4]"
+
+Name: PI 20:4_24:5 [M-H]-;
+MW: 959.565
+PRECURSORMZ: 959.565
+Comment: Name=PI 20:4_24:5 [M-H]- Mass=959.565 Formula=C53H84O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+655.3253 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+357.2799 999 "C0H0O0N0_Alkyl Fragment_[24:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[24:5]"
+
+Name: PI 20:4_26:5 [M-H]-;
+MW: 987.5963
+PRECURSORMZ: 987.5963
+Comment: Name=PI 20:4_26:5 [M-H]- Mass=987.5963 Formula=C55H88O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+683.3566 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+385.3112 999 "C0H0O0N0_Alkyl Fragment_[26:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[26:5]"
+
+Name: PI 20:4_28:5 [M-H]-;
+MW: 1015.6276
+PRECURSORMZ: 1015.6276
+Comment: Name=PI 20:4_28:5 [M-H]- Mass=1015.6276 Formula=C57H92O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+711.3879 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+413.3425 999 "C0H0O0N0_Alkyl Fragment_[28:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[28:5]"
+
+Name: PI 20:4_30:5 [M-H]-;
+MW: 1043.6589
+PRECURSORMZ: 1043.6589
+Comment: Name=PI 20:4_30:5 [M-H]- Mass=1043.6589 Formula=C59H96O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+739.4192 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+441.3738 999 "C0H0O0N0_Alkyl Fragment_[30:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[30:5]"
+
+Name: PI 20:4_32:5 [M-H]-;
+MW: 1071.6902
+PRECURSORMZ: 1071.6902
+Comment: Name=PI 20:4_32:5 [M-H]- Mass=1071.6902 Formula=C61H100O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+767.4505 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+469.4051 999 "C0H0O0N0_Alkyl Fragment_[32:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[32:5]"
+
+Name: PI 20:4_34:5 [M-H]-;
+MW: 1099.7215
+PRECURSORMZ: 1099.7215
+Comment: Name=PI 20:4_34:5 [M-H]- Mass=1099.7215 Formula=C63H104O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+795.4818 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+497.4364 999 "C0H0O0N0_Alkyl Fragment_[34:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[34:5]"
+
+Name: PI 20:4_36:5 [M-H]-;
+MW: 1127.7528
+PRECURSORMZ: 1127.7528
+Comment: Name=PI 20:4_36:5 [M-H]- Mass=1127.7528 Formula=C65H108O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+823.5131 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+525.4677 999 "C0H0O0N0_Alkyl Fragment_[36:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[36:5]"
+
+Name: PI 20:4_38:5 [M-H]-;
+MW: 1155.7841
+PRECURSORMZ: 1155.7841
+Comment: Name=PI 20:4_38:5 [M-H]- Mass=1155.7841 Formula=C67H112O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+851.5444 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+553.499 999 "C0H0O0N0_Alkyl Fragment_[38:5]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[38:5]"
+
+Name: PI 20:4_26:6 [M-H]-;
+MW: 985.5806
+PRECURSORMZ: 985.5806
+Comment: Name=PI 20:4_26:6 [M-H]- Mass=985.5806 Formula=C55H86O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+681.3409 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+383.2956 999 "C0H0O0N0_Alkyl Fragment_[26:6]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[26:6]"
+
+Name: PI 20:4_28:6 [M-H]-;
+MW: 1013.6119
+PRECURSORMZ: 1013.6119
+Comment: Name=PI 20:4_28:6 [M-H]- Mass=1013.6119 Formula=C57H90O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+709.3722 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+411.3269 999 "C0H0O0N0_Alkyl Fragment_[28:6]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[28:6]"
+
+Name: PI 20:4_30:6 [M-H]-;
+MW: 1041.6432
+PRECURSORMZ: 1041.6432
+Comment: Name=PI 20:4_30:6 [M-H]- Mass=1041.6432 Formula=C59H94O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+737.4035 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+439.3582 999 "C0H0O0N0_Alkyl Fragment_[30:6]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[30:6]"
+
+Name: PI 20:4_32:6 [M-H]-;
+MW: 1069.6745
+PRECURSORMZ: 1069.6745
+Comment: Name=PI 20:4_32:6 [M-H]- Mass=1069.6745 Formula=C61H98O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+765.4348 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+467.3895 999 "C0H0O0N0_Alkyl Fragment_[32:6]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[32:6]"
+
+Name: PI 20:4_34:6 [M-H]-;
+MW: 1097.7058
+PRECURSORMZ: 1097.7058
+Comment: Name=PI 20:4_34:6 [M-H]- Mass=1097.7058 Formula=C63H102O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+793.4661 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+495.4208 999 "C0H0O0N0_Alkyl Fragment_[34:6]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[34:6]"
+
+Name: PI 20:4_36:6 [M-H]-;
+MW: 1125.7371
+PRECURSORMZ: 1125.7371
+Comment: Name=PI 20:4_36:6 [M-H]- Mass=1125.7371 Formula=C65H106O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+821.4974 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+523.4521 999 "C0H0O0N0_Alkyl Fragment_[36:6]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[36:6]"
+
+Name: PI 20:4_38:6 [M-H]-;
+MW: 1153.7684
+PRECURSORMZ: 1153.7684
+Comment: Name=PI 20:4_38:6 [M-H]- Mass=1153.7684 Formula=C67H110O13P1 OptimalPolarity=true Type=LipiDex
+Num Peaks: 9
+78.9596 300 "78.9591_Fragment_[]"
+96.9701 100 "96.9696_Fragment_[]"
+223.0018 100 "223.0013_Fragment_[]"
+241.0119 500 "241.011333_Fragment_[]"
+152.9958 300 "152.995288_Fragment_[]"
+303.233 999 "C0H0O0N0_Alkyl Fragment_[20:4]"
+849.5287 50 "C0H-1O0N0_Alkyl Neutral Loss_[20:4]"
+551.4834 999 "C0H0O0N0_Alkyl Fragment_[38:6]"
+601.2783 50 "C0H-1O0N0_Alkyl Neutral Loss_[38:6]"

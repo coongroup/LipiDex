@@ -1,0 +1,439 @@
+AC [M+H]+
+C-3H-9N-1,100.0,1,Neutral Loss
+O-1,100.0,1,Fatty Acid Fragment
+C7H14O2N1,100.0,1,Fragment
+C4H5O2,999.0,1,Fragment
+C3H10N,100.0,1,Fragment
+
+---
+CE [M+NH4]+
+N-1H-4,999.0,1,Fatty Acid Neutral Loss
+71.08617,75.0,1,Fragment
+81.07041,75.0,1,Fragment
+95.08596,75.0,1,Fragment
+109.1014,75.0,1,Fragment
+121.10143,75.0,1,Fragment
+135.11678,75.0,1,Fragment
+147.11671,75.0,1,Fragment
+161.1324,75.0,1,Fragment
+175.14813,75.0,1,Fragment
+189.16356,75.0,1,Fragment
+203.17917,75.0,1,Fragment
+215.1788,75.0,1,Fragment
+229.19461,75.0,1,Fragment
+233.22592,75.0,1,Fragment
+243.21069,75.0,1,Fragment
+257.22537,75.0,1,Fragment
+259.2421,75.0,1,Fragment
+287.27304,75.0,1,Fragment
+
+---
+CL [M-2H]2-
+152.995,100.0,1,Fragment
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+C3H5O4P,100.0,1,Fatty Acid Fragment
+
+---
+CL [M-H]-
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+152.9958,500.0,1,Fragment
+C3H5O4P1,100.0,1,Fatty Acid Fragment
+C3H7O5P1,100.0,1,Fatty Acid Fragment
+C3H6O4P1,200.0,1,Cardiolipin DG Fragment
+C6H11O8P2,50.0,1,Cardiolipin DG Fragment
+
+---
+Cer [M+Ac-H]-
+-60.01969,750.0,1,Neutral Loss
+C1O1,400.0,1,Sphingoid Fragment
+C3H2O1,300.0,1,Sphingoid Fragment
+C2H3N1O-1,999.0,1,Fatty Acid Fragment
+C2H3N1,150.0,1,Fatty Acid Fragment
+O-1H-2,250.0,1,Fatty Acid Fragment
+N1H1O-1,200.0,1,Fatty Acid Fragment
+H0,200.0,1,Fatty Acid Fragment
+
+---
+Cer [M+H]+
+C3H7N1,80.0,1,Sphingoid Fragment
+C3H5N1,999.0,1,Sphingoid Fragment
+C3H7N1O1,50.0,1,Sphingoid Fragment
+C2H5N1,60.0,1,Sphingoid Fragment
+
+---
+CerNP [M+Ac-H]-
+C-2H-4O-2,500.0,1,Neutral Loss
+C3H5N1,500.0,1,Fatty Acid Fragment
+C2H5N1,500.0,1,Fatty Acid Fragment
+N1H1O-1,200.0,1,Fatty Acid Fragment
+H0,999.0,1,Fatty Acid Fragment
+C2H3O2N1,50.0,1,Sphingoid Fragment
+C2O2,500.0,1,Sphingoid Fragment
+C1O2,100.0,1,Sphingoid Fragment
+C3H6N1O2,150.0,1,Fragment
+
+---
+CerNP [M-H]-
+C3H5N1O1,500.0,1,Fatty Acid Fragment
+C2H5N1O1,500.0,1,Fatty Acid Fragment
+N1H1O,200.0,1,Fatty Acid Fragment
+H0O1,999.0,1,Fatty Acid Fragment
+C2H3O2N1,50.0,1,Sphingoid Fragment
+C2O2,500.0,1,Sphingoid Fragment
+C1O2,100.0,1,Sphingoid Fragment
+C3H6N1O2,150.0,1,Fragment
+
+---
+CerNP-OH [M+Ac-H]-
+C-2H-4O-2,500.0,1,Neutral Loss
+C3H5N1O1,500.0,1,Fatty Acid Fragment
+C2H5N1O1,500.0,1,Fatty Acid Fragment
+N1H1O,200.0,1,Fatty Acid Fragment
+H0O1,999.0,1,Fatty Acid Fragment
+C2H3O2N1,50.0,1,Sphingoid Fragment
+C2O2,500.0,1,Sphingoid Fragment
+C1O2,100.0,1,Sphingoid Fragment
+C3H6N1O2,150.0,1,Fragment
+C-1H-2O-1,200.0,1,Fatty Acid Fragment
+
+---
+CerNP-OH [M-H]-
+C3H5N1,500.0,1,Fatty Acid Fragment
+C2H5N1,500.0,1,Fatty Acid Fragment
+N1H1O-1,200.0,1,Fatty Acid Fragment
+H0,999.0,1,Fatty Acid Fragment
+C2H3O2N1,50.0,1,Sphingoid Fragment
+C2O2,500.0,1,Sphingoid Fragment
+C1O2,100.0,1,Sphingoid Fragment
+C3H6N1O2,150.0,1,Fragment
+C-1H-2O-1,200.0,1,Fatty Acid Fragment
+
+---
+CerP [M+H]+
+H-2O-1,100.0,1,Neutral Loss
+H-3P-1O-4,100.0,1,Neutral Loss
+H-5P-1O-5,100.0,1,Neutral Loss
+C3H5N1,999.0,1,Sphingoid Fragment
+C2H4O2N1,50.0,1,Sphingoid Fragment
+
+---
+CerP [M-H]-
+H2O2P1,400.0,1,Fragment
+P1O3,999.0,1,Fragment
+
+---
+DG [M+NH4]+
+O0H-4C0N-1,999.0,1,Fatty Acid Neutral Loss
+C0H0O-1N0,200.0,1,Fatty Acid Fragment
+C0H2O0N0,200.0,1,Fatty Acid Fragment
+
+---
+Ether-PE [M-H]-
+78.9591,100.0,1,Fragment
+140.0118,100.0,1,Fragment
+C-5H-6O-2,50.0,1,PUFA Fragment
+C-1O-2,150.0,1,PUFA Fragment
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+C0H-1O0N0,50.0,1,Fatty Acid Neutral Loss
+C0H1O1N0,200.0,1,Fatty Acid Neutral Loss
+
+---
+LysoPC [M+Ac-H]-
+-74.03965,100.0,1,Neutral Loss
+H0,999.0,1,Fatty Acid Fragment
+59.01224,60.0,1,Fragment
+78.95734,10.0,1,Fragment
+152.9949,10.0,1,Fragment
+224.06905,10.0,1,Fragment
+242.08015,10.0,1,Fragment
+
+---
+LysoPC [M+H]+
+184.0739,999.0,1,Fragment
+104.1075,200.0,1,Fragment
+86.097,200.0,1,Fragment
+125.0004,200.0,1,Fragment
+60.0813,200.0,1,Fragment
+
+---
+LysoPE [M-H]-
+C-1O-2,200.0,1,Acid Fragment
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+C0H1O1N0,100.0,1,Fatty Acid Neutral Loss
+78.9591,50.0,1,Fragment
+140.0118,50.0,1,Fragment
+196.03685,50.0,1,Fragment
+
+---
+LysoPI [M-H]-
+78.9591,200.0,1,Fragment
+152.9949,999.0,1,Fragment
+171.00591,50.0,1,Fragment
+223.0013,100.0,1,Fragment
+C0H0O0N0,700.0,1,Fatty Acid Fragment
+333.0592,150.0,1,Fragment
+
+---
+LysoPI [M-H]-
+C-4H-3O-4,999.0,1,Neutral Loss
+H0,100.0,1,Fatty Acid Neutral Loss
+C3H6O1,100.0,1,Fatty Acid Fragment
+O-1,100.0,1,Fatty Acid Fragment
+C3H8O5P1,100.0,1,Fragment
+
+---
+LysoSM [M+Ac-H]-
+P1O3,300.0,1,Fragment
+C2H3O2,200.0,1,Fragment
+C-3H-6O-2,999.0,1,Neutral Loss
+C4H11O4N1P1,200.0,1,Fragment
+
+---
+LysoSM [M+H]+
+C-9H-13O-5,100.0,1,Neutral Loss
+C5H12N1,100.0,1,Fragment
+C2H6O4P,100.0,1,Fragment
+C5H15O4N1P1,999.0,1,Fragment
+C3H10N1,100.0,1,Fragment
+
+---
+PA [M+NH4]+
+H-6O-4N-1P-1,999.0,1,Neutral Loss
+N-1H-4,100.0,1,Fatty Acid Neutral Loss
+C3H6O1,100.0,1,Fatty Acid Fragment
+O-1,100.0,1,Fatty Acid Fragment
+C3H8O5P1,100.0,1,Fragment
+
+---
+PA [M-H]-
+H0,999.0,1,Fatty Acid Fragment
+C3H6O5P1,300.0,1,Fragment
+PO3,200.0,1,Fragment
+H-1,101.0,1,Fatty Acid Neutral Loss
+O1H1,100.0,1,Fatty Acid Neutral Loss
+
+---
+PAF [M+Ac-H]-
+C2H3O2,999.0,1,Fragment
+P1O3,100.0,1,Fragment
+C4H11O4N1P1,100.0,1,Fragment
+C-3H-6O-2,300.0,1,Neutral Loss
+C-5H-8O-3,100.0,1,Neutral Loss
+
+---
+PAF [M+H]+
+C5H15O4N1P1,999.0,1,Fragment
+C5H12N1,150.0,1,Fragment
+C2H6O4P1,100.0,1,Fragment
+
+---
+PC [M+Ac-H]-
+C0H0O0N0P0,999.0,1,Fatty Acid Fragment
+168.0423,100.0,1,Fragment
+224.0693,50.0,1,Fragment
+-74.03965731,100.0,1,Neutral Loss
+
+---
+PC [M+H]+
+184.073872,999.0,1,Fragment
+86.096974,200.2880934,1,Fragment
+
+---
+PE [M+H]+
+268.2645874,999.0,1,Fragment
+91.80969238,250.0,1,Fragment
+91.81699371,150.0,1,Fragment
+C22H43O2N0,10.0,1,Fatty Acid Neutral Loss
+C15H31O0N1,10.0,1,Fatty Acid Neutral Loss
+
+---
+PE [M+H]+
+C3H6O1,200.0,1,Fatty Acid Fragment
+-141.01886,999.0,1,Neutral Loss
+
+---
+PE [M-H]-
+C-1O-2,200.0,1,PUFA Fragment
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+C0H1O1N0,100.0,1,Fatty Acid Neutral Loss
+78.9591,50.0,1,Fragment
+140.0118,50.0,1,Fragment
+196.03685,50.0,1,Fragment
+
+---
+PE-NMe [M+H]+
+PO3,200.0,1,Fragment
+C3H11N1O4P1,200.0,1,Fragment
+O-1,150.0,1,Fatty Acid Fragment
+H-2O-2,50.0,1,Fatty Acid Fragment
+C-3H-10O-4N-1P-1,999.0,1,Neutral Loss
+
+---
+PE-NMe [M-H]-
+H0,999.0,1,Fatty Acid Fragment
+P1O3,50.0,1,Fragment
+C3H9N1O4P1,50.0,1,Fragment
+
+---
+PE-NMe2 [M+H]+
+C4H10N1,200.0,1,Fragment
+O-1,100.0,1,Fatty Acid Fragment
+H-2O-2,50.0,1,Fatty Acid Fragment
+C-4H-12O-4N-1P-1,999.0,1,Neutral Loss
+C4H13N1O4P1,500.0,1,Fragment
+
+---
+PE-NMe2 [M-H]-
+C4H11N1O4P1,50.0,1,Fragment
+P1O3,50.0,1,Fragment
+H0,999.0,1,Fatty Acid Fragment
+
+---
+PG [M-H]-
+152.995288,999.0,1,Fragment
+C0H0O0N0P0,999.0,1,Fatty Acid Fragment
+C10H19O2N0,7.0,1,Fatty Acid Neutral Loss
+C8H15O2N0,6.0,1,Fatty Acid Neutral Loss
+
+---
+PI [M+NH4]+
+-277.05597,999.0,1,Neutral Loss
+
+---
+PI [M-H]-
+78.9591,300.0,1,Fragment
+96.9696,100.0,1,Fragment
+223.0013,100.0,1,Fragment
+241.011333,500.0,1,Fragment
+152.995288,300.0,1,Fragment
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+C0H-1O0N0,50.0,1,Fatty Acid Neutral Loss
+
+---
+PIP [M-H]-
+H0,400.0,1,Fatty Acid Fragment
+C6H10O8P1,400.0,1,Fragment
+C6H6O7P1,300.0,1,Fragment
+C6H6O6P1,50.0,1,Fragment
+C3H6O5P1,200.0,1,Fragment
+H2O4P1,700.0,1,Fragment
+P1O3,999.0,1,Fragment
+
+---
+PS [M-H]-
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+78.9591,200.0,1,Fragment
+152.9958,400.0,1,Fragment
+C3H5O4P1,75.0,1,Fatty Acid Fragment
+-87.0321,100.0,1,Neutral Loss
+
+---
+Plasmenyl-PC [M+Ac-H]-
+78.9591,50.0,1,Fragment
+168.0431,50.0,1,Fragment
+224.0693,50.0,1,Fragment
+H0,999.0,1,Fatty Acid Fragment
+-74.0397,200.0,1,Neutral Loss
+H-7O-3C-3,100.0,1,Fatty Acid Neutral Loss
+H-5O-1C-3,100.0,1,Fatty Acid Neutral Loss
+
+---
+Plasmenyl-PC [M+H]+
+184.07332,999.0,1,Fragment
+
+---
+Plasmenyl-PE [M+H]+
+-141.01855,50.0,1,Neutral Loss
+C3H6O1,999.0,1,Fatty Acid Fragment
+C-3H-5O-1,500.0,1,Fatty Acid Neutral Loss
+P-1C-3O-5H-8,300.0,1,Fatty Acid Neutral Loss
+
+---
+Plasmenyl-PE [M-H]-
+78.9591,250.0,1,Fragment
+140.0118,250.0,1,Fragment
+196.03685,200.0,1,Fragment
+C-5H-6O-2,250.0,1,PUFA Fragment
+C-1O-2,750.0,1,PUFA Fragment
+C0H0O0N0,999.0,1,Fatty Acid Fragment
+C0H1O1N0,50.0,1,Fatty Acid Neutral Loss
+
+---
+S1P [M+H]+
+C5H8N,200.0,1,Fragment
+H-5O-5P-1,999.0,1,Neutral Loss
+
+---
+S1P [M-H]-
+P1O3,999.0,1,Fragment
+
+---
+SHexCer [M+H]+
+C3H7N1,50.0,1,Sphingoid Fragment
+C3H5N1,999.0,1,Sphingoid Fragment
+C3H7N1O1,100.0,1,Sphingoid Fragment
+C2H5N1,100.0,1,Sphingoid Fragment
+
+---
+SHexCer [M-H]-
+S1O4H1,999.0,1,Fragment
+
+---
+SM [M+Ac-H]-
+78.9591,999.0,1,Fragment
+96.9696,10.0,1,Fragment
+122.9842,10.0,1,Fragment
+168.0431,900.0,1,Fragment
+-74.03965731,250.0,1,Neutral Loss
+
+---
+SM [M+H]+
+86.0964,100.0,1,Fragment
+104.107,10.0,1,Fragment
+124.9982,100.0,1,Fragment
+184.07387,999.0,1,Fragment
+
+---
+SM [M]+
+86.0964,40.0,1,Fragment
+184.07387,999.0,1,Fragment
+
+---
+SP [M+H-H2O]+
+O-1H-2,999.0,1,Neutral Loss
+O-1H-2C-1,999.0,1,Neutral Loss
+
+---
+SP [M+H]+
+O-1H-2,999.0,1,Neutral Loss
+O-2H-4C-1,200.0,1,Neutral Loss
+O-2H-4,200.0,1,Neutral Loss
+
+---
+TG [M+NH4]+
+N-1H-4,999.0,1,Fatty Acid Neutral Loss
+O-1,100.0,1,Fatty Acid Fragment
+
+---
+HexCer [M+H]+
+H-2O-1,100.0,1,Neutral Loss
+C-6H-12O-6,100.0,1,Neutral Loss
+C-6H-14O-7,100.0,1,Neutral Loss
+C2H5N1,100.0,1,Sphingoid Fragment
+C3H5N1,999.0,1,Sphingoid Fragment
+C3H7N1O1,100.0,1,Sphingoid Fragment
+
+---
+HexCer [M-H]-
+C-6H-10O-5,200.0,1,Neutral Loss
+C2H3O-1N1,100.0,1,Fatty Acid Fragment
+C6H11O6,100.0,1,Fragment
+C6H9O5,100.0,1,Fragment
+C6H7O4,100.0,1,Fragment
+C5H5O3,300.0,1,Fragment
+C4H7O4,300.0,1,Fragment
+C4H5O3,600.0,1,Fragment
+C3H5O3,999.0,1,Fragment
+C3H3O2,500.0,1,Fragment
+
+

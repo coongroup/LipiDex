@@ -1,0 +1,11 @@
+Name,Formula,Loss,Polarity,Charge
+[M+H]+,H1,FALSE,+,1,
+[M+Ac-H]-,C2H3O2,FALSE,-,1,
+[M-H]-,H-1,TRUE,-,1,
+[M+NH4]+,N1H4,FALSE,+,1,
+[M]+,H0,FALSE,+,1,
+[M+Na]+,Na1,FALSE,+,1,
+[M+K]+,K1,FALSE,+,1,
+[M+C2H6N2]+,C2H6N2,FALSE,+,1,
+[M+Cl]-,Cl,FALSE,-,1,
+[M+H-H2O]+,H-1O-1,TRUE,+,1,

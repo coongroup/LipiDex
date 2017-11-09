@@ -1,0 +1,38 @@
+Name,Abbreviation,HeadGroup,Adducts,Sterol,Glycerol,Sphingoid,numFattyAcids,OptimalPolarity,FA1,FA2,FA3,FA4
+Acylcarnitines,AC,C4H10NO2,[M+H]+;[M]+,FALSE,TRUE,FALSE,1,+,Alkyl,none,none,none
+Bis-monoacylglycero-phosphate,BMP,C3H8O6P1,[M+NH4]+,FALSE,TRUE,FALSE,2,NA,Alkyl,Alkyl,none,none
+CeramideADS,Cer[ADS],O2N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+CeramideAP,Cer[AP],O2N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Phytosphingoid,Alkyl,none,none
+CeramideAS,Cer[AS],O2N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+CeramideBDS,Cer[BDS],O2N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+CeramideBS,Cer[BS],O2N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+CeramideNDS,Cer[NDS],O1N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+CeramideNP,Cer[NP],O1N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Phytosphingoid,Alkyl,none,none
+CeramideNS,Cer[NS],O1N1H5,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+Diacylglycerol,DG,O1H1,[M+NH4]+,FALSE,TRUE,FALSE,2,+,Alkyl,Alkyl,none,none
+HexosylCeramideADS,GlcCer[ADS],C6O7N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+HexosylCeramideAP,GlcCer[AP],C6O7N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Phytosphingoid,Alkyl,none,none
+HexosylCeramideAS,GlcCer[AS],C6O7N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+HexosylCeramideBDS,GlcCer[BDS],C6O7N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+HexosylCeramideBS,GlcCer[BS],C6O7N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+HexosylCeramideNDS,GlcCer[NDS],C6O6N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+HexosylCeramideNP,GlcCer[NP],C6O6N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Phytosphingoid,Alkyl,none,none
+HexosylCeramideNS,GlcCer[NS],C6O6N1H15,[M-H]-;[M+Ac-H]-,FALSE,FALSE,TRUE,2,-,Sphingoid,Alkyl,none,none
+Lyso phosphatidic acid,LysoPA,H3O5P1,[M+NH4]+;[M-H]-,FALSE,TRUE,FALSE,1,+/-,Alkyl,none,none,none
+Lysophosphatidyl serine,LysoPS,C3H8N1O7P1,[M-H]-,FALSE,TRUE,FALSE,1,-,Alkyl,none,none,none
+Lysophosphatidylcholine,LysoPC,C5H14N1O5P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,1,+/-,Alkyl,none,none,none
+Lysophosphatidylethanolamine,LysoPE,C2H8N1O5P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,1,-,Alkyl,none,none,none
+Lysophosphatidylglycerol,LysoPG,C3H9O7P1,[M-H]-,FALSE,TRUE,FALSE,1,-,Alkyl,none,none,none
+Lysophosphatidylinositol,LysoPI,C6H13O10P1,[M-H]-,FALSE,TRUE,FALSE,1,+/-,Alkyl,none,none,none
+Lysosphingomyelin,LysoSM,C5H18N2O5P1,[M+H]+;[M+Ac-H]-,FALSE,FALSE,TRUE,1,+/-,Sphingoid,none,none,none
+Monoacylglycerol,MG,O2H2,[M+NH4]+,FALSE,TRUE,FALSE,1,+,Alkyl,none,none,none
+Phosphatidic acid,PA,H2O4P1,[M+NH4]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Phosphatidylcholine,PC,C5H13N1O4P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Phosphatidylethanolamine,PE,C2H7N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Phosphatidylglycerol,PG,C3H8O6P1,[M+NH4]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Phosphatidylinositol,PI,C6H12O9P1,[M-H]-;[M+NH4]+,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Phosphatidylserine,PS,C3H7N1O6P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Alkyl,none,none
+Plasmenylphosphatidylcholine,Plasmenyl-PC,C5H13N1O4P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,2,-,Plasmenyl,Alkyl,none,none
+Plasmenylphosphatidylethanolamine,Plasmenyl-PE,C2H7N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Plasmenyl,Alkyl,none,none
+Sphingomyelin,SM,C5H17N2O4P1,[M+H]+;[M+Ac-H]-,FALSE,FALSE,TRUE,2,NA,Sphingoid,Alkyl,none,none
+Triacylglycerol,TG,H0,[M+NH4]+;[M+Na]+,FALSE,TRUE,FALSE,3,+,Alkyl,Alkyl,Alkyl,none
