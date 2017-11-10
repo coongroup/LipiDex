@@ -40,8 +40,8 @@ public class PeakPurity extends peak_finder.Utilities
 		//Calculate purity for first match
 		purity = getPurityIntensity(ls, faDB, true);
 
-		if (purity == 0.0) return 0;
-		else
+		//if (purity == 0.0) return 0;
+		if (purity >0.0 ) 
 		{
 			intensities.add(purity);
 			lipids.add(ls);
@@ -78,6 +78,8 @@ public class PeakPurity extends peak_finder.Utilities
 			sumInt += intensities.get(i);
 		}
 
+		if (intensities.size()<1) return 0;
+		
 		purityInt = (int)Math.round((intensities.get(0)/sumInt)*100);
 
 		//Calculate purity percentage for all species
@@ -260,7 +262,7 @@ public class PeakPurity extends peak_finder.Utilities
 		if (matchedIntensities == null) return 0.0;
 		
 		//For 2 or less fatty acids, return median
-		if (matchedIntensities.size()<3)
+		if (matchedIntensities.size()<3 || topMatch)
 			return getMedianChainIntensity(matchedIntensities);
 
 		else
