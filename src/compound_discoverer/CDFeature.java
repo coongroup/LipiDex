@@ -49,7 +49,7 @@ public class CDFeature extends Utilities
 		isobaricNeighbors = new ArrayList<CDFeature>();
 
 		//Parse polarity
-		if (adduct.contains("]+")) 
+		if (charge > 0) 
 			polarity = "+";
 		else
 			polarity = "-";
@@ -105,6 +105,7 @@ public class CDFeature extends Utilities
 		if (!(calcPPMDiff(lipid.precursor,this.mass)<MAXPPMDIFF)) result = false;
 
 		//Check File
+
 		if (!this.sample.file.equals(lipid.sample.file)) result = false;
 
 		//Check that peak is the most intense isobaric peak at that retention using a gaussian peak model

@@ -112,7 +112,7 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 		} catch(Exception e) {
 			System.out.println("Error setting native LAF: " + e);
 		}
-		setFrameIcon(new ImageIcon(SpectrumSearcherGUI.class.getResource("/Icons/ss_16_icon.png")));
+		setFrameIcon(new ImageIcon(SpectrumSearcherGUI.class.getResource("/icons/ss_16_icon.png")));
 		setTitle("Spectrum Searcher");
 		setBounds(100, 100, 590, 437);
 		setMinimumSize(new Dimension(585, 325));
@@ -124,9 +124,13 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 		progressBar.setStringPainted(true);
 
 		maxSearchResultsSpinner = new JSpinner();
+		maxSearchResultsSpinner.setToolTipText("<html><p width=\"500\">"+"This field denotes the maximum possible number of"
+				+ " search results returned for each spectrum"+"</p></html>");
 		maxSearchResultsSpinner.setModel(new SpinnerNumberModel(1, 1, 30, 1));
 
 		ms2TolBox = new JTextField();
+		ms2TolBox.setToolTipText("<html><p width=\"500\">"+"This field denotes the absolute mass tolerance used for spectral similarity "
+				+ "scoring.  An entry of 0.01 denotes a mass tolerance of +/- 0.01 Th"+"</p></html>");
 		ms2TolBox.setText("0.01");
 		ms2TolBox.setHorizontalAlignment(SwingConstants.TRAILING);
 
@@ -135,21 +139,33 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 		filesScrollPane.setViewportView(filesList);
 
 		ms1TolBox = new JTextField();
+		ms1TolBox.setToolTipText("<html><p width=\"500\">"+"This field denotes the absolute mass tolerance used to search for valid lipids "
+				+ "for the precursor of each MS/MS spectrum.  An entry of 0.01 denotes a +/- 0.01 Th window."+"</p></html>");
 		ms1TolBox.setHorizontalAlignment(SwingConstants.TRAILING);
 		ms1TolBox.setText("0.01");
 		JLabel lblMsSearchTolerance = new JLabel("MS1 Search Tolerance (Th)");
+		lblMsSearchTolerance.setToolTipText("<html><p width=\"500\">"+"This field denotes the absolute mass tolerance used to "
+				+ "search for valid lipids for the precursor of each MS/MS spectrum.  An entry of 0.01 denotes a +/- 0.01 Th window."+"</p></html>");
 
 		JLabel lblMsSearchTolerance_1 = new JLabel("MS2 Search Tolerance (Th)");
+		lblMsSearchTolerance_1.setToolTipText("<html><p width=\"500\">"+"This field denotes the absolute mass tolerance used "
+				+ "for spectral similarity scoring.  An entry of 0.01 denotes a mass tolerance of +/- 0.01 Th"+"</p></html>");
 
 		JLabel lblSearchResultsReturned = new JLabel("Max Search Results Returned");
+		lblSearchResultsReturned.setToolTipText("<html><p width=\"500\">"+"This field denotes the maximum possible number of "
+				+ "search results returned for each spectrum"+"</p></html>");
 
 		availableLibsScroll = new JScrollPane();
 
 		lowMassBox = new JTextField();
+		lowMassBox.setToolTipText("<html><p width=\"500\">"+"This field denotes the minimum m/z value in each ms/ms spectrum"
+				+ " which will be used for spectral similarity scoring. "+"</p></html>");
 		lowMassBox.setText("61.00");
 		lowMassBox.setHorizontalAlignment(SwingConstants.TRAILING);
 
 		JLabel lowMassCutoff = new JLabel("MS2 Low Mass Cutoff (Th)");
+		lowMassCutoff.setToolTipText("<html><p width=\"500\">"+"This field denotes the minimum m/z value in each ms/ms "
+				+ "spectrum which will be used for spectral similarity scoring. "+"</p></html>");
 
 		availableLibsTable = new JTable();
 		availableLibsTable.setModel(new DefaultTableModel(
@@ -178,6 +194,7 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 			{
 				ArrayList<String> mgfFiles = new ArrayList<String>();
 				ArrayList<String> mzXMLFiles = new ArrayList<String>();
+				boolean isLipidBlast = false;
 
 				try
 				{
@@ -213,6 +230,29 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 
 					//Search spectra using swing worker
 					startSearching(mzXMLFiles, mgfFiles,  progressBar, ms1TolBox, ms2TolBox, maxSearchResultsSpinner);
+					
+					//If lipidBlast used, pop up citation window
+					for (int i=0; i<selectedLipidLibraries.size(); i++)
+					{
+						if (selectedLipidLibraries.get(i).getName().contains("LipidBlast"))
+						{
+							isLipidBlast = true;
+						}
+					}
+					
+					if (isLipidBlast)
+					{
+						CustomMessage cm = new CustomMessage ("The use of LipidBlast falls under the Creative-Commons By-Attribution (CC-BY) license."
+								+ "  If used, you must correctly cite the following publications."
+								+ "\n\nKind T, Liu KH, Lee do Y, DeFelice B, "
+								+ "Meissen JK, Fiehn O. LipidBlast in silico tandem mass spectrometry database "
+								+ "for lipid identification. Nature Methods. 2013 Aug;10(8):755-8. "
+								+ "doi: 10.1038/nmeth.2551. Epub 2013 Jun 30.\n\n"
+								+ "Tsugawa H, Ikeda K, Tanaka W, Senoo Y, Arita M, Arita. "
+								+ "Comprehensive identification of sphinglipid species by in silico "
+								+ "retention time and tandem mass spectral library. J. Cheminform. 2017 Mar;9(19). "
+								+ "doi: 10.1186/s13321-017-0205-3.");
+					}
 				}
 				catch(CustomException er)
 				{
@@ -316,130 +356,130 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 		JSeparator separator_1 = new JSeparator();
 		GroupLayout groupLayout = new GroupLayout(getContentPane());
 		groupLayout.setHorizontalGroup(
-				groupLayout.createParallelGroup(Alignment.LEADING)
+			groupLayout.createParallelGroup(Alignment.LEADING)
 				.addGroup(groupLayout.createSequentialGroup()
-						.addGap(10)
-						.addComponent(filesScrollPane, GroupLayout.DEFAULT_SIZE, 553, Short.MAX_VALUE)
-						.addGap(11))
+					.addGap(10)
+					.addComponent(filesScrollPane, GroupLayout.DEFAULT_SIZE, 553, Short.MAX_VALUE)
+					.addGap(11))
+				.addGroup(groupLayout.createSequentialGroup()
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
 						.addGroup(groupLayout.createSequentialGroup()
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addContainerGap()
+									.addComponent(selectAllButton, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
+									.addPreferredGap(ComponentPlacement.RELATED)
+									.addComponent(deselectAllButton, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGap(10)
+									.addComponent(availableLibsScroll, GroupLayout.DEFAULT_SIZE, 260, Short.MAX_VALUE))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addContainerGap()
+									.addComponent(separator_1, GroupLayout.DEFAULT_SIZE, 260, Short.MAX_VALUE)))
+							.addGap(23))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addContainerGap()
+							.addComponent(lblNewLabel)
+							.addPreferredGap(ComponentPlacement.RELATED)))
+					.addGap(1)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+						.addGroup(groupLayout.createSequentialGroup()
+							.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
+								.addComponent(searchSpectraButton, GroupLayout.PREFERRED_SIZE, 259, GroupLayout.PREFERRED_SIZE)
+								.addComponent(progressBar, GroupLayout.PREFERRED_SIZE, 259, GroupLayout.PREFERRED_SIZE)
 								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-										.addGroup(groupLayout.createSequentialGroup()
-												.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-														.addGroup(groupLayout.createSequentialGroup()
-																.addContainerGap()
-																.addComponent(selectAllButton, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
-																.addPreferredGap(ComponentPlacement.RELATED)
-																.addComponent(deselectAllButton, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE))
-																.addGroup(groupLayout.createSequentialGroup()
-																		.addGap(10)
-																		.addComponent(availableLibsScroll, GroupLayout.DEFAULT_SIZE, 260, Short.MAX_VALUE))
-																		.addGroup(groupLayout.createSequentialGroup()
-																				.addContainerGap()
-																				.addComponent(separator_1, GroupLayout.DEFAULT_SIZE, 260, Short.MAX_VALUE)))
-																				.addGap(23))
-																				.addGroup(groupLayout.createSequentialGroup()
-																						.addContainerGap()
-																						.addComponent(lblNewLabel)
-																						.addPreferredGap(ComponentPlacement.RELATED)))
-																						.addGap(1)
-																						.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-																								.addGroup(groupLayout.createSequentialGroup()
-																										.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
-																												.addGroup(groupLayout.createSequentialGroup()
-																														.addComponent(lblMsSearchTolerance, GroupLayout.PREFERRED_SIZE, 143, GroupLayout.PREFERRED_SIZE)
-																														.addGap(43)
-																														.addComponent(ms1TolBox, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE))
-																														.addComponent(searchSpectraButton, GroupLayout.PREFERRED_SIZE, 259, GroupLayout.PREFERRED_SIZE)
-																														.addComponent(progressBar, GroupLayout.PREFERRED_SIZE, 259, GroupLayout.PREFERRED_SIZE)
-																														.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-																																.addComponent(separator, GroupLayout.PREFERRED_SIZE, 259, GroupLayout.PREFERRED_SIZE)
-																																.addComponent(lblNewLabel_2))
-																																.addGroup(groupLayout.createSequentialGroup()
-																																		.addComponent(lblMsSearchTolerance_1, GroupLayout.PREFERRED_SIZE, 134, GroupLayout.PREFERRED_SIZE)
-																																		.addGap(52)
-																																		.addComponent(ms2TolBox, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE))
-																																		.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-																																				.addGroup(groupLayout.createSequentialGroup()
-																																						.addComponent(lowMassCutoff, GroupLayout.PREFERRED_SIZE, 134, GroupLayout.PREFERRED_SIZE)
-																																						.addGap(52)
-																																						.addComponent(lowMassBox, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE))
-																																						.addGroup(groupLayout.createSequentialGroup()
-																																								.addComponent(lblSearchResultsReturned, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
-																																								.addGap(30)
-																																								.addComponent(maxSearchResultsSpinner, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE))))
-																																								.addGap(21))
-																																								.addGroup(groupLayout.createSequentialGroup()
-																																										.addComponent(btnAdd, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
-																																										.addGap(6)
-																																										.addComponent(btnClear, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE)
-																																										.addGap(10))))
-																																										.addGroup(groupLayout.createSequentialGroup()
-																																												.addContainerGap()
-																																												.addComponent(inputFilesLabel, GroupLayout.PREFERRED_SIZE, 158, GroupLayout.PREFERRED_SIZE)
-																																												.addContainerGap(406, Short.MAX_VALUE))
-				);
-		groupLayout.setVerticalGroup(
-				groupLayout.createParallelGroup(Alignment.LEADING)
+									.addComponent(separator, GroupLayout.PREFERRED_SIZE, 259, GroupLayout.PREFERRED_SIZE)
+									.addComponent(lblNewLabel_2))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addComponent(lblMsSearchTolerance_1, GroupLayout.PREFERRED_SIZE, 134, GroupLayout.PREFERRED_SIZE)
+									.addGap(52)
+									.addComponent(ms2TolBox, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE))
+								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+									.addGroup(groupLayout.createSequentialGroup()
+										.addComponent(lowMassCutoff, GroupLayout.PREFERRED_SIZE, 134, GroupLayout.PREFERRED_SIZE)
+										.addGap(52)
+										.addComponent(lowMassBox, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE))
+									.addGroup(groupLayout.createSequentialGroup()
+										.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+											.addComponent(lblSearchResultsReturned, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
+											.addComponent(lblMsSearchTolerance, GroupLayout.PREFERRED_SIZE, 182, GroupLayout.PREFERRED_SIZE))
+										.addPreferredGap(ComponentPlacement.RELATED)
+										.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+											.addComponent(maxSearchResultsSpinner, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE)
+											.addComponent(ms1TolBox, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE)))))
+							.addGap(21))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addComponent(btnAdd, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
+							.addGap(6)
+							.addComponent(btnClear, GroupLayout.PREFERRED_SIZE, 72, GroupLayout.PREFERRED_SIZE)
+							.addGap(10))))
 				.addGroup(groupLayout.createSequentialGroup()
-						.addContainerGap()
-						.addComponent(inputFilesLabel)
-						.addGap(2)
-						.addComponent(filesScrollPane, GroupLayout.DEFAULT_SIZE, 131, Short.MAX_VALUE)
-						.addGap(6)
-						.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-								.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-										.addComponent(lblNewLabel)
-										.addComponent(lblNewLabel_2))
-										.addGroup(groupLayout.createSequentialGroup()
-												.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-														.addComponent(btnAdd)
-														.addComponent(btnClear))
-														.addGap(19)))
-														.addGap(2)
-														.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-																.addComponent(separator_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-																.addComponent(separator, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-																.addPreferredGap(ComponentPlacement.RELATED)
-																.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-																		.addGroup(groupLayout.createSequentialGroup()
-																				.addGap(10)
-																				.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-																						.addGroup(groupLayout.createSequentialGroup()
-																								.addGap(3)
-																								.addComponent(lblMsSearchTolerance, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE))
-																								.addComponent(ms1TolBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-																								.addPreferredGap(ComponentPlacement.RELATED)
-																								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-																										.addGroup(groupLayout.createSequentialGroup()
-																												.addGap(3)
-																												.addComponent(lblMsSearchTolerance_1))
-																												.addComponent(ms2TolBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-																												.addPreferredGap(ComponentPlacement.RELATED)
-																												.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-																														.addComponent(maxSearchResultsSpinner, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-																														.addGroup(groupLayout.createSequentialGroup()
-																																.addGap(3)
-																																.addComponent(lblSearchResultsReturned, GroupLayout.PREFERRED_SIZE, 19, GroupLayout.PREFERRED_SIZE)))
-																																.addPreferredGap(ComponentPlacement.RELATED)
-																																.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-																																		.addGroup(groupLayout.createSequentialGroup()
-																																				.addGap(12)
-																																				.addComponent(lowMassCutoff))
-																																				.addGroup(groupLayout.createSequentialGroup()
-																																						.addGap(9)
-																																						.addComponent(lowMassBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
-																																						.addGap(14)
-																																						.addComponent(searchSpectraButton)
-																																						.addGap(6))
-																																						.addComponent(availableLibsScroll, GroupLayout.DEFAULT_SIZE, 151, Short.MAX_VALUE))
-																																						.addPreferredGap(ComponentPlacement.RELATED)
-																																						.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-																																								.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-																																										.addComponent(selectAllButton)
-																																										.addComponent(deselectAllButton))
-																																										.addComponent(progressBar, GroupLayout.PREFERRED_SIZE, 27, GroupLayout.PREFERRED_SIZE))
-																																										.addGap(8))
-				);
+					.addContainerGap()
+					.addComponent(inputFilesLabel, GroupLayout.PREFERRED_SIZE, 158, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap(406, Short.MAX_VALUE))
+		);
+		groupLayout.setVerticalGroup(
+			groupLayout.createParallelGroup(Alignment.LEADING)
+				.addGroup(groupLayout.createSequentialGroup()
+					.addContainerGap()
+					.addComponent(inputFilesLabel)
+					.addGap(2)
+					.addComponent(filesScrollPane, GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE)
+					.addGap(6)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+						.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblNewLabel)
+							.addComponent(lblNewLabel_2))
+						.addGroup(groupLayout.createSequentialGroup()
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(btnAdd)
+								.addComponent(btnClear))
+							.addGap(19)))
+					.addGap(2)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+						.addComponent(separator_1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+						.addComponent(separator, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+						.addGroup(groupLayout.createSequentialGroup()
+							.addGap(10)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addComponent(ms1TolBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGap(3)
+									.addComponent(lblMsSearchTolerance, GroupLayout.PREFERRED_SIZE, 14, GroupLayout.PREFERRED_SIZE)))
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGap(3)
+									.addComponent(lblMsSearchTolerance_1))
+								.addComponent(ms2TolBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+								.addComponent(maxSearchResultsSpinner, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGap(3)
+									.addComponent(lblSearchResultsReturned, GroupLayout.PREFERRED_SIZE, 19, GroupLayout.PREFERRED_SIZE)))
+							.addPreferredGap(ComponentPlacement.RELATED)
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGap(12)
+									.addComponent(lowMassCutoff))
+								.addGroup(groupLayout.createSequentialGroup()
+									.addGap(9)
+									.addComponent(lowMassBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)))
+							.addGap(14)
+							.addComponent(searchSpectraButton)
+							.addGap(6))
+						.addComponent(availableLibsScroll, GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE))
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
+						.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+							.addComponent(selectAllButton)
+							.addComponent(deselectAllButton))
+						.addComponent(progressBar, GroupLayout.PREFERRED_SIZE, 27, GroupLayout.PREFERRED_SIZE))
+					.addGap(8))
+		);
 		getContentPane().setLayout(groupLayout);
 
 	}
@@ -464,6 +504,7 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 
 	}
 
+	
 	//Run Spectrum search
 	private void startSearching(ArrayList<String> mzXMLFiles, ArrayList<String> mgfFiles, 
 			JProgressBar progressBar, JTextField ms1TolBox, JTextField ms2TolBox, JSpinner maxSearchResultsSpinner)
@@ -484,7 +525,7 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 							(int)maxSearchResultsSpinner.getModel().getValue(),Double.valueOf(lowMassBox.getText()));
 
 					//Run searcher
-					ss.runSpectraSearch(selectedLipidLibraries);
+					ss.runSpectraSearch(selectedLipidLibraries,  Double.valueOf(ms2TolBox.getText()));
 				}
 				catch (CustomException e)
 				{
@@ -576,5 +617,4 @@ public class SpectrumSearcherGUI extends JInternalFrame {
 			i++;
 		}
 	}
-
 }

@@ -120,13 +120,14 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 							&& compounds.get(i).features.get(j).lipidCandidates.get(k).preferredPolarity)
 					{
 						//Add to weight and purity sum
-						weightSum += compounds.get(i).features.get(j).lipidCandidates.get(k).gaussianScore;
+						
 						puritySum += compounds.get(i).features.get(j).lipidCandidates.get(k).gaussianScore*compounds.get(i).features.get(j).lipidCandidates.get(k).purity;
 
 						//Add purity to arry if unique lipid identification
 						for (int l=0; l<compounds.get(i).features.get(j).lipidCandidates.get(k).purityArray.size(); l++)
 						{
-							addPurityIfUnique(compounds.get(i).features.get(j).lipidCandidates.get(k).purityArray.get(l));
+							weightSum += compounds.get(i).features.get(j).lipidCandidates.get(k).gaussianScore;
+							addPurityIfUnique(compounds.get(i).features.get(j).lipidCandidates.get(k).purityArray.get(l), compounds.get(i).features.get(j).lipidCandidates.get(k).gaussianScore);
 						}
 					}
 				}
@@ -136,18 +137,21 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 		//Scale purities based on weifhting factor
 		for (int i=0; i<summedPurities.size(); i++)
 		{
-			summedPurities.get(i).purity = (int)Math.round(summedPurities.get(i).purity/weightSum);
+			summedPurities.get(i).purity = (int)Math.round(summedPurities.get(i).purity);
 		}
+
+
 
 		//Sory by purity
 		Collections.sort(summedPurities);
 
 		//If purity array contains a value
 		if (summedPurities.size()>0) 
-			this.purity = (double)summedPurities.get(0).purity;
+			this.purity = (double)summedPurities.get(0).purity/weightSum;
 		else 
 			this.purity = 0.0;
-
+		
+		
 		//Check for plasmenyl ether conflict
 		checkPlasmenylEther();
 
@@ -155,7 +159,7 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 	}
 
 	//Add purity to summed purities array if unique.  If not, add purity value
-	private void addPurityIfUnique(PurityResult p)
+	private void addPurityIfUnique(PurityResult p, Double weight)
 	{
 		//For all summed purities
 		for (int i=0; i<summedPurities.size(); i++)
@@ -163,13 +167,13 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 			//If not unique, end method
 			if (summedPurities.get(i).name.equals(p.name))
 			{
-				summedPurities.get(i).purity += p.purity;
+				summedPurities.get(i).purity += (int)Math.round(((p.purity*1.0)*weight));
 				return;
 			}
 		}
 
 		//If unique, add to summed purities array
-		summedPurities.add(new PurityResult(p.name, p.purity));
+		summedPurities.add(new PurityResult(p.name, (int)Math.round(((p.purity*1.0)*weight))));
 	}
 
 	//Add a peak area result fo compound group
@@ -228,11 +232,13 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 				{
 					if (!matchFound)
 					{
-						if (results.get(i).area > results.get(j).area && results.get(i).file.polarity.equals("+")) posGreater = true;
-						else if (results.get(i).area < results.get(j).area && results.get(j).file.polarity.equals("+")) posGreater = true;
+						if (results.get(i).area > results.get(j).area && results.get(i).file.polarity.equals("+"))
+							posGreater = true;
+						else if (results.get(i).area < results.get(j).area && results.get(j).file.polarity.equals("+"))
+							posGreater = true;
 						matchFound = true;
 					}
-					
+
 					//Retain area result with best polarity
 					if (results.get(i).file.polarity.equals("+") && posGreater)		
 						resultTemp = new CDAreaResult(null, results.get(i).area);
@@ -484,14 +490,14 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 			}
 			//If not and either of the best identifications contains plasmenyl or ether
 			else if (summedPurities.get(0).name.contains("Plasmenyl") ||
-					summedPurities.get(0).name.contains("Ether"))
+					summedPurities.get(0).name.contains("Plasmanyl"))
 			{
 				//Sum all purities for each class
 				for (int i=0; i<summedPurities.size(); i++)
 				{
 					if (summedPurities.get(i).name.contains("Plasmenyl"))
 						pSum += summedPurities.get(i).purity;
-					else if (summedPurities.get(i).name.contains("Ether"))
+					else if (summedPurities.get(i).name.contains("Plasmanyl"))
 						eSum += summedPurities.get(i).purity;
 				}
 
@@ -579,8 +585,8 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 		{
 			if(plasmenylEtherConflict) result = result + getTopEther()+",";
 			else if (purity.equals(0.0) && sumID.contains("Plasmenyl")) result = result + getTopEther()+",";
-			else if (true) result = result+sumID+",";
-			//else result = result+lipidCandidates.get(0).lipidName+",";
+			else if (purity<Utilities.MINFAPURITY) result = result+sumID+",";
+			else result = result+lipidCandidates.get(0).lipidName+",";
 			result = result+lipidCandidates.get(0).lipidClass+",";
 		}
 		else
@@ -607,9 +613,8 @@ public class CDCompoundGroup extends Utilities implements Comparable<CDCompoundG
 		{
 			if(plasmenylEtherConflict) result = result + getTopEther()+",";
 			else if (purity.equals(0.0) && sumID.contains("Plasmenyl")) result = result + getTopEther()+",";
-			else if (true) result = result+sumID+",";
-			//TODO:
-			//else result = result+lipidCandidates.get(0).lipidName+",";
+			else if (purity<Utilities.MINFAPURITY) result = result+sumID+",";
+			else result = result+lipidCandidates.get(0).lipidName+",";
 			result = result+lipidCandidates.get(0).lipidClass+",";
 		}
 		else

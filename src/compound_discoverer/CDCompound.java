@@ -51,8 +51,7 @@ public class CDCompound
 		//Update polarity for sample if non-polarity switching
 		if (separatePolarities)
 		{
-			if (negativeFeature) feature.sample.polarity = "-";
-			else feature.sample.polarity = "+";
+			feature.sample.polarity = feature.polarity;
 		}
 	}
 	

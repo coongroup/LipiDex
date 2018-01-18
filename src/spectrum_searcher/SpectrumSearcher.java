@@ -40,8 +40,8 @@ public class SpectrumSearcher
 	private  LibrarySpectrum[][] massBin; 						//2D array to store spectra objects
 	private  Double maxMass;									//Highest precursor mass from positive spectra
 	private  Double minMass;									//Highest precursor mass from positive spectra
-	Double intWeight = 0.5;										//Weight for dot product calculations
-	Double massWeight = 1.0;									//Weight for dot product calculations
+	Double intWeight = 1.2;										//Weight for dot product calculations
+	Double massWeight = 0.9;									//Weight for dot product calculations
 	Double minMS2Mass = 60.0;									//Minimum mass for spectral searching
 	static ArrayList<TransitionType> transitionTypes; 			//Arraylist of all class adduct combos from active library
 	static ArrayList<String> transitionTypeStrings = 
@@ -75,7 +75,7 @@ public class SpectrumSearcher
 	}
 
 	//Method to populate hash array and search all spectra
-	public  void runSpectraSearch(ArrayList <File> lipidLibs) throws CustomException, IOException
+	public  void runSpectraSearch(ArrayList <File> lipidLibs, double mzTol) throws CustomException, IOException
 	{
 		this.lipidLibs = lipidLibs;
 
@@ -84,7 +84,7 @@ public class SpectrumSearcher
 
 		//Read fatty acids
 		readFattyAcids("src\\backup\\FattyAcids.csv");
-
+		
 		//Read in MSP Files
 		try
 		{
@@ -95,6 +95,7 @@ public class SpectrumSearcher
 			CustomError ce = new CustomError("Error loading library .msp", e);
 		}
 
+		
 		//Sort arrays by mass, lowest to highest
 		Collections.sort(librarySpectra);
 		updateProgress(100,"% - Sorting Libraries",true);
@@ -122,7 +123,7 @@ public class SpectrumSearcher
 			//Calculate purity values
 			for (int j=0; j<sampleMS2Spectra.size(); j++)
 			{			
-				sampleMS2Spectra.get(j).calcPurityAll(fattyAcidsDB);
+				sampleMS2Spectra.get(j).calcPurityAll(fattyAcidsDB, mzTol);
 			}
 
 			//Write ouput files for mgf
@@ -169,7 +170,7 @@ public class SpectrumSearcher
 			//Calculate purity values
 			for (int j=0; j<sampleMS2Spectra.size(); j++)
 			{			
-				sampleMS2Spectra.get(j).calcPurityAll(fattyAcidsDB);
+				sampleMS2Spectra.get(j).calcPurityAll(fattyAcidsDB, mzTol);
 			}
 
 			//Write ouput files for mzxml
@@ -182,6 +183,7 @@ public class SpectrumSearcher
 					/(Double.valueOf(mgfFiles.size())))*100.0),"% - Searching Spectra",true);
 		}
 		updateProgress(100,"% - Completed",true);
+		
 	}
 
 	//Throws exception if a file is open
@@ -199,6 +201,7 @@ public class SpectrumSearcher
 				throw new CustomException("Please close "+resultFileName, null);
 			 */
 		}
+	
 	}
 
 	@SuppressWarnings("resource")
@@ -223,7 +226,7 @@ public class SpectrumSearcher
 	}
 
 	//Method to populate hash array and search all spectra
-	public  void runSpectraSearchOptimizer()
+	public void runSpectraSearchOptimizer()
 	{
 		//Load in information from each library file
 		try
@@ -558,7 +561,7 @@ public class SpectrumSearcher
 							if (dotProd>1)
 							{
 								//Add identification to array
-								ms2.addID(massBin[i][j], dotProd, reverseDotProd);
+								ms2.addID(massBin[i][j], dotProd, reverseDotProd,ms2Tol);
 							}
 						}
 					}
@@ -720,7 +723,9 @@ public class SpectrumSearcher
 					specTemp = new SampleSpectrum(precursor,polarity,file.getName(),retention,numSpectra);
 				}
 
-				if ((precursor-Double.valueOf(split[0]))>1.5 && Double.valueOf(split[0])>minMS2Mass)
+				if ((precursor-Double.valueOf(split[0]))>1.5 
+						&& Double.valueOf(split[0])>minMS2Mass 
+						&& Double.valueOf(split[1])>1.0)
 				{
 					specTemp.addFrag(Double.valueOf(split[0]), Double.valueOf(split[1]));
 				}

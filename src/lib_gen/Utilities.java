@@ -59,9 +59,13 @@ public class Utilities
 	//Returns true iff a string is a valid elemental formula
 	public boolean isFormula(String formulaString)
 	{
+		String newFormula = removeHeavyElements(formulaString);
+		
+		if (formulaString.equals("-")) return true;
+		
 		for (int i=0; i<elementsArray.length; i++)
 		{
-			if (formulaString.contains(elementsArray[i])) return true;
+			if (newFormula.contains(elementsArray[i])) return true;
 		}
 
 		return false;
@@ -116,13 +120,18 @@ public class Utilities
 
 		try
 		{
+			if (input.equals("-")) return true;
+			
 			if (!input.equals(""))
 			{
+				
+				String newFormula = removeHeavyElements(input);
+				
 				//parse out integers
-				intArray = formulaToCountArray(input);
+				intArray = formulaToCountArray(newFormula);
 
 				//Parse out elements
-				elementArray = formulaToElementArray(input);
+				elementArray = formulaToElementArray(newFormula);
 				validArray = new boolean[elementArray.length];
 
 				//Iterate through elements
@@ -163,6 +172,8 @@ public class Utilities
 		int[] intArray;
 		String[] elementArray;
 
+		if (input.equals("-")) return 0.0;
+		
 		//parse out integers
 		intArray = formulaToCountArray(input);
 
@@ -241,7 +252,7 @@ public class Utilities
 		String formulaTemp = removeHeavyElements(formula);
 		split = formulaTemp.split("(?=\\p{Upper})");
 		String[] elementArray = new String[split.length];
-
+		
 		//Split out elements
 		for (int i=0; i<split.length; i++)
 		{

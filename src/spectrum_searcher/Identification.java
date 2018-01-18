@@ -25,7 +25,7 @@ public class Identification extends lib_gen.Utilities implements Comparable<Iden
 	}
 	
 	//calcPurity for between different classes
-	public PeakPurity calcPurityAll(ArrayList<FattyAcid> faDB, ArrayList<LibrarySpectrum> lipidDB, ArrayList<Transition> ms2)
+	public PeakPurity calcPurityAll(ArrayList<FattyAcid> faDB, ArrayList<LibrarySpectrum> lipidDB, ArrayList<Transition> ms2, double mzTol)
 	{
 		//TODO:
 		ArrayList<LibrarySpectrum> isobaricIDs = new ArrayList<LibrarySpectrum>();
@@ -35,7 +35,7 @@ public class Identification extends lib_gen.Utilities implements Comparable<Iden
 		for (int i=0; i<lipidDB.size(); i++)
 		{
 			//If isobaric, add to array
-			if (calcPPMDiff(librarySpectrum.precursor, lipidDB.get(i).precursor)<Utilities.MAXPPMDIFF)
+			if (Math.abs(librarySpectrum.precursor-lipidDB.get(i).precursor)<mzTol)
 				isobaricIDs.add(lipidDB.get(i));
 		}
 		
@@ -44,7 +44,7 @@ public class Identification extends lib_gen.Utilities implements Comparable<Iden
 		{
 			if (librarySpectrum.optimalPolarity) 
 				this.purity = calculator.calcPurity(librarySpectrum.name, librarySpectrum.sumID, ms2, librarySpectrum.precursor, 
-						librarySpectrum.polarity, librarySpectrum.lipidClass, librarySpectrum.adduct, faDB, librarySpectrum, isobaricIDs);
+						librarySpectrum.polarity, librarySpectrum.lipidClass, librarySpectrum.adduct, faDB, librarySpectrum, isobaricIDs, mzTol);
 			else this.purity = 0;
 		}
 		

@@ -42,7 +42,7 @@ PRECURSORMZ: 587.4054
 Comment: Name=LysoPC d7-18:1 [M+Ac-H]- Mass=587.4054 Formula=C28H48N1O9P1Xa7 OptimalPolarity=true Type=LipiDex
 Num Peaks: 7
 513.3692 100 "C-3H-6O-2_Neutral Loss_[]"
-288.2925 999 "H0_d7-Alkyl Fragment_[d7-18:1]"
+288.2925 999 "-_d7-Alkyl Fragment_[d7-18:1]"
 59.0139 60 "C2H3O2_Fragment_[]"
 78.9591 10 "P1O3_Fragment_[]"
 152.9958 10 "C3H6O5P1_Fragment_[]"
@@ -73,7 +73,7 @@ MW: 485.3373
 PRECURSORMZ: 485.3373
 Comment: Name=LysoPE d7-18:1 [M-H]- Mass=485.3373 Formula=C23H38N1O7P1Xa7 OptimalPolarity=true Type=LipiDex
 Num Peaks: 5
-288.2925 999 "H0_d7-Alkyl Fragment_[d7-18:1]"
+288.2925 999 "-_d7-Alkyl Fragment_[d7-18:1]"
 214.0486 100 "C0H1O1N0_d7-Alkyl Neutral Loss_[d7-18:1]"
 78.9591 50 "P1O3_Fragment_[]"
 140.0118 50 "C2H7O4N1P1_Fragment_[]"
@@ -100,10 +100,10 @@ Comment: Name=PA d7-18:1_15:0 [M-H]- Mass=666.5091 Formula=H61O8P1C36Xa7 Optimal
 Num Peaks: 8
 152.9958 300 "C3H6O5P1_Fragment_[]"
 78.9591 200 "PO3_Fragment_[]"
-288.2925 999 "H0_d7-Alkyl Fragment_[d7-18:1]"
+288.2925 999 "-_d7-Alkyl Fragment_[d7-18:1]"
 377.2098 101 "H-1_d7-Alkyl Neutral Loss_[d7-18:1]"
 395.2204 100 "O1H1_d7-Alkyl Neutral Loss_[d7-18:1]"
-241.2173 999 "H0_Alkyl Fragment_[15:0]"
+241.2173 999 "-_Alkyl Fragment_[15:0]"
 424.2851 101 "H-1_Alkyl Neutral Loss_[15:0]"
 442.2957 100 "O1H1_Alkyl Neutral Loss_[15:0]"
 
@@ -140,11 +140,11 @@ MW: 709.5513
 PRECURSORMZ: 709.5513
 Comment: Name=PE d7-18:1_15:0 [M-H]- Mass=709.5513 Formula=C38H66N1O8P1Xa7 OptimalPolarity=true Type=LipiDex
 Num Peaks: 5
-288.2925 999 "H0_d7-Alkyl Fragment_[d7-18:1]"
+288.2925 999 "-_d7-Alkyl Fragment_[d7-18:1]"
 78.9591 50 "P1O3_Fragment_[]"
 140.0118 50 "C2H7O4N1P1_Fragment_[]"
 196.038 50 "C5H11O5N1P1_Fragment_[]"
-241.2173 999 "H0_Alkyl Fragment_[15:0]"
+241.2173 999 "-_Alkyl Fragment_[15:0]"
 
 Name: PG d7-18:1_15:0 [M-H]-;
 MW: 740.5459
@@ -183,9 +183,9 @@ Num Peaks: 9
 223.0013 100 "C6H8O7P1_Fragment_[]"
 241.0119 500 "C6H10O8P1_Fragment_[]"
 152.9958 300 "C3H6O5P1_Fragment_[]"
-288.2925 999 "H0_d7-Alkyl Fragment_[d7-18:1]"
+288.2925 999 "-_d7-Alkyl Fragment_[d7-18:1]"
 539.2627 50 "C0H-1O0N0_d7-Alkyl Neutral Loss_[d7-18:1]"
-241.2173 999 "H0_Alkyl Fragment_[15:0]"
+241.2173 999 "-_Alkyl Fragment_[15:0]"
 586.3379 50 "C0H-1O0N0_Alkyl Neutral Loss_[15:0]"
 
 Name: PS d7-18:1_15:0 [M-H]-;
@@ -196,9 +196,9 @@ Num Peaks: 7
 78.9591 200 "P1O3_Fragment_[]"
 152.9958 400 "C3H6O5P1_Fragment_[]"
 666.5097 100 "C-3H-5O-2N-1_Neutral Loss_[]"
-288.2925 999 "H0_d7-Alkyl Fragment_[d7-18:1]"
+288.2925 999 "-_d7-Alkyl Fragment_[d7-18:1]"
 424.2851 75 "C3H5O4P1_d7-Alkyl Fragment_[d7-18:1]"
-241.2173 999 "H0_Alkyl Fragment_[15:0]"
+241.2173 999 "-_Alkyl Fragment_[15:0]"
 377.2098 75 "C3H5O4P1_Alkyl Fragment_[15:0]"
 
 Name: SM d18:1_d9-18:1 [M+Ac-H]-;

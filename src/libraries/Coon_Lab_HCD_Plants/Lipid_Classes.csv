@@ -1,4 +1,0 @@
-Name,Abbreviation,HeadGroup,Adducts,Sterol,Glycerol,Sphingoid,numFattyAcids,OptimalPolarity,FA1,FA2,FA3,FA4
-Dihexosyldiacylglycerol,DGDG,C12H21O11,[M+NH4]+;[M+Ac-H]-;[M+FA-H]-;[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,+/-,Alkyl,Alkyl,none,none
-Monohexosyldiacylglycerol,MGDG,C6H11O6,[M+NH4]+;[M+Ac-H]-;[M+FA-H]-;[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,+/-,Alkyl,Alkyl,none,none
-Sulfoquinovosyldiacylglycerol,SQDG,C6H11O8S1,[M-H]-;[M+NH4]+,FALSE,TRUE,FALSE,2,+,Alkyl,Alkyl,none,none

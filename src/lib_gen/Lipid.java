@@ -13,6 +13,7 @@ public class Lipid extends Utilities
 	String polarity; 					//Polarity of lipid
 	String name; 						//canonical name
 	MS2 generatedMS2; 					//generated MS2
+	ArrayList<String> uniqueTypes;		//Array of fa types this lipid can identify, used in LF
 
 	//Constructor
 	public Lipid (ArrayList<FattyAcid> fattyAcids, LipidClass lClass, Adduct adduct)
@@ -37,16 +38,31 @@ public class Lipid extends Utilities
 		return adduct;
 	}
 
+	//Return generated MS2
+	public MS2 getGeneratedMS2()
+	{
+		return generatedMS2;
+	}
+
 	//Return lipidClass object
 	public LipidClass getLipidClass()
 	{
 		return lClass;
 	}
-	
+
 	//Return arrayList of fatty acids in lipid
 	public ArrayList<FattyAcid> getFattyAcids()
 	{
 		return fattyAcids;
+	}
+
+	//Add entry to unique FA type array
+	public void addUniqueFAType(String faType)
+	{
+		if (uniqueTypes == null)
+			uniqueTypes = new ArrayList<String>();
+
+		uniqueTypes.add(faType);
 	}
 
 	//Get formula
@@ -97,8 +113,13 @@ public class Lipid extends Utilities
 		tempFormula =  mergeFormulas(tempFormula, adduct.getFormula());
 
 		formula = tempFormula;
-		
+
 		calculateMass();
+	}
+
+	public String toString()
+	{
+		return getName();
 	}
 
 	//Calculate Monoisotopic mass
@@ -128,9 +149,9 @@ public class Lipid extends Utilities
 	{
 		String result = "";
 		boolean optimalPolarity = false;
-		
+
 		if (lClass.optimalPolarity.contains(this.polarity)) optimalPolarity = true;
-		
+
 		//Name field
 		result += "Name: "+name+";\n";
 

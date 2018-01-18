@@ -4,7 +4,7 @@ import java.util.Collections;
 
 import lib_gen.FattyAcid;
 
-public class PeakPurity extends peak_finder.Utilities
+public class PeakPurity
 {
 	ArrayList<Transition> transitions = new ArrayList<Transition>();
 	ArrayList<LibrarySpectrum> lipids = new ArrayList<LibrarySpectrum>();
@@ -15,6 +15,7 @@ public class PeakPurity extends peak_finder.Utilities
 	ArrayList<Double> topMasses = new ArrayList<Double>();
 	ArrayList<Double> intensityCorrectionArray = new ArrayList<Double>();
 	double intensityCorrection = 0.0;
+	double mzTol = 0.01;
 	Double minPurity = 5.0;
 	int carbonNumber = 0;
 	int unsatNumber = 0;
@@ -23,12 +24,13 @@ public class PeakPurity extends peak_finder.Utilities
 	String chainGreatest = "";
 
 	public int calcPurity(String lipidName, String sumLipidName,ArrayList<Transition> transitions, Double precursor, String polarity, 
-			String lipidClass, String adduct, ArrayList<FattyAcid> faDB, LibrarySpectrum ls, ArrayList<LibrarySpectrum> isobaricIDs)
+			String lipidClass, String adduct, ArrayList<FattyAcid> faDB, LibrarySpectrum ls, ArrayList<LibrarySpectrum> isobaricIDs, Double mzTol)
 	{
 		Double purity = 0.0;
 		int purityInt = 0;
 		Double sumInt = 0.0;
 		this.transitions = transitions;
+		this.mzTol = mzTol;
 
 		//Count number of glycerol substitutions
 		for(int i=0; i<lipidName.length(); i++ ) 
@@ -41,7 +43,7 @@ public class PeakPurity extends peak_finder.Utilities
 		purity = getPurityIntensity(ls, faDB, true);
 
 		//if (purity == 0.0) return 0;
-		if (purity >0.0 ) 
+		if (purity > 0.0 ) 
 		{
 			intensities.add(purity);
 			lipids.add(ls);
@@ -270,7 +272,7 @@ public class PeakPurity extends peak_finder.Utilities
 	}
 
 	/*
-	 * If the putative mass is found within the normal ppm tolerance, 
+	 * If the putative mass is found within the ms2 mass tolerance, 
 	 * add to FA and intensity array.  The number of times added corresponds
 	 * to the number of possible fa sights available for purity analysis
 	 */
@@ -278,7 +280,7 @@ public class PeakPurity extends peak_finder.Utilities
 	{
 		for (int i=0; i<transitions.size(); i++)
 		{
-			if (calcPPMDiff(transitions.get(i).mass,mass)<MAXPPMDIFF)
+			if (Math.abs(transitions.get(i).mass-mass)<mzTol)
 			{
 				return transitions.get(i).intensity;
 			}

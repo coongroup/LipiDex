@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class TransitionType extends Utilities
 {
-	public String name;			//Name of transition type
+	public String name;				//Name of transition type
 	public String fattyAcidType;	//Type of fatty acid
-	public boolean isFattyAcid;	//True iff the transition type involves fatty acid moieties
+	public boolean isFattyAcid;		//True iff the transition type involves fatty acid moieties
 	public boolean isNeutralLoss;	//True iff the transition type is a loss from a precursor
 	public int numFattyAcids;		//Number of fatty acids involved in transition
 
@@ -28,7 +28,7 @@ public class TransitionType extends Utilities
 		//Validate format
 		if (!isValid(faArray))
 		{
-			throw new CustomException ("Invalid transition definition supplied", null);
+			//throw new CustomException ("Invalid transition definition supplied", null);
 		}
 
 		//If moiety-based fragment

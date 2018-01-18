@@ -37,7 +37,7 @@ public class LibrarySelector extends JInternalFrame {
 			LipidGenGUI lg, JDesktopPane contentPane, JLabel label, ImageIcon onImage, 
 			ImageIcon offImage) {
 		moveToFront();
-		setFrameIcon(new ImageIcon(LibrarySelector.class.getResource("/icons/lg_16_icon.png")));
+		setFrameIcon(new ImageIcon("src/icons/lg_16_icon.png"));
 		this.lg = lg;
 		setClosable(true);
 
@@ -85,7 +85,7 @@ public class LibrarySelector extends JInternalFrame {
 		{
 			public void actionPerformed(ActionEvent e) 
 			{
-				for (int i=0; i<activeLibraryList.getVisibleRowCount(); i++)
+				for (int i=0; i<activeLibraryList.getModel().getSize(); i++)
 				{
 					//If valid library chosen, create new instance of library generator
 					if (activeLibraryList.isSelectedIndex(i))
@@ -95,8 +95,8 @@ public class LibrarySelector extends JInternalFrame {
 						try {
 							setLG(availableLibraries.get(i), contentPane, label, onImage, offImage);
 							dispose();
-						} catch (PropertyVetoException e1) {
-							e1.printStackTrace();
+						} catch (Exception e1) {
+							CustomException ce = new CustomException("Error loading library", e1);
 						}
 					}
 				}
@@ -173,9 +173,9 @@ public class LibrarySelector extends JInternalFrame {
 			public void actionPerformed(ActionEvent e) 
 			{
 				//Find selected library
-				for (int i=0; i<activeLibraryList.getVisibleRowCount(); i++)
+				for (int i=0; i<activeLibraryList.getModel().getSize(); i++)
 				{
-					if (activeLibraryList.isSelectedIndex(i) && !availableLibraries.get(i).contains("Coon_Lab"))
+					if (activeLibraryList.isSelectedIndex(i) && !availableLibraries.get(i).contains("Coon_Lab") && !availableLibraries.get(i).equals("LipidBlast"))
 					{
 						String toRemove = availableLibraries.get(i);
 						File file = new File("src/libraries/"+toRemove);
@@ -226,7 +226,7 @@ public class LibrarySelector extends JInternalFrame {
 	//Constructor for library selector for spectrum generator
 	public LibrarySelector(ArrayList<String> availableLibraries, String[] selectedLibrary, SpectrumGenerator sg, 
 			JDesktopPane contentPane, JLabel label, ImageIcon onImage, ImageIcon offImage) {
-		setFrameIcon(new ImageIcon(LibrarySelector.class.getResource("/Icons/sg_16_icon.png")));
+		setFrameIcon(new ImageIcon("src/icons/sg_16_icon.png"));
 		setClosable(true);
 
 		try {
@@ -272,7 +272,7 @@ public class LibrarySelector extends JInternalFrame {
 		{
 			public void actionPerformed(ActionEvent e) 
 			{
-				for (int i=0; i<activeLibraryList.getVisibleRowCount(); i++)
+				for (int i=0; i<activeLibraryList.getModel().getSize(); i++)
 				{
 					//Create spectrum generator
 					if (activeLibraryList.isSelectedIndex(i))
@@ -311,8 +311,8 @@ public class LibrarySelector extends JInternalFrame {
 				{
 					//Create file objects
 					File file = new File("src/libraries/"+textField.getText());
-					File adductsFileBackup = new File("src/Lib_Backup/Adducts.csv");
-					File faFileBackup = new File("src/Lib_Backup/FattyAcids.csv");
+					File adductsFileBackup = new File("src/backup/Adducts.csv");
+					File faFileBackup = new File("src/backup/FattyAcids.csv");
 					File adductsFile = new File("src/libraries/"+textField.getText()+"/Adducts.csv");
 					File faFile = new File("src/libraries/"+textField.getText()+"/FattyAcids.csv");
 					File classFile = new File("src/libraries/"+textField.getText()+"/Lipid_Classes.csv");
@@ -368,9 +368,9 @@ public class LibrarySelector extends JInternalFrame {
 			public void actionPerformed(ActionEvent e) 
 			{
 				//Find selected library
-				for (int i=0; i<activeLibraryList.getVisibleRowCount(); i++)
+				for (int i=0; i<activeLibraryList.getModel().getSize(); i++)
 				{
-					if (activeLibraryList.isSelectedIndex(i))
+					if (activeLibraryList.isSelectedIndex(i) && !availableLibraries.get(i).contains("Coon_Lab") && !availableLibraries.get(i).equals("LipidBlast"))
 					{
 						String toRemove = availableLibraries.get(i);
 						File file = new File("src/libraries/"+toRemove);
@@ -420,17 +420,13 @@ public class LibrarySelector extends JInternalFrame {
 
 	//Creates new instance of library generator and adds to desktop and displays
 	public void setLG(String lib, JDesktopPane contentPane, JLabel label, 
-			ImageIcon onImage, ImageIcon offImage) throws PropertyVetoException
+			ImageIcon onImage, ImageIcon offImage) throws PropertyVetoException, IOException
 	{
-		try {
-			lg = new LipidGenGUI(lib, contentPane, label, onImage, offImage);
+			lg = new LipidGenGUI(lib, contentPane, label, onImage, offImage);		
 			lg.setVisible(true);
 			lg.setIcon(false);
 			contentPane.add(lg);
 			lg.toFront();
-		} catch (IOException e) {
-
-		}
 	}
 
 	//Creates new instance of spectrum generator and adds to desktop and displays

@@ -1,5 +1,0 @@
-Hydroxy Phosphatidylcholine,PC[OH],C5H13N1O4P1,[M+H]+;[M+Ac-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Hydroxy,none,none
-Hydroxy Phosphatidylethanolamine,PE[OH],C2H7N1O4P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Hydroxy,none,none
-Hydroxy Phosphatidylglycerol,PG[OH],C3H8O6P1,[M+NH4]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Hydroxy,none,none
-Hydroxy Phosphatidylinositol,PI[OH],C6H12O9P1,[M-H]-;[M+NH4]+,FALSE,TRUE,FALSE,2,-,Alkyl,Hydroxy,none,none
-Hydroxy Phosphatidylserine,PS[OH],C3H7N1O6P1,[M+H]+;[M-H]-,FALSE,TRUE,FALSE,2,-,Alkyl,Hydroxy,none,none

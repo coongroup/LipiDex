@@ -1,0 +1,75 @@
+LysoPC [M+Ac-H]-
+-74.03965,100.0,1,Neutral Loss
+-,999.0,1,Alkyl Fragment
+59.01224,60.0,1,Fragment
+78.95734,10.0,1,Fragment
+152.9949,10.0,1,Fragment
+224.06905,10.0,1,Fragment
+242.08015,10.0,1,Fragment
+
+---
+LysoPE [M-H]-
+-,999.0,1,Alkyl Fragment
+C3H6O5P1,100.0,1,Fragment
+
+---
+LysoPI [M-H]-
+78.9591,200.0,1,Fragment
+152.9949,999.0,1,Fragment
+171.00591,50.0,1,Fragment
+223.0013,100.0,1,Fragment
+-,700.0,1,Alkyl Fragment
+333.0592,150.0,1,Fragment
+C6H10O8P1,500.0,1,Fragment
+C9H16O10P1,250.0,1,Fragment
+
+---
+PA [M-H]-
+-,999.0,1,Alkyl Fragment
+C3H6O5P1,300.0,1,Fragment
+PO3,200.0,1,Fragment
+H-1,101.0,1,Alkyl Neutral Loss
+O1H1,100.0,1,Alkyl Neutral Loss
+
+---
+PC [M+Ac-H]-
+-,999.0,1,Alkyl Fragment
+168.0423,100.0,1,Fragment
+224.0693,50.0,1,Fragment
+-74.03965731,100.0,1,Neutral Loss
+
+---
+PE [M-H]-
+C-1O-2,200.0,1,PUFA Fragment
+-,999.0,1,Alkyl Fragment
+H1O1,100.0,1,Alkyl Neutral Loss
+78.9591,50.0,1,Fragment
+140.0118,50.0,1,Fragment
+196.03685,50.0,1,Fragment
+
+---
+PG [M-H]-
+152.995288,999.0,1,Fragment
+-,999.0,1,Alkyl Fragment
+C10H19O2,7.0,1,Alkyl Neutral Loss
+C8H15O2,6.0,1,Alkyl Neutral Loss
+
+---
+PS [M-H]-
+-,999.0,1,Alkyl Fragment
+78.9591,200.0,1,Fragment
+152.9958,400.0,1,Fragment
+C3H5O4P1,75.0,1,Alkyl Fragment
+-87.0321,100.0,1,Neutral Loss
+
+---
+PI [M-H]-
+78.9591,300.0,1,Fragment
+96.9696,100.0,1,Fragment
+223.0013,100.0,1,Fragment
+241.011333,500.0,1,Fragment
+152.995288,300.0,1,Fragment
+-,999.0,1,Alkyl Fragment
+H-1,50.0,1,Alkyl Neutral Loss
+
+---

@@ -68,17 +68,17 @@ public class SpectrumGenerator extends JInternalFrame {
 			InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException, IOException, CustomException {
 
 		//Populate lipid classes from active library
-		readFattyAcids("src/Libraries/"+activeLib+"\\FattyAcids.csv");
-		readAdducts("src/Libraries/"+activeLib+"\\Adducts.csv");
-		readClass("src/Libraries/"+activeLib+"\\Lipid_Classes.csv");
+		readFattyAcids("src/libraries/"+activeLib+"\\FattyAcids.csv");
+		readAdducts("src/libraries/"+activeLib+"\\Adducts.csv");
+		readClass("src/libraries/"+activeLib+"\\Lipid_Classes.csv");
 		populateFattyAcids();
 		populateConsensusClasses();
-		ms2Templates = uploadTemplates(false, false, "src/Libraries/"+activeLib+"\\MS2_Templates.csv");
+		ms2Templates = uploadTemplates(false, false, "src/libraries/"+activeLib+"\\MS2_Templates.csv");
 
 		//Set GUI parameters
 		setClosable(true);
 		this.setIconifiable(true);
-		setFrameIcon(new ImageIcon(LipidGenGUI.class.getResource("/Icons/sg_16_icon.png")));
+		setFrameIcon(new ImageIcon("src/icons/sg_16_icon.png"));
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		setTitle("Spectrum Generator");
 		setBounds(100, 100, 415, 460);
@@ -279,7 +279,7 @@ public class SpectrumGenerator extends JInternalFrame {
 
 			//Get array of all possible fatty acids
 			ArrayList<ArrayList<FattyAcid>> faArray = currentMS2Template.lipidClass.lClass.possibleFA;
-			
+
 			//Sort array
 			for (int i=0; i<faArray.size(); i++)
 			{
@@ -649,9 +649,11 @@ public class SpectrumGenerator extends JInternalFrame {
 		boolean sterol;
 		boolean glycerol;
 		boolean sphingoid;
+		String backboneFormula;
 		int numFA;
 		String polarity;
 		ArrayList<String> faTypes;
+		boolean newFormat = false;
 
 		//Create file buffer
 		File file = new File(filename);
@@ -664,6 +666,11 @@ public class SpectrumGenerator extends JInternalFrame {
 		//read line if not empty
 		while ((line = reader.readLine()) != null)
 		{
+			//Check if library is new or old format
+			if (line.contains("Name") && line.contains("Backbone"))
+				newFormat = true;
+
+
 			if (!line.contains("Name"))
 			{
 				split = line.split(",");
@@ -695,21 +702,45 @@ public class SpectrumGenerator extends JInternalFrame {
 				if (split[6].equals("FALSE")) sphingoid = false;
 				else {sphingoid = true;}
 
-				numFA = Integer.valueOf(split[7]);
+				if (newFormat)
+					backboneFormula = split[7];
+				else
+					backboneFormula = "";
 
-				polarity = split[8];
+				if (newFormat)
+					numFA = Integer.valueOf(split[8]);
+				else
+					numFA = Integer.valueOf(split[7]);
+
+				if (newFormat)
+					polarity = split[9];
+				else
+					polarity = split[8];
 
 				//Parse fatty acid types
 				faTypes = new ArrayList<String>();
 
-				for (int i=9; i<split.length; i++)
+				if (newFormat)
 				{
-					if (!split[i].equals("none"))
+					for (int i=10; i<split.length; i++)
 					{
-						faTypes.add(split[i]);
+						if (!split[i].equals("none"))
+						{
+							faTypes.add(split[i]);
+						}
 					}
 				}
-				lipidClassesDB.add(new LipidClass(name, abbrev, head, adductArray, sterol, glycerol, sphingoid, numFA, polarity, faTypes));
+				else
+				{
+					for (int i=9; i<split.length; i++)
+					{
+						if (!split[i].equals("none"))
+						{
+							faTypes.add(split[i]);
+						}
+					}
+				}
+				lipidClassesDB.add(new LipidClass(name, abbrev, head, adductArray, sterol, glycerol, sphingoid, backboneFormula, numFA, polarity, faTypes));
 			}
 		}
 		reader.close();

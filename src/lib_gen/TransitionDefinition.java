@@ -6,7 +6,7 @@ public class TransitionDefinition extends Utilities implements Comparable<Transi
 	Double mass;					//Mass of fragment if applicable
 	Double relativeIntensity;		//Relative intensity scaled to 1000
 	String formula;					//Elemental formula
-	String displayName;				//Display name for Jtree display
+	public String displayName;				//Display name for Jtree display
 	boolean isFormula;				//Boolean if a formula was supplied
 	Integer charge;					//Charge on transition
 	String massFormula;				//String to store supplied mass/formula string
@@ -27,7 +27,6 @@ public class TransitionDefinition extends Utilities implements Comparable<Transi
 		this.displayName = parseDisplayName(displayName);
 		this.charge = charge;
 
-
 		//Parse massFormula field
 		parseMassFormula(massFormula);
 
@@ -35,6 +34,16 @@ public class TransitionDefinition extends Utilities implements Comparable<Transi
 		updateMassFormula();
 	}
 
+	public String getType()
+	{
+		return type;
+	}
+	
+	public TransitionType getTypeObject()
+	{
+		return typeObject;
+	}
+	
 	public void updateMassFormula()
 	{
 		//If a formula
@@ -62,6 +71,8 @@ public class TransitionDefinition extends Utilities implements Comparable<Transi
 			if (massFormula.contains(elements[i])) formula = true;
 		}
 
+		if (massFormula.equals("-")) formula = true;
+		
 		//Check mass validity
 		if (!formula)
 		{
@@ -100,7 +111,7 @@ public class TransitionDefinition extends Utilities implements Comparable<Transi
 		{
 		//Update charge
 		this.charge = Integer.valueOf(charge);
-
+		
 		//Parse massFormula field
 		parseMassFormula(massFormula);
 

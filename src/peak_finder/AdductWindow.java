@@ -69,10 +69,10 @@ public class AdductWindow extends JInternalFrame {
 
 		AdductWindow.adductsDB = adductArray;
 		//Read Adducts
-		readAdducts("src/Possible_Adducts.csv");
+		readAdducts("src/peak_finder/Possible_Adducts.csv");
 		
 		//Set GUI parameters
-		setFrameIcon(new ImageIcon(AdductWindow.class.getResource("/Icons/pf_16_icon.png")));
+		setFrameIcon(new ImageIcon(AdductWindow.class.getResource("/icons/pf_16_icon.png")));
 		setTitle("Adduct Filtering");
 		setBounds(100, 100, 390, 313);
 		//setMinimumSize(new Dimension(601, 356));
@@ -135,7 +135,7 @@ public class AdductWindow extends JInternalFrame {
 			public void actionPerformed(ActionEvent e) 
 			{
 				updateAdductArrays(adductTableModel, adductTable);
-				writeAdductArraytoCSV("src/Possible_Adducts.csv");
+				writeAdductArraytoCSV("src/peak_finder/possible_Adducts.csv");
 				dispose();
 			}
 		});

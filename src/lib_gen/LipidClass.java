@@ -5,27 +5,29 @@ import java.util.ArrayList;
 public class LipidClass extends Utilities {
 
 	String className; 								//Full Class Name
-	String classAbbrev; 							//Abbreviated class name
+	public String classAbbrev; 							//Abbreviated class name
 	String headGroup; 								//elemental formula of head group
-	Adduct[] adducts; 								//Array of adduct objects allowed for each class
+	public Adduct[] adducts; 								//Array of adduct objects allowed for each class
 	boolean sterol;									//true iff backbone of lipid is sterol
 	boolean glycerol; 								//true iff backbone of lipid is glycerol
 	boolean sphingoid; 								//true iff sphingoid base
+	String backboneFormula;							//Elemental formula of backbone							
 	int numFattyAcids; 								//number of allowed fatty acids
 	String optimalPolarity; 						//Fragment informative polarity
-	ArrayList<ArrayList<FattyAcid>> possibleFA; 	//Array of possible fatty acids
+	public ArrayList<ArrayList<FattyAcid>> possibleFA; 	//Array of possible fatty acids
 	String formula; 								//Elemental formula of lipid class - fatty acids - adduct
 	ArrayList<String> fattyAcidTypes; 				//Arraylist of all possible fatty acid classes for class
 
 	//Constructor
 	public LipidClass (String className, String classAbbrev, String headGroup, 
-			Adduct[] adducts, boolean sterol, boolean glycerol, boolean sphingoid,
+			Adduct[] adducts, boolean sterol, boolean glycerol, boolean sphingoid, String backboneFormula,
 			int numFattyAcids, String optimalPolarity, ArrayList<String> fattyAcidTypes)
 	{
 		//Instantiate class variables
 		this.className = className;
 		this.classAbbrev = classAbbrev; 
 		this.headGroup = headGroup;
+		this.backboneFormula = backboneFormula;
 		this.adducts = adducts; 
 		this.sterol = sterol;
 		this.glycerol = glycerol; 
@@ -37,7 +39,6 @@ public class LipidClass extends Utilities {
 	
 		//Calculate elemental formula
 		calculateFormula();
-		
 	}
 
 	//Returns string array representation of class for table display
@@ -66,8 +67,10 @@ public class LipidClass extends Utilities {
 		
 		//Backbone
 		if (glycerol) result[4] = "Glycerol";
-		if (sterol) result[4] = "Sterol";
-		if (sphingoid) result[4] = "Sphingoid";
+		else if (sterol) result[4] = "Sterol";
+		else if (sphingoid) result[4] = "Sphingoid";
+		else result[4] = this.backboneFormula;
+		
 		
 		
 		//Num Fatty Acids
@@ -184,7 +187,9 @@ public class LipidClass extends Utilities {
 		else if (sphingoid)
 			formula =  mergeFormulas(formula, "C3H2");
 		else if (sterol)
-			formula =  mergeFormulas(formula, "C27H45");	
+			formula =  mergeFormulas(formula, "C27H45");
+		else 
+			formula =  mergeFormulas(formula, this.backboneFormula);
 	} 
 	
 	//Returns string representation of class
@@ -212,6 +217,8 @@ public class LipidClass extends Utilities {
 		
 		if (sphingoid) result += "TRUE,";
 		else result += "FALSE,";
+		
+		result += backboneFormula+",";
 		
 		result += numFattyAcids+",";
 		result += optimalPolarity+",";

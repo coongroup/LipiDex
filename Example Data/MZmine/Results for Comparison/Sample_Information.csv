@@ -1,0 +1,8 @@
+File,Feature Groups,Avg. Peak FWHM (min.),Peak Capacity,Identified Lipids,Avg. MS2 Purity,Avg. Lipid Mass Error(ppm)
+Hap1_Blank.raw,7585,0.062,351.848,0,NaN,NaN
+Hap1_Pos_3.raw,4501,0.13,167.387,1025,15.475,-6.834
+Hap1_Pos_1.raw,4501,4.634,4.698,1037,15.551,-6.922
+Hap1_Pos_2.raw,4501,0.155,140.535,984,15.071,-6.521
+Hap1_Neg_3.raw,3084,0.096,226.936,498,87.745,-5.193
+Hap1_Neg_1.raw,3084,0.108,201.729,558,86.831,-5.154
+Hap1_Neg_2.raw,3084,0.101,215.77,445,86.192,-4.907

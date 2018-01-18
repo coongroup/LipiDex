@@ -130,7 +130,7 @@ public class LipidGenGUI extends JInternalFrame {
 		setTitle("Library Generator");
 		setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE);
 		setBounds(100, 100, 614, 539);
-
+		
 		//Change menu bar icon when closed
 		addInternalFrameListener(new InternalFrameAdapter()
 		{
@@ -979,81 +979,81 @@ public class LipidGenGUI extends JInternalFrame {
 		});
 		GroupLayout gl_library_gen = new GroupLayout(library_gen);
 		gl_library_gen.setHorizontalGroup(
-			gl_library_gen.createParallelGroup(Alignment.LEADING)
+				gl_library_gen.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_library_gen.createSequentialGroup()
-					.addContainerGap()
-					.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(lblLibraryGeneration, GroupLayout.PREFERRED_SIZE, 98, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap(475, Short.MAX_VALUE))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(lblOutputType, GroupLayout.PREFERRED_SIZE, 135, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap(438, Short.MAX_VALUE))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(combinedOutput, GroupLayout.PREFERRED_SIZE, 109, GroupLayout.PREFERRED_SIZE)
-							.addGap(2)
-							.addComponent(separateOutput, GroupLayout.PREFERRED_SIZE, 135, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap(327, Short.MAX_VALUE))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(outputField, GroupLayout.DEFAULT_SIZE, 461, Short.MAX_VALUE)
-							.addGap(10)
-							.addComponent(browseButton, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
-							.addGap(13))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(lblGeneratedLibraries, GroupLayout.PREFERRED_SIZE, 194, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap(379, Short.MAX_VALUE))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(outputProgressBar, GroupLayout.DEFAULT_SIZE, 561, Short.MAX_VALUE)
-							.addGap(12))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(generateLibrariesBTN, GroupLayout.DEFAULT_SIZE, 236, Short.MAX_VALUE)
-							.addGap(12)
-							.addComponent(btnCheckSelected, GroupLayout.PREFERRED_SIZE, 114, GroupLayout.PREFERRED_SIZE)
-							.addGap(10)
-							.addComponent(btnDeselectAll, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
-							.addGap(10)
-							.addComponent(btnSelectAll, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
-							.addGap(13))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(outputPane, GroupLayout.DEFAULT_SIZE, 561, Short.MAX_VALUE)
-							.addGap(12))
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addComponent(lblOutputDirectory, GroupLayout.PREFERRED_SIZE, 381, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap())))
-		);
+						.addContainerGap()
+						.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
+								.addGroup(gl_library_gen.createSequentialGroup()
+										.addComponent(lblLibraryGeneration, GroupLayout.PREFERRED_SIZE, 98, GroupLayout.PREFERRED_SIZE)
+										.addContainerGap(475, Short.MAX_VALUE))
+										.addGroup(gl_library_gen.createSequentialGroup()
+												.addComponent(lblOutputType, GroupLayout.PREFERRED_SIZE, 135, GroupLayout.PREFERRED_SIZE)
+												.addContainerGap(438, Short.MAX_VALUE))
+												.addGroup(gl_library_gen.createSequentialGroup()
+														.addComponent(combinedOutput, GroupLayout.PREFERRED_SIZE, 109, GroupLayout.PREFERRED_SIZE)
+														.addGap(2)
+														.addComponent(separateOutput, GroupLayout.PREFERRED_SIZE, 135, GroupLayout.PREFERRED_SIZE)
+														.addContainerGap(327, Short.MAX_VALUE))
+														.addGroup(gl_library_gen.createSequentialGroup()
+																.addComponent(outputField, GroupLayout.DEFAULT_SIZE, 461, Short.MAX_VALUE)
+																.addGap(10)
+																.addComponent(browseButton, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
+																.addGap(13))
+																.addGroup(gl_library_gen.createSequentialGroup()
+																		.addComponent(lblGeneratedLibraries, GroupLayout.PREFERRED_SIZE, 194, GroupLayout.PREFERRED_SIZE)
+																		.addContainerGap(379, Short.MAX_VALUE))
+																		.addGroup(gl_library_gen.createSequentialGroup()
+																				.addComponent(outputProgressBar, GroupLayout.DEFAULT_SIZE, 561, Short.MAX_VALUE)
+																				.addGap(12))
+																				.addGroup(gl_library_gen.createSequentialGroup()
+																						.addComponent(generateLibrariesBTN, GroupLayout.DEFAULT_SIZE, 236, Short.MAX_VALUE)
+																						.addGap(12)
+																						.addComponent(btnCheckSelected, GroupLayout.PREFERRED_SIZE, 114, GroupLayout.PREFERRED_SIZE)
+																						.addGap(10)
+																						.addComponent(btnDeselectAll, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
+																						.addGap(10)
+																						.addComponent(btnSelectAll, GroupLayout.PREFERRED_SIZE, 89, GroupLayout.PREFERRED_SIZE)
+																						.addGap(13))
+																						.addGroup(gl_library_gen.createSequentialGroup()
+																								.addComponent(outputPane, GroupLayout.DEFAULT_SIZE, 561, Short.MAX_VALUE)
+																								.addGap(12))
+																								.addGroup(gl_library_gen.createSequentialGroup()
+																										.addComponent(lblOutputDirectory, GroupLayout.PREFERRED_SIZE, 381, GroupLayout.PREFERRED_SIZE)
+																										.addContainerGap())))
+				);
 		gl_library_gen.setVerticalGroup(
-			gl_library_gen.createParallelGroup(Alignment.LEADING)
+				gl_library_gen.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_library_gen.createSequentialGroup()
-					.addGap(5)
-					.addComponent(lblLibraryGeneration)
-					.addPreferredGap(ComponentPlacement.UNRELATED)
-					.addComponent(lblOutputType)
-					.addPreferredGap(ComponentPlacement.RELATED)
-					.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
-						.addComponent(combinedOutput)
-						.addComponent(separateOutput))
-					.addGap(16)
-					.addComponent(lblOutputDirectory)
-					.addPreferredGap(ComponentPlacement.RELATED)
-					.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
-						.addGroup(gl_library_gen.createSequentialGroup()
-							.addGap(1)
-							.addComponent(outputField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-						.addComponent(browseButton))
-					.addGap(16)
-					.addComponent(lblGeneratedLibraries)
-					.addPreferredGap(ComponentPlacement.RELATED)
-					.addComponent(outputPane, GroupLayout.DEFAULT_SIZE, 225, Short.MAX_VALUE)
-					.addGap(18)
-					.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
-						.addComponent(generateLibrariesBTN)
-						.addComponent(btnCheckSelected)
-						.addComponent(btnDeselectAll)
-						.addComponent(btnSelectAll))
-					.addPreferredGap(ComponentPlacement.RELATED)
-					.addComponent(outputProgressBar, GroupLayout.PREFERRED_SIZE, 26, GroupLayout.PREFERRED_SIZE)
-					.addContainerGap())
-		);
+						.addGap(5)
+						.addComponent(lblLibraryGeneration)
+						.addPreferredGap(ComponentPlacement.UNRELATED)
+						.addComponent(lblOutputType)
+						.addPreferredGap(ComponentPlacement.RELATED)
+						.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
+								.addComponent(combinedOutput)
+								.addComponent(separateOutput))
+								.addGap(16)
+								.addComponent(lblOutputDirectory)
+								.addPreferredGap(ComponentPlacement.RELATED)
+								.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
+										.addGroup(gl_library_gen.createSequentialGroup()
+												.addGap(1)
+												.addComponent(outputField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+												.addComponent(browseButton))
+												.addGap(16)
+												.addComponent(lblGeneratedLibraries)
+												.addPreferredGap(ComponentPlacement.RELATED)
+												.addComponent(outputPane, GroupLayout.DEFAULT_SIZE, 225, Short.MAX_VALUE)
+												.addGap(18)
+												.addGroup(gl_library_gen.createParallelGroup(Alignment.LEADING)
+														.addComponent(generateLibrariesBTN)
+														.addComponent(btnCheckSelected)
+														.addComponent(btnDeselectAll)
+														.addComponent(btnSelectAll))
+														.addPreferredGap(ComponentPlacement.RELATED)
+														.addComponent(outputProgressBar, GroupLayout.PREFERRED_SIZE, 26, GroupLayout.PREFERRED_SIZE)
+														.addContainerGap())
+				);
 		library_gen.setLayout(gl_library_gen);
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
@@ -1104,6 +1104,7 @@ public class LipidGenGUI extends JInternalFrame {
 
 			//Populate all possible FA combinations
 			populateFattyAcids();
+
 			//Populate consensusClasses
 			populateConsensusClasses();
 
@@ -1123,7 +1124,7 @@ public class LipidGenGUI extends JInternalFrame {
 	//Populate all consensus classes with class + adduct combinations
 	public static void populateConsensusClasses()
 	{
-		consensusClasses.clear();
+		consensusClasses = new ArrayList<ConsensusLipidClass>();
 
 		//Iterate through lipidClass
 		for (int i=0; i<lipidClassesDB.size(); i++)
@@ -1163,7 +1164,7 @@ public class LipidGenGUI extends JInternalFrame {
 				for (int i=0; i<ms2Templates.size(); i++)
 				{
 					node_1 = new DefaultMutableTreeNode(ms2Templates.get(i).lipidClass.getName());
-					
+
 					//Iterate through normal transitions
 					for (int j=0; j<ms2Templates.get(i).transitions.size(); j++)
 					{
@@ -1175,7 +1176,7 @@ public class LipidGenGUI extends JInternalFrame {
 				}
 			}
 		};
-		
+
 		DefaultTreeModel model = new DefaultTreeModel(root);
 
 		return model;
@@ -1257,7 +1258,7 @@ public class LipidGenGUI extends JInternalFrame {
 			}
 			catch (Exception e)
 			{
-				throw new CustomException(mass+" is not a valid mass", null);
+				throw new CustomException(mass+" is not a valid mass for a fragmentation rule", null);
 			}
 		}
 		//Check formula validity
@@ -1271,7 +1272,7 @@ public class LipidGenGUI extends JInternalFrame {
 			catch(Exception e)
 			{
 				e.printStackTrace();
-				//throw new CustomException(mass+" is not a valid elemental formula");
+				throw new CustomException(mass+" is not a valid elemental formula", e);
 			}
 		}
 
@@ -1513,7 +1514,9 @@ public class LipidGenGUI extends JInternalFrame {
 		BufferedReader reader = new BufferedReader(new FileReader(file));
 
 		//Clear FA DB
-		fattyAcidsDB.clear();
+		fattyAcidsDB = new ArrayList<FattyAcid>();
+		transitionTypeStrings = new ArrayList<String>();
+		transitionTypes = new ArrayList<TransitionType>();
 
 		//read line if not empty
 		while ((line = reader.readLine()) != null)
@@ -1604,7 +1607,7 @@ public class LipidGenGUI extends JInternalFrame {
 
 
 		//Clear adducts DB
-		adductsDB.clear();
+		adductsDB =  new ArrayList<Adduct>();
 
 		//read line if not empty
 		while ((line = reader.readLine()) != null)
@@ -1650,6 +1653,8 @@ public class LipidGenGUI extends JInternalFrame {
 		String polarity;
 		LipidClass temp;
 		ArrayList<String> faTypes;
+		String backboneFormula;
+		boolean newFormat = false;
 
 		//Create file buffer
 		File file = new File(filename);
@@ -1657,11 +1662,16 @@ public class LipidGenGUI extends JInternalFrame {
 
 
 		//Clear Class DB
-		lipidClassesDB.clear();
+		lipidClassesDB = new ArrayList<LipidClass>();
 
 		//read line if not empty
 		while ((line = reader.readLine()) != null)
 		{
+			//Check if library is new or old format
+			if (line.contains("Name") && line.contains("Backbone"))
+				newFormat = true;
+
+			//If not title line
 			if (!line.contains("Name"))
 			{
 				split = line.split(",");
@@ -1693,21 +1703,45 @@ public class LipidGenGUI extends JInternalFrame {
 				if (split[6].equals("FALSE")) sphingoid = false;
 				else {sphingoid = true;}
 
-				numFA = Integer.valueOf(split[7]);
+				if (newFormat)
+					backboneFormula = split[7];
+				else
+					backboneFormula = "";
 
-				polarity = split[8];
+				if (newFormat)
+					numFA = Integer.valueOf(split[8]);
+				else
+					numFA = Integer.valueOf(split[7]);
+
+				if (newFormat)
+					polarity = split[9];
+				else
+					polarity = split[8];
 
 				//Parse fatty acid types
 				faTypes = new ArrayList<String>();
 
-				for (int i=9; i<split.length; i++)
+				if (newFormat)
 				{
-					if (!split[i].equals("none"))
+					for (int i=10; i<split.length; i++)
 					{
-						faTypes.add(split[i]);
+						if (!split[i].equals("none"))
+						{
+							faTypes.add(split[i]);
+						}
 					}
 				}
-				lipidClassesDB.add(new LipidClass(name, abbrev, head, adductArray, sterol, glycerol, sphingoid, numFA, polarity, faTypes));
+				else
+				{
+					for (int i=9; i<split.length; i++)
+					{
+						if (!split[i].equals("none"))
+						{
+							faTypes.add(split[i]);
+						}
+					}
+				}
+				lipidClassesDB.add(new LipidClass(name, abbrev, head, adductArray, sterol, glycerol, sphingoid, backboneFormula, numFA, polarity, faTypes));
 			}
 		}
 
@@ -1847,7 +1881,7 @@ public class LipidGenGUI extends JInternalFrame {
 		DefaultTreeModel model = (DefaultTreeModel)tree.getModel();
 		String childNode = String.valueOf(selectedNode);
 		String parentNode = String.valueOf(selectedParentNode);
-		
+
 		if (!parentNode.equals("Fragmentation Library"))
 		{
 			//Search for correct class
@@ -2072,7 +2106,7 @@ public class LipidGenGUI extends JInternalFrame {
 		try {
 			PrintWriter pw = new PrintWriter(filename);
 
-			pw.println("Name,Abbreviation,HeadGroup,Adducts,Sterol,Glycerol,Sphingoid,numFattyAcids,OptimalPolarity,FA1,FA2,FA3,FA4");
+			pw.println("Name,Abbreviation,HeadGroup,Adducts,Sterol,Glycerol,Sphingoid,Backbone,numFattyAcids,OptimalPolarity,FA1,FA2,FA3,FA4");
 
 			for (int i=0; i<lipidClassesDB.size(); i++)
 			{
@@ -2318,6 +2352,7 @@ public class LipidGenGUI extends JInternalFrame {
 		boolean sterol = false;
 		boolean glycerol = false;
 		boolean sphingoid = false;
+		String backboneFormula = "";
 		int numFattyAcids;
 		String optimalPolarity;
 		ArrayList<String> fattyAcidTypes = new ArrayList<String>();
@@ -2360,10 +2395,11 @@ public class LipidGenGUI extends JInternalFrame {
 		if (array[4].equals("Glycerol")) glycerol = true;
 		else if (array[4].equals("Sterol")) sterol = true;
 		else if (array[4].equals("Sphingoid")) sphingoid = true;
+		else backboneFormula = array[4];
 
 		//Check backbone and throw error if necessary
-		if (!glycerol && !sterol && !sphingoid) throw new CustomException(array[4]
-				+"is not a valid backbone choice for "+classAbbrev+".  Valid options are Glycerol, Sterol, or Sphingoid", null);
+		if (!glycerol && !sterol && !sphingoid && !util.validElementalFormula(backboneFormula)) throw new CustomException(array[4]
+				+"is not a valid backbone choice for "+classAbbrev+".  Valid options are Glycerol, Sterol, Sphingoid, or a valid elemental formula", null);
 
 		//Num Fatty Acids
 		numFattyAcids = Integer.valueOf(array[5]);
@@ -2398,7 +2434,7 @@ public class LipidGenGUI extends JInternalFrame {
 		}
 
 		result = new LipidClass(className, classAbbrev, headGroup, 
-				adductArray, sterol, glycerol, sphingoid,numFattyAcids,optimalPolarity,fattyAcidTypes);
+				adductArray, sterol, glycerol, sphingoid, backboneFormula,numFattyAcids,optimalPolarity,fattyAcidTypes);
 
 		return result;
 	}
@@ -2486,6 +2522,22 @@ public class LipidGenGUI extends JInternalFrame {
 		try {
 			readClass("src/libraries/"+activeLib+"/Lipid_Classes.csv");
 			ms2Templates = uploadTemplates(false, false, "src/libraries/"+activeLib+"\\MS2_Templates.csv");
+
+			//Reset table
+			outputTable.setModel(new DefaultTableModel(
+					new Object[][] {
+					},
+					new String[] {
+							"Class", "Active"
+					}
+					) {boolean[] columnEditables = new boolean[] {false, true};
+					public boolean isCellEditable(int row, int column) 
+					{return columnEditables[column];}
+					@Override
+					public Class<?> getColumnClass(int columnIndex) {
+						return columnIndex == 1 ? Boolean.class : super.getColumnClass(columnIndex);
+					}
+			});
 
 			for (int i=0; i<ms2Templates.size(); i++)
 			{

@@ -29,6 +29,7 @@ import peak_finder.Utilities;
 public class MzPeakFinder 
 {
 	//Constants
+
 	public Double MINPPMDIFF = 20.0; 			//Max mass differece in ppm for feature association
 	public Double MINRTMULTIPLIER = 1.0;		//Minimum fwhm multiplier for ID association
 	public Double MINDOTPRODUCT = 500.0;		//Minimum dot product for spectral matching
@@ -89,7 +90,6 @@ public class MzPeakFinder
 	public void runQuantitation(boolean separatePolarities, 
 			boolean adductFiltering, boolean inSourceFiltering) throws IOException, CustomException
 	{
-		//TODO:
 		//Clear arrays
 		compoundGroups.clear();
 		samples.clear(); 
@@ -99,22 +99,28 @@ public class MzPeakFinder
 		//Initialize samples array
 		samples = new ArrayList<Sample>();
 
-		//Import positive results from mzmine
-		try
+		if (posTable.contains("."))
 		{
-			importMzResults(posTable,MINIDNUM, separatePolarities, "+");
-		}
-		catch (CustomException e)
-		{
-			CustomError ce = new CustomError(e.getMessage(), null);
-		}
-		catch (Exception e)
-		{
-			CustomError ce = new CustomError("Error reading peak tables", e);
+			//Import positive results from mzmine
+			try
+			{
+				importMzResults(posTable,MINIDNUM, separatePolarities, "+");
+			}
+			catch (CustomException e)
+			{
+				CustomError ce = new CustomError(e.getMessage(), null);
+			}
+			catch (Exception e)
+			{
+				CustomError ce = new CustomError("Error reading peak tables", e);
+			}
 		}
 
-		//Import negative results from mzmine
-		importMzResults(negTable,MINIDNUM, separatePolarities, "-");
+		if (negTable.contains("."))
+		{
+			//Import negative results from mzmine
+			importMzResults(negTable,MINIDNUM, separatePolarities, "-");
+		}
 
 		//Sort all CG's by retention time
 		Collections.sort(compoundGroups);
@@ -143,14 +149,14 @@ public class MzPeakFinder
 		//Find best ID
 		findBestID();
 
-		//Write filtering reasons
-		writeFilterDB(new File(posTable).getParent()+"\\Filtered_Results.csv");
-
 		//Filter results for duplicates and dimers
 		filterResults(adductFiltering, inSourceFiltering);
 
 		//Filter IDs by RT
 		if (rtFilter) checkClassRTDist(MINRTMULTIPLIER);
+
+		//Write filtering reasons
+		writeFilterDB(new File(posTable).getParent()+"\\Unfiltered_Results.csv");
 
 		//Calculate Statistics
 		calculateStatistics();
@@ -206,7 +212,7 @@ public class MzPeakFinder
 		//Clear arrays
 		cGIndexArray.clear();
 		fGIndexArray.clear();
-		
+
 		//Split line
 		String[] split = line.split(",");
 
@@ -248,8 +254,8 @@ public class MzPeakFinder
 
 		if (cGIndexArray.size() != cGArray.size() || fGIndexArray.size()%fArray.size() != 0)
 			throw new CustomException("Required fields are missing from data table.  Table must include: row ID, row m/z, row retention time, "
-			+ "row number of detected peaks, Peak status, Peak m/z, Peak RT, Peak area, Peak charge, Peak FWHM, and Peak height", null);
-		
+					+ "row number of detected peaks, Peak status, Peak m/z, Peak RT, Peak area, Peak charge, Peak FWHM, and Peak height", null);
+
 		//Reorganize header list //0,3,6,9
 		for (int j=0; j<fGIndexArray.size()/fArray.size(); j++) //0,1,2
 		{
@@ -260,7 +266,7 @@ public class MzPeakFinder
 		}
 
 		fGIndexArray = featureListTemp;
-		
+
 		//Parse sample names from headers
 		parseFiles(split, separatePolarities);
 	}
@@ -275,6 +281,7 @@ public class MzPeakFinder
 		MzCompoundGroup compoundGroupTemp = null;		//Temp compound group object
 		MzFeature featureTemp = null;					//Temp feature object
 		int featureNumber = 0;							//Number of features
+		int fwhmCount = 0;
 
 		//Update Status
 		updateProgress(2,0,"% - Importing Peak Data");
@@ -307,7 +314,7 @@ public class MzPeakFinder
 			}
 
 			//import line if it does not contain header
-			else if (!line.contains("row"))
+			else if (!line.contains("row") && !line.contains("null"))
 			{
 				featureNumber = 0;
 
@@ -324,6 +331,7 @@ public class MzPeakFinder
 
 					if ((int)(Math.round(Math.floor(i/7.0)))>featureNumber)
 					{
+
 						//Create feature
 						featureTemp = new MzFeature(split[fGIndexArray.get(featureNumber*7)],
 								Integer.valueOf(split[fGIndexArray.get(featureNumber*7+4)]),
@@ -333,7 +341,7 @@ public class MzPeakFinder
 								Double.valueOf(split[fGIndexArray.get(featureNumber*7+3)]),
 								Double.valueOf(split[fGIndexArray.get(featureNumber*7+6)]),
 								matchSample(sampleName), polarity);
-						
+
 						//Set file polarity
 						featureTemp.sample.polarity = polarity;
 
@@ -376,9 +384,14 @@ public class MzPeakFinder
 
 			compoundGroups.get(i).calcFWHM();
 			compoundGroups.get(i).findQuantIon();
-			fwhmSum += compoundGroups.get(i).avgFWHM;
+			if (compoundGroups.get(i).avgFWHM<10.0)
+			{
+				fwhmCount++;
+				fwhmSum += compoundGroups.get(i).avgFWHM;
+			}
+
 		}
-		avgFWHM = fwhmSum/compoundGroups.size();
+		avgFWHM = fwhmSum/fwhmCount;
 	}
 
 	//Returns matching sample object to sample name
@@ -485,7 +498,7 @@ public class MzPeakFinder
 										Boolean.valueOf(split[12]), parsePurity(split[10]),
 										parseMatchedMasses(split[14]));
 
-								if (lipidTemp.dotProduct>MINDOTPRODUCT)
+								if (lipidTemp.dotProduct>MINDOTPRODUCT && lipidTemp.revDotProduct>MINREVDOTPRODUCT)
 								{	
 									importedLipids.add(lipidTemp);
 									samples.get(i).addPurity(Integer.valueOf(split[9]));
@@ -627,7 +640,7 @@ public class MzPeakFinder
 			//Filter by dot product
 			if (importedLipids.get(i).dotProduct>Utilities.MINDOTPRODUCT
 					&& importedLipids.get(i).revDotProduct>Utilities.MINREVDOTPRODUCT)
-			{			
+			{	
 				//Find min and max index for CG hash map
 				minIndex = calculateMapIndex(importedLipids.get(i).retention-avgFWHM*3.0);
 
@@ -652,10 +665,11 @@ public class MzPeakFinder
 						{
 							//Iterate through features
 							for (int l=0; l<compoundGroups.get(cgIndex).features.size(); l++)
-							{
+							{	
 								//If RT is not within 1 minute, break loop to save iteration time
-								if (Math.abs(importedLipids.get(i).retention-compoundGroups.get(cgIndex).features.get(l).realRetention)>1.0) break;
-
+								if (Math.abs(importedLipids.get(i).retention-compoundGroups.get(cgIndex).features.get(l).realRetention)>1.0 && 
+										compoundGroups.get(cgIndex).features.get(l).realRetention>0.01) break;
+								
 								if (compoundGroups.get(cgIndex).features.get(l).checkLipid(importedLipids.get(i),true))
 								{
 									//Add lipid to feature
@@ -774,8 +788,6 @@ public class MzPeakFinder
 			updateProgress(2, (int)(Double.valueOf(i+1)
 					/Double.valueOf(compoundGroups.size())*100.0),"% - Filtering Retention Times");
 
-			//System.out.println(compoundGroups.get(i).identification.identifications.get(0).lipidClass);
-
 			//Iterate through compoundGroups
 			if (compoundGroups.get(i).finalLipidID != null)
 			{
@@ -804,8 +816,8 @@ public class MzPeakFinder
 		//Create min and max retention time array
 		for (int i=0; i<classArray.size(); i++)
 		{
-			classRTMinArray.add(util.findMedian(rtArray.get(i))-multiplier*util.sd(rtArray.get(i)));
-			classRTMaxArray.add(util.findMedian(rtArray.get(i))+multiplier*util.sd(rtArray.get(i)));
+			classRTMinArray.add(util.findMedian(rtArray.get(i))-getMaxDevOutlier(rtArray.get(i), Utilities.MINRTMULTIPLIER));
+			classRTMaxArray.add(util.findMedian(rtArray.get(i))+getMaxDevOutlier(rtArray.get(i), Utilities.MINRTMULTIPLIER));
 		}
 
 		//Filter identifications
@@ -830,6 +842,33 @@ public class MzPeakFinder
 			}
 		}
 	}
+
+	//Return min and max outlier bounds using the Iglewicz and Hoaglin methodology
+	private Double getMaxDevOutlier(ArrayList<Double> rtArray, Double threshold)
+	{
+		Double maxDev;
+		ArrayList<Double> absDev = new ArrayList<Double>();
+
+		//Calculate average
+		Double mean = util.findMean(rtArray);
+
+		//Calculate median
+		Double median = util.findMedian(rtArray);
+
+		//Calculate absolute deviation array
+		for (int i=0; i<rtArray.size(); i++)
+		{
+			absDev.add(Math.abs(rtArray.get(i)-median));
+		}
+
+		//Calculate median absolute deviation
+		Double medAbsDev = util.findMedian(absDev);
+
+		maxDev = Math.abs((threshold*medAbsDev)/0.6745);
+
+		return maxDev;
+	}
+
 
 	//Method to create hashmap structure for compound groups
 	private void createIndexMap(Double rtMax)
@@ -873,7 +912,7 @@ public class MzPeakFinder
 			PrintWriter pw = new PrintWriter(filename);
 
 			pw.println("File,Feature Groups,Avg. Peak FWHM (min.),"
-					+ "Peak Capacity,Identified Lipids"
+					+ "Peak Capacity,Identified Lipids,"
 					+ "Avg. MS2 Purity,Avg. Lipid Mass Error"
 					+ "(ppm)");
 
@@ -1224,34 +1263,23 @@ public class MzPeakFinder
 				{
 					if (compoundGroups.get(i).quantIon != null & compoundGroups.get(counter).quantIon!= null)
 					{
-						if ((compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
-								util.checkFragment(compoundGroups.get(i).finalLipidID,compoundGroups.get(counter).quantIon)
+						if (compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
+								util.checkFragment(compoundGroups.get(i).finalLipidID,compoundGroups.get(counter).quantIonArray)
 								&& compoundGroups.get(i).quantPolarity.equals(compoundGroups.get(counter).quantPolarity))
-								||
-								(compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
-										util.checkFragment(compoundGroups.get(counter).finalLipidID,compoundGroups.get(i).quantIon)
-										&& compoundGroups.get(i).quantPolarity.equals(compoundGroups.get(counter).quantPolarity)))
 						{
-							//Remove the unidentified compound groups
-							if(compoundGroups.get(i).finalLipidID==null && compoundGroups.get(counter).finalLipidID != null)
-							{
-								if (compoundGroups.get(i).finalLipidID == null)
-								{
-									compoundGroups.get(i).keep = false;
-									compoundGroups.get(i).filterReason = "In-source fragment";
-								}
-							}
-							else if(compoundGroups.get(i).finalLipidID!=null && compoundGroups.get(counter).finalLipidID == null)
-							{
-								if(compoundGroups.get(counter).finalLipidID == null)
-								{
-									compoundGroups.get(counter).keep = false;
-									compoundGroups.get(counter).filterReason = "In-source fragment";
-								}
-							}
+							compoundGroups.get(counter).keep = false;
+							compoundGroups.get(counter).filterReason = "In-source fragment";
+						}
+						else if (compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
+								util.checkFragment(compoundGroups.get(counter).finalLipidID,compoundGroups.get(i).quantIonArray)
+								&& compoundGroups.get(i).quantPolarity.equals(compoundGroups.get(counter).quantPolarity))
+						{
+							compoundGroups.get(i).keep = false;
+							compoundGroups.get(i).filterReason = "In-source fragment";
 						}
 					}
 				}
+
 
 				//Remove Dimers
 				if (adductFiltering)

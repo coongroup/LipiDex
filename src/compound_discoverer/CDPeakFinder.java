@@ -103,32 +103,32 @@ public class CDPeakFinder extends Utilities
 
 		//Import results from compound discoverer
 		importCDResults(csvFile,MINIDNUM, separatePolarities);
-		
+
 		//Sort all CG's by retention time
 		Collections.sort(compoundGroups);
 		updateProgress(2,0,"% - Importing Feature List");
 
 		//Create CG index hash array
 		createIndexMap(compoundGroups.get(compoundGroups.size()-1).retention);
-		
+
 		//Import unalligned feature list 
 		importFeatures(featureFileString);
-		
+
 		//Update avg. rt deviation values 
 		calculateAvgRTDev();
-		
+
 		//Interpolate real retention times of unmatched features
 		fillRTGaps();
-		
+
 		//Find Isobaric neighbors
 		findIsobaricFeatures();
-		
+
 		//Find coeluting peaks 
 		findClosestPeak();
-		
+
 		//Load spectral match IDs
 		loadIDS(resultFiles, separatePolarities); 
-	
+
 		//Associate LB Results to Features
 		associateIDSHashMap(0.5);
 
@@ -147,7 +147,7 @@ public class CDPeakFinder extends Utilities
 		if (rtFilter) checkClassRTDist(MINRTMULTIPLIER);
 
 		//Write filtering reasons
-		writeFilterDB(new File(csvFile).getParent()+"\\Filtered_Results.csv");
+		writeFilterDB(new File(csvFile).getParent()+"\\Unfiltered_Results.csv");
 
 		//Calculate Statistics
 		calculateStatistics();
@@ -480,7 +480,16 @@ public class CDPeakFinder extends Utilities
 	//Return matching Sample object based on file ID number from compound discoverer
 	private Sample matchSample(String name)
 	{
-		return samples.get(Integer.valueOf(name.substring(name.indexOf("F")+1))-1);
+		for (int i=0; i<samples.size(); i++)
+		{
+			if (samples.get(i).cdFileID.equals(name))
+			{
+				//return samples.get(Integer.valueOf(name.substring(name.indexOf("F")+1))-1);
+				return samples.get(i);
+			}
+		}
+
+		return null;
 	}
 
 	//Parse compound line and return new compound object
@@ -550,13 +559,21 @@ public class CDPeakFinder extends Utilities
 	{
 		CDFeature result;
 		String[] split;
+		Double area;
+		int charge;
 
 		split = line.split(",");
+
+		//If area is blank, use a zero
+		if (split[fGIndexArray[7]].equals("")) 
+			area = 0.0;
+		else 
+			area =  Double.valueOf(split[fGIndexArray[7]]);
 
 		result = new CDFeature(split[fGIndexArray[0]], Integer.valueOf(split[fGIndexArray[1]]), 
 				Double.valueOf(split[fGIndexArray[2]]), Double.valueOf(split[fGIndexArray[3]]), 
 				Double.valueOf(split[fGIndexArray[4]]), Double.valueOf(split[fGIndexArray[5]]), 
-				Integer.valueOf(split[fGIndexArray[6]]), Double.valueOf(split[fGIndexArray[7]]),
+				Integer.valueOf(split[fGIndexArray[6]]), area,
 				Double.valueOf(split[fGIndexArray[8]]), samples.get(
 						Integer.valueOf(split[fGIndexArray[9]].substring(split[fGIndexArray[9]].indexOf("F")+1))-1));
 
@@ -569,13 +586,14 @@ public class CDPeakFinder extends Utilities
 		String[] split;
 		int j=0;
 
+		line = line.replace(",", ", ");
 		//Split line
 		split = line.split(",");
 
 		//For all area in CG line, add new AreaResult object
 		for (int i=cdAreaStart; i<split.length; i++)
 		{
-			if (split[i].equals(""))
+			if (split[i].equals(" "))
 			{
 				temp.addResult(new CDAreaResult(samples.get(j), 0.0));
 				j++;
@@ -622,7 +640,7 @@ public class CDPeakFinder extends Utilities
 							split = line.split(",");
 
 							//Catch Glycans
-							if (!line.contains("glycan"))
+							if (!line.contains("glycan") && split.length > 14)
 							{
 								//Add Lipid
 								lipidTemp = new Lipid(Double.valueOf(split[1]),
@@ -1011,6 +1029,32 @@ public class CDPeakFinder extends Utilities
 		}
 	}
 
+	//Return min and max outlier bounds using the Iglewicz and Hoaglin methodology
+	private Double getMaxDevOutlier(ArrayList<Double> rtArray, Double threshold)
+	{
+		Double maxDev;
+		ArrayList<Double> absDev = new ArrayList<Double>();
+
+		//Calculate average
+		Double mean = util.findMean(rtArray);
+
+		//Calculate median
+		Double median = util.findMedian(rtArray);
+
+		//Calculate absolute deviation array
+		for (int i=0; i<rtArray.size(); i++)
+		{
+			absDev.add(Math.abs(rtArray.get(i)-median));
+		}
+
+		//Calculate median absolute deviation
+		Double medAbsDev = util.findMedian(absDev);
+
+		maxDev = Math.abs((threshold*medAbsDev)/0.6745);
+
+		return maxDev;
+	}
+
 	//Remove identifications which fall outside of class rt cluster
 	//Uses standard deviations supplied by user input
 	private void checkClassRTDist(double multiplier)
@@ -1028,8 +1072,6 @@ public class CDPeakFinder extends Utilities
 
 			updateProgress(2, (int)(Double.valueOf(i+1)
 					/Double.valueOf(compoundGroups.size())*100.0),"% - Filtering Retention Times");
-
-			//System.out.println(compoundGroups.get(i).identification.identifications.get(0).lipidClass);
 
 			//Iterate through compoundGroups
 			if (compoundGroups.get(i).finalLipidID != null)
@@ -1059,8 +1101,8 @@ public class CDPeakFinder extends Utilities
 		//Create min and max retention time array
 		for (int i=0; i<classArray.size(); i++)
 		{
-			classRTMinArray.add(util.findMedian(rtArray.get(i))-multiplier*util.sd(rtArray.get(i)));
-			classRTMaxArray.add(util.findMedian(rtArray.get(i))+multiplier*util.sd(rtArray.get(i)));
+			classRTMinArray.add(util.findMedian(rtArray.get(i))-getMaxDevOutlier(rtArray.get(i), Utilities.MINRTMULTIPLIER));
+			classRTMaxArray.add(util.findMedian(rtArray.get(i))+getMaxDevOutlier(rtArray.get(i), Utilities.MINRTMULTIPLIER));
 		}
 
 		//Filter identifications
@@ -1127,7 +1169,7 @@ public class CDPeakFinder extends Utilities
 			PrintWriter pw = new PrintWriter(filename);
 
 			pw.println("File,Feature Groups,Avg. Peak FWHM (min.),"
-					+ "Peak Capacity,Identified Lipids"
+					+ "Peak Capacity,Identified Lipids,"
 					+ "Avg. MS2 Purity,Avg. Lipid Mass Error"
 					+ "(ppm)");
 
@@ -1421,35 +1463,23 @@ public class CDPeakFinder extends Utilities
 				{
 					if (compoundGroups.get(i).quantIon != null & compoundGroups.get(counter).quantIon!= null)
 					{
-						if ((compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
-								util.checkFragment(compoundGroups.get(i).finalLipidID,compoundGroups.get(counter).quantIon)
+						if (compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
+								util.checkFragment(compoundGroups.get(i).finalLipidID,compoundGroups.get(counter).quantIonArray)
 								&& compoundGroups.get(i).quantPolarity.equals(compoundGroups.get(counter).quantPolarity))
-								||
-								(compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
-										util.checkFragment(compoundGroups.get(counter).finalLipidID,compoundGroups.get(i).quantIon)
-										&& compoundGroups.get(i).quantPolarity.equals(compoundGroups.get(counter).quantPolarity)))
 						{
-							//Remove the unidentified compound groups
-							if(compoundGroups.get(i).finalLipidID==null && compoundGroups.get(counter).finalLipidID != null)
-							{
-								if (compoundGroups.get(i).finalLipidID == null)
-								{
-									compoundGroups.get(i).keep = false;
-									compoundGroups.get(i).filterReason = "In-source fragment";
-								}
-							}
-							else if(compoundGroups.get(i).finalLipidID!=null && compoundGroups.get(counter).finalLipidID == null)
-							{
-								if(compoundGroups.get(counter).finalLipidID == null)
-								{
-									compoundGroups.get(counter).keep = false;
-									compoundGroups.get(counter).filterReason = "In-source fragment";
-								}
-							}
+							compoundGroups.get(counter).keep = false;
+							compoundGroups.get(counter).filterReason = "In-source fragment";
+						}
+						else if (compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
+								util.checkFragment(compoundGroups.get(counter).finalLipidID,compoundGroups.get(i).quantIonArray)
+								&& compoundGroups.get(i).quantPolarity.equals(compoundGroups.get(counter).quantPolarity))
+						{
+							compoundGroups.get(i).keep = false;
+							compoundGroups.get(i).filterReason = "In-source fragment";
 						}
 					}
 				}
-				
+
 				//Remove Dimers
 				if (adductFiltering)
 				{

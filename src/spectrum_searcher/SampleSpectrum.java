@@ -78,14 +78,14 @@ public class SampleSpectrum extends lib_gen.Utilities
 
 
 	//Method to add id to array
-	public void addID(LibrarySpectrum ls, Double dotProduct, Double reverseDotProduct)
+	public void addID(LibrarySpectrum ls, Double dotProduct, Double reverseDotProduct, double mzTol)
 	{
 		Identification id = new Identification(ls, ((precursor-ls.precursor)/ls.precursor)*1000000, 
 				dotProduct, reverseDotProduct);
 		idArray.add(id);
 	}
 
-	public void calcPurityAll(ArrayList<FattyAcid> faDB)
+	public void calcPurityAll(ArrayList<FattyAcid> faDB, double mzTol)
 	{
 		Collections.sort(idArray);
 		ArrayList<LibrarySpectrum> ls = new ArrayList<LibrarySpectrum>();
@@ -102,7 +102,7 @@ public class SampleSpectrum extends lib_gen.Utilities
 				}
 
 				//Calculate purity
-				peakPurity = idArray.get(0).calcPurityAll(faDB, ls, transitionArray);
+				peakPurity = idArray.get(0).calcPurityAll(faDB, ls, transitionArray, mzTol);
 			}
 
 		}
@@ -196,7 +196,7 @@ public class SampleSpectrum extends lib_gen.Utilities
 
 		//Calculate dot product
 		if (numerSum > 0.0) result = 1000.0 * Math.pow(numerSum, 2)/(sampleSum*libSum);
-
+		
 		return result;
 	}
 

@@ -1,0 +1,53 @@
+PC[OH] [M+Ac-H]-
+-,999.0,1,Alkyl Fragment
+-,999.0,1,Hydroxy Fragment
+168.0423,100.0,1,Fragment
+224.0693,50.0,1,Fragment
+-74.03965731,100.0,1,Neutral Loss
+
+---
+PC[OH] [M+H]+
+184.073872,999.0,1,Fragment
+86.096974,200.2880934,1,Fragment
+
+---
+PE[OH] [M+H]+
+C3H6O1,200.0,1,Alkyl Fragment
+-141.01886,999.0,1,Neutral Loss
+
+---
+PG[OH] [M-H]-
+152.995288,999.0,1,Fragment
+-,999.0,1,Alkyl Fragment
+C10H19O2,7.0,1,Alkyl Neutral Loss
+C8H15O2,6.0,1,Alkyl Neutral Loss
+-,999.0,1,Hydroxy Fragment
+C10H19O2,7.0,1,Hydroxy Neutral Loss
+C8H15O2,6.0,1,Hydroxy Neutral Loss
+
+---
+PI[OH] [M+NH4]+
+-277.05597,999.0,1,Neutral Loss
+
+---
+PI[OH] [M-H]-
+78.9591,300.0,1,Fragment
+96.9696,100.0,1,Fragment
+223.0013,100.0,1,Fragment
+241.011333,500.0,1,Fragment
+152.995288,300.0,1,Fragment
+-,999.0,1,Alkyl Fragment
+H-1,50.0,1,Alkyl Neutral Loss
+-,999.0,1,Hydroxy Fragment
+H-1,50.0,1,Hydroxy Neutral Loss
+
+---
+PS[OH] [M-H]-
+-,999.0,1,Alkyl Fragment
+-,999.0,1,Hydroxy Fragment
+78.9591,200.0,1,Fragment
+152.9958,400.0,1,Fragment
+C3H5O4P1,75.0,1,Hydroxy Fragment
+-87.0321,100.0,1,Neutral Loss
+
+---

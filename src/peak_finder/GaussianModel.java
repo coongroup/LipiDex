@@ -10,7 +10,7 @@ public class GaussianModel
 	ArrayList<Double> x;	//ArrayList of x coordinates (time)
 	ArrayList<Double> y;	//ArrayList of y coordinated (signal, normalize to 1)
 	Double trapezoidSum;	//Sum of areas using trapezoid methof
-	Double apexRT;			//Apex Retention
+	public Double apexRT;			//Apex Retention
 
 	//Constructor for compound discoverer gaussian fitting
 	public GaussianModel(Double fwhm, Double area, Double height, Double apexRT)

@@ -52,7 +52,7 @@ public class FileBrowser extends JInternalFrame {
 	public FileBrowser(JTable guiTable, boolean[] separatePolaritiesArray, File lastDirectory) {
 		
 		//Set GUI parameters
-		setFrameIcon(new ImageIcon(FileBrowser.class.getResource("/Icons/pf_16_icon.png")));
+		setFrameIcon(new ImageIcon(FileBrowser.class.getResource("/icons/pf_16_icon.png")));
 		parentTable = guiTable;
 		setTitle("Results Uploader");
 		setBounds(100, 100, 659, 528);

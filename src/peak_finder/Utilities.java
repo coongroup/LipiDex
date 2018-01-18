@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Collections;
 
 import compound_discoverer.CDLipidCandidate;
-
 import lib_gen.Adduct;
 
 
@@ -304,15 +303,18 @@ public class Utilities
 	}
 
 	//Returns true iff two masses could be potential in-source fragment pair
-	public boolean checkFragment(Lipid l, Double mass)
+	public boolean checkFragment(Lipid l, ArrayList<Double> quantIonArray)
 	{
 		if (l!=null)
 		{
 			//For all possible adduct masses
 			for (int i=0; i<l.fragmentMasses.size(); i++)
 			{
-				if (calcPPMDiff(l.fragmentMasses.get(i), mass)<MAXPPMDIFF)
-					return true;
+				for (int j=0; j<quantIonArray.size(); j++)
+				{
+					if (calcPPMDiff(l.fragmentMasses.get(i), quantIonArray.get(j))<MAXPPMDIFF)
+						return true;
+				}
 			}
 		}
 

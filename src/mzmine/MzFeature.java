@@ -39,7 +39,7 @@ public class MzFeature extends Utilities
 		this.height = height;
 
 		//Create a gaussian model of peak
-		peakModel = new GaussianModel(fwhm, null, realRetention, height);
+		peakModel = new GaussianModel(fwhm, null, height, realRetention);
 
 		//Initizlize arrays
 		lipidCandidates = new ArrayList<Lipid>();
@@ -57,8 +57,10 @@ public class MzFeature extends Utilities
 		for (int i=0; i<lipidCandidates.size(); i++)
 		{
 			if (lipidCandidates.get(i).keep)
+			{
 				lipidCandidates.get(i).gaussianScore = 
-				peakModel.getNormalizedHeight(lipidCandidates.get(i).correctedRetention);
+				peakModel.getNormalizedHeight(lipidCandidates.get(i).retention);
+			}
 		}
 	}
 

@@ -16,12 +16,19 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 		this.lipidClass = lipidClass;
 		this.transitions = transitions;
 		possibleFattyAcids = new ArrayList<FattyAcid>();
+		theoreticalLipids = new ArrayList<Lipid>();
 	}
 
 	//Add fatty acid to possible array
 	public void addFA (FattyAcid fa)
 	{
 		possibleFattyAcids.add(fa);
+	}
+
+	//Returns transition array
+	public ArrayList<TransitionDefinition> getTransitions()
+	{
+		return transitions;
 	}
 
 	//Generate theoretical spectra from fragmentation rules
@@ -32,6 +39,18 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 		{
 			theoreticalLipids.get(i).addGeneratedMS2(generateMS2(theoreticalLipids.get(i),transitionTypes));
 		}
+	}
+
+	//Add a theoretical lipid to array
+	public void addTheoreticalLipid(Lipid l)
+	{
+		theoreticalLipids.add(l);
+	}
+
+	//Clear theoretical lipid array
+	public void clearTheoreticalLipids()
+	{
+		theoreticalLipids = new ArrayList<Lipid>();
 	}
 
 	//Generate all possible lipids for lipid class based on active fatty acids
@@ -45,7 +64,7 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 		ArrayList<String> shadowArray = new ArrayList<String>();
 		String fattyAcidString;
 		Lipid lipidTemp;
-		
+
 		int[] limits = new int[faArray.size()];
 		int[] counters = new int[faArray.size()];
 
@@ -199,7 +218,7 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 			for (int i=0; i<transitions.size(); i++)
 			{
 				faArray = new ArrayList<FattyAcid>();
-				
+
 				String type = transitions.get(i).type;
 
 				//Generate cardiolipin dg transitions
@@ -218,7 +237,7 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 					if (transitions.get(i).typeObject.isFattyAcid)
 					{
 						faArray.add(lipid.fattyAcids.get(faCounter));
-						
+
 						//For PUFA transitions
 						if (transitions.get(i).typeObject.name.contains("PUFA"))
 						{
@@ -228,11 +247,11 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 						else
 						{
 							if (transitions.get(i).typeObject.fattyAcidType.equals(faArray.get(0).type))
-									addIfUnique(result, parseTransition(transitions.get(i),lipid,faArray));
+								addIfUnique(result, parseTransition(transitions.get(i),lipid,faArray));
 						}
 					}
 					else
-					addIfUnique(result, parseTransition(transitions.get(i),lipid,faArray));
+						addIfUnique(result, parseTransition(transitions.get(i),lipid,faArray));
 				}
 			}
 			faCounter++;
@@ -242,7 +261,7 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 	}
 
 	//Returns transition object based on definition and lipid
-	private Transition parseTransition(TransitionDefinition td, Lipid lipid, ArrayList<FattyAcid> faArray) throws CustomException
+	public Transition parseTransition(TransitionDefinition td, Lipid lipid, ArrayList<FattyAcid> faArray) throws CustomException
 	{
 		Double mass;
 		if (td.isFormula)

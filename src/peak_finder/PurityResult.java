@@ -22,4 +22,9 @@ public class PurityResult implements Comparable<PurityResult> {
 		else return 0;
 	}
 	
+	public String toString()
+	{
+		return String.valueOf(purity);
+	}
+	
 }

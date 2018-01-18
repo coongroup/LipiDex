@@ -1,6 +1,7 @@
 package mzmine;
 import java.util.ArrayList;
 import java.util.Collections;
+
 import peak_finder.Lipid;
 import peak_finder.PurityResult;
 import peak_finder.Utilities;
@@ -159,30 +160,31 @@ public class MzCompoundGroup extends Utilities implements Comparable<MzCompoundG
 						&& features.get(j).lipidCandidates.get(k).preferredPolarity)
 				{
 					//Add to weight and purity sum
-					weightSum += features.get(j).lipidCandidates.get(k).gaussianScore;
 					puritySum += features.get(j).lipidCandidates.get(k).gaussianScore*features.get(j).lipidCandidates.get(k).purity;
 
 					//Add purity to arry if unique lipid identification
 					for (int l=0; l<features.get(j).lipidCandidates.get(k).purityArray.size(); l++)
 					{
-						addPurityIfUnique(features.get(j).lipidCandidates.get(k).purityArray.get(l));
+						weightSum += features.get(j).lipidCandidates.get(k).gaussianScore;
+						addPurityIfUnique(features.get(j).lipidCandidates.get(k).purityArray.get(l), features.get(j).lipidCandidates.get(k).gaussianScore);
 					}
 				}
 			}
 		}
-
+		
 		//Scale purities based on weifhting factor
 		for (int i=0; i<summedPurities.size(); i++)
 		{
-			summedPurities.get(i).purity = (int)Math.round(summedPurities.get(i).purity/weightSum);
+			summedPurities.get(i).purity = (int)Math.round(summedPurities.get(i).purity);
 		}
 
 		//Sory by purity
 		Collections.sort(summedPurities);
 
+		
 		//If purity array contains a value
 		if (summedPurities.size()>0) 
-			this.purity = (double)summedPurities.get(0).purity;
+			this.purity = (double)summedPurities.get(0).purity/weightSum;
 		else 
 			this.purity = 0.0;
 
@@ -193,7 +195,7 @@ public class MzCompoundGroup extends Utilities implements Comparable<MzCompoundG
 	}
 
 	//Add purity to summed purities array if unique.  If not, add purity value
-	private void addPurityIfUnique(PurityResult p)
+	private void addPurityIfUnique(PurityResult p, Double weight)
 	{
 		//For all summed purities
 		for (int i=0; i<summedPurities.size(); i++)
@@ -201,13 +203,13 @@ public class MzCompoundGroup extends Utilities implements Comparable<MzCompoundG
 			//If not unique, end method
 			if (summedPurities.get(i).name.equals(p.name))
 			{
-				summedPurities.get(i).purity += p.purity;
+				summedPurities.get(i).purity += (int)Math.round(((p.purity*1.0)*weight));
 				return;
 			}
 		}
 
 		//If unique, add to summed purities array
-		summedPurities.add(new PurityResult(p.name, p.purity));
+		summedPurities.add(new PurityResult(p.name, (int)Math.round(((p.purity*1.0)*weight))));
 	}
 
 	//Checks to see if both plasmenyl and ether species are present above purity level
@@ -226,14 +228,14 @@ public class MzCompoundGroup extends Utilities implements Comparable<MzCompoundG
 			}
 			//If not and either of the best identifications contains plasmenyl or ether
 			else if (summedPurities.get(0).name.contains("Plasmenyl") ||
-					summedPurities.get(0).name.contains("Ether"))
+					summedPurities.get(0).name.contains("Plasmanyl"))
 			{
 				//Sum all purities for each class
 				for (int i=0; i<summedPurities.size(); i++)
 				{
 					if (summedPurities.get(i).name.contains("Plasmenyl"))
 						pSum += summedPurities.get(i).purity;
-					else if (summedPurities.get(i).name.contains("Ether"))
+					else if (summedPurities.get(i).name.contains("Plasmanyl"))
 						eSum += summedPurities.get(i).purity;
 				}
 
@@ -322,13 +324,18 @@ public class MzCompoundGroup extends Utilities implements Comparable<MzCompoundG
 	public void calcFWHM()
 	{
 		Double result = 0.0;
+		int count = 0;
 
 		for (int i=0; i<features.size(); i++)
 		{
-			result = result + features.get(i).fwhm;
+			if (features.get(i).fwhm > 0.0)
+			{
+				result = result + features.get(i).fwhm;
+				count ++;
+			}
 		}
 
-		result = result/features.size();
+		result = result/count;
 
 		avgFWHM = result;
 	}
@@ -571,7 +578,6 @@ public class MzCompoundGroup extends Utilities implements Comparable<MzCompoundG
 		}
 
 		result = result+features.size()+",";
-
 		result = result + filterReason+",";
 
 		for (int i=0; i<results.size(); i++)

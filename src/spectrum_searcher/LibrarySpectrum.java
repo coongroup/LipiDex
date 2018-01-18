@@ -60,12 +60,13 @@ public class LibrarySpectrum implements Comparable<LibrarySpectrum>
 		String faString;
 		String toAddToFA = "";
 		String[] faSplit;
-
+		int j;
+		
 		lipidClass = id.substring(0, id.indexOf(" "));
 
 		//Remove class and adduct
 		faString = id.substring(id.indexOf(" ")+1, id.lastIndexOf(" "));
-//TODO:
+		//TODO:
 		/*
 		//Parse plasmenyl
 		if (faString.contains("P-"))
@@ -91,28 +92,38 @@ public class LibrarySpectrum implements Comparable<LibrarySpectrum>
 			faString = faString.replace("m", "");
 			toAddToFA = "m";
 		}
-		*/
-		
+		 */
+
 
 		//Split string based on fatty acids
 		faSplit = faString.split("_");
-		
+
+
 
 		for (int i=0; i<faSplit.length; i++)
 		{
-			//Find integer for first number in string
-			  Pattern pattern = Pattern.compile("^\\D*(\\d)");
-			    Matcher matcher = pattern.matcher(faSplit[i]);
-			    matcher.find();
-			    int j = matcher.start(1);
-			
+			//if lipid string does not contain "-"
+			if (faSplit[i].contains("-"))
+			{
+				j = faSplit[i].indexOf("-")+1;
+			}
+			else
+			{
+				//Find integer for first number in string
+				Pattern pattern = Pattern.compile("^\\D*(\\d)");
+				Matcher matcher = pattern.matcher(faSplit[i]);
+				matcher.find();
+				j = matcher.start(1);
+			}
+
+
 			//Remove modifier and add in later
 			if (j>0)
 			{
 				toAddToFA += faSplit[i].substring(0, j);
 				faSplit[i] = faSplit[i].replace(faSplit[i].substring(0, j), "");
 			}
-			
+
 			numC += Double.valueOf(faSplit[i].substring(0, faSplit[i].indexOf(":")));
 			numDB += Double.valueOf(faSplit[i].substring(faSplit[i].indexOf(":")+1));
 		}

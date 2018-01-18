@@ -95,7 +95,7 @@ public class PeakFinderGUI extends JInternalFrame {
 	@SuppressWarnings({ "unused", "unchecked", "rawtypes" })
 	public PeakFinderGUI(JDesktopPane desktopPane, JLabel label, ImageIcon onImage, ImageIcon offImage) 
 	{
-		setFrameIcon(new ImageIcon(PeakFinderGUI.class.getResource("/Icons/pf_16_icon.png")));
+		setFrameIcon(new ImageIcon("src/icons/pf_16_icon.png"));
 		File cdFile = null;
 		try {
 			readAdducts("src/peak_finder/Possible_Adducts.csv");
@@ -143,6 +143,8 @@ public class PeakFinderGUI extends JInternalFrame {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(25, 25, 579, 685);
 		contentPane = new JPanel();
+		contentPane.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the minimum number of times/n the specific"
+				+ " feature was identified to be included in the final peak table."+"</p></html>");
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
@@ -183,42 +185,58 @@ public class PeakFinderGUI extends JInternalFrame {
 		contentPane.add(alignedTableButton);
 
 		JLabel lblParamaters = new JLabel("MS/MS Filtering Parameters");
-		lblParamaters.setBounds(10, 391, 144, 14);
+		lblParamaters.setBounds(10, 363, 144, 14);
 		contentPane.add(lblParamaters);
 
 		JLabel lblMinMassDifference = new JLabel("Max. Mass Difference (ppm)");
+		lblMinMassDifference.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the maximum relative mass difference (ppm)"
+				+ " allowed to associate a lipid identification with a chromatographic peak."+"</p></html>");
 		lblMinMassDifference.setBounds(329, 446, 144, 14);
 		contentPane.add(lblMinMassDifference);
 
 		JLabel label_2 = new JLabel("Min. MS2 Search Dot Product");
-		label_2.setBounds(10, 446, 144, 14);
+		label_2.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the minimum spectral"
+				+ " similarity score needed to use an MS/MS identification."+"</p></html>");
+		label_2.setBounds(10, 418, 144, 14);
 		contentPane.add(label_2);
 
 		JLabel label_3 = new JLabel("Min. MS2 Search Rev. Dot Product");
-		label_3.setBounds(10, 471, 174, 14);
+		label_3.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the minimum"
+				+ " reverse spectral similarity score needed to use an MS/MS identification."+"</p></html>");
+		label_3.setBounds(10, 443, 174, 14);
 		contentPane.add(label_3);
 
 		JLabel lblMinLipidSpectral = new JLabel("Min. Lipid Spectral Purity (%)");
-		lblMinLipidSpectral.setBounds(10, 421, 139, 14);
+		lblMinLipidSpectral.setToolTipText("<html><p width=\"500\">"+"This parameter specifies"
+				+ " the minimum spectral purity needed "+"</p></html>");
+		lblMinLipidSpectral.setBounds(10, 393, 139, 14);
 		contentPane.add(lblMinLipidSpectral);
 
 		JSpinner PPM_Diff = new JSpinner();
+		PPM_Diff.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the maximum relative mass "
+				+ "difference (ppm) allowed to associate a lipid identification with a chromatographic peak."+"</p></html>");
 		PPM_Diff.setBounds(507, 443, 46, 20);
 		contentPane.add(PPM_Diff);
 		PPM_Diff.setModel(new SpinnerNumberModel(15, 0, 100, 1));
 
 		JSpinner MS2_DP = new JSpinner();
-		MS2_DP.setBounds(190, 443, 46, 20);
+		MS2_DP.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the minimum spectral "
+				+ "similarity score needed to use an MS/MS identification."+"</p></html>");
+		MS2_DP.setBounds(190, 415, 46, 20);
 		contentPane.add(MS2_DP);
 		MS2_DP.setModel(new SpinnerNumberModel(500, 0, 1000, 1));
 
 		JSpinner MS2_Rev_DP = new JSpinner();
-		MS2_Rev_DP.setBounds(190, 468, 46, 20);
+		MS2_Rev_DP.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the minimum reverse"
+				+ " spectral similarity score needed to use an MS/MS identification."+"</p></html>");
+		MS2_Rev_DP.setBounds(190, 440, 46, 20);
 		contentPane.add(MS2_Rev_DP);
 		MS2_Rev_DP.setModel(new SpinnerNumberModel(700, 0, 1000, 1));
 
 		JSpinner Purity = new JSpinner();
-		Purity.setBounds(190, 418, 46, 20);
+		Purity.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the minimum spectral purity needed"
+				+ " \r\nto annotate a lipid at the molecular composition level (PC 16:1_18:1) rather than at the sum composition level (PC 34:2)."+"</p></html>");
+		Purity.setBounds(190, 390, 46, 20);
 		contentPane.add(Purity);
 		Purity.setModel(new SpinnerNumberModel(75, 0, 100, 1));
 
@@ -227,17 +245,21 @@ public class PeakFinderGUI extends JInternalFrame {
 		contentPane.add(label_4);
 
 		JLabel label_5 = new JLabel("FWHM Window Multiplier");
+		label_5.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the maximum "
+				+ "allowed retention difference between the apex of the chromatographic peak and the MS/MS spectra in terms of the FWHM of the chromatographic peak."+"</p></html>");
 		label_5.setBounds(329, 421, 125, 14);
 		contentPane.add(label_5);
 
 		JSpinner FWHM = new JSpinner();
+		FWHM.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the maximum allowed "
+				+ "retention difference between the apex of the chromatographic peak and the MS/MS spectra in terms of the FWHM of the chromatographic peak."+"</p></html>");
 		FWHM.setBounds(507, 418, 46, 20);
 		contentPane.add(FWHM);
 		FWHM.setModel(new SpinnerListModel(new String[] {"0.0", "0.1", "0.2", "0.3", "0.4", "0.5", 
 				"0.6", "0.7", "0.8", "0.9", "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7",
 				"1.8", "1.9", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", 
 				"3.0","3.4","3.8","4.2","4.6","5.0"}));
-		FWHM.setValue("3.0");
+		FWHM.setValue("2.0");
 
 		progressBar = new JProgressBar();
 		progressBar.setBounds(10, 616, 543, 26);
@@ -246,17 +268,23 @@ public class PeakFinderGUI extends JInternalFrame {
 		progressBar.setStringPainted(true);
 
 		JSpinner rtFilterSpinner = new JSpinner();
+		rtFilterSpinner.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the maximum allowed"
+				+ " retention time difference between a lipid identification and the all other identified lipids "
+				+ "of the same class in terms of multiples of the median absolute retention time deviation of the lipid class."+"</p></html>");
 		rtFilterSpinner.setModel(new SpinnerListModel(new String[] {"1.0", "1.1", "1.2", "1.3", 
 				"1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0", "2.1", "2.2", "2.3", "2.4", 
 				"2.5", "2.6", "2.7", "2.8", "2.9", "3.0", "3.1", "3.2", "3.3", "3.4", "3.5", 
 				"3.6", "3.7", "3.8", "3.9", "4.0"}));
-		rtFilterSpinner.setBounds(507, 468, 46, 20);
+		rtFilterSpinner.setBounds(507, 525, 46, 20);
 		contentPane.add(rtFilterSpinner);
 		rtFilterSpinner.setEnabled(rtFilter);
-		rtFilterSpinner.setValue("2.5");
+		rtFilterSpinner.setValue("3.5");
 
-		JCheckBox rtfilteringbox = new JCheckBox("Retention Filtering (k*\u03C3)");
-		rtfilteringbox.setBounds(326, 467, 144, 23);
+		JCheckBox rtfilteringbox = new JCheckBox("Max. RT M.A.D Factor");
+		rtfilteringbox.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the maximum allowed"
+				+ " retention time difference between a lipid identification and the all other identified lipids"
+				+ " of the same class in terms of multiples of the median absolute retention time deviation of the lipid class."+"</p></html>");
+		rtfilteringbox.setBounds(326, 524, 144, 23);
 		contentPane.add(rtfilteringbox);
 		rtfilteringbox.setSelected(rtFilter);
 
@@ -321,7 +349,7 @@ public class PeakFinderGUI extends JInternalFrame {
 		ms2ResultScrollPane.setViewportView(ms2ResultTable);
 
 		JSeparator separator = new JSeparator();
-		separator.setBounds(10, 408, 224, 2);
+		separator.setBounds(10, 380, 224, 2);
 		contentPane.add(separator);
 
 		JSeparator separator_1 = new JSeparator();
@@ -391,13 +419,15 @@ public class PeakFinderGUI extends JInternalFrame {
 		unalignedTableButton.setBounds(464, 144, 89, 23);
 		contentPane.add(unalignedTableButton);
 
-		JLabel lblFeatureIdentifiedIn = new JLabel("Feature Identified in n Files");
-		lblFeatureIdentifiedIn.setBounds(329, 496, 144, 14);
+		JLabel lblFeatureIdentifiedIn = new JLabel("Feature Found\r\n in n Files");
+		lblFeatureIdentifiedIn.setBounds(329, 553, 144, 14);
 		contentPane.add(lblFeatureIdentifiedIn);
 
 		JSpinner featureNumberSpinner = new JSpinner();
+		featureNumberSpinner.setToolTipText("<html><p width=\"500\">"+"This parameter specifies the minimum number of"
+				+ " times the specific feature was identified to be included in the final peak table."+"</p></html>");
 		featureNumberSpinner.setModel(new SpinnerNumberModel(new Integer(2), new Integer(1), null, new Integer(1)));
-		featureNumberSpinner.setBounds(507, 493, 46, 20);
+		featureNumberSpinner.setBounds(507, 550, 46, 20);
 		contentPane.add(featureNumberSpinner);
 
 		//RTFilter action
@@ -465,7 +495,11 @@ public class PeakFinderGUI extends JInternalFrame {
 							idFiles, rtFilterSpinner, btnRun, separatePolaritiesArray[0], samplePairNumbers);
 
 				//If mzmine and all files are valid, run quantitation
-				else if(cdFile.exists() && featureFile.exists() && mzmineRadioButton.isSelected())
+				else if(cdFile.exists() && mzmineRadioButton.isSelected())
+					startMzMineQuantitation(progressBar, featureNumberSpinner, rtfilteringbox, idFiles,
+							rtFilterSpinner, btnRun, separatePolaritiesArray[0], samplePairNumbers);
+				//If mzmine and all files are valid, run quantitation
+				else if(featureFile.exists() && mzmineRadioButton.isSelected())
 					startMzMineQuantitation(progressBar, featureNumberSpinner, rtfilteringbox, idFiles,
 							rtFilterSpinner, btnRun, separatePolaritiesArray[0], samplePairNumbers);
 
@@ -503,17 +537,17 @@ public class PeakFinderGUI extends JInternalFrame {
 		separator_4.setBounds(10, 192, 543, 2);
 		contentPane.add(separator_4);
 
-		chckbxUnidentifiedFeatureFiltering = new JCheckBox("Adduct Filtering");
+		chckbxUnidentifiedFeatureFiltering = new JCheckBox("Adduct/Dimer Filtering");
 		chckbxUnidentifiedFeatureFiltering.setSelected(true);
-		chckbxUnidentifiedFeatureFiltering.setBounds(8, 524, 125, 23);
+		chckbxUnidentifiedFeatureFiltering.setBounds(8, 524, 131, 23);
 		contentPane.add(chckbxUnidentifiedFeatureFiltering);
 
-		JLabel lblUnknownFilteringParameters = new JLabel("Unknown Filtering Parameters");
+		JLabel lblUnknownFilteringParameters = new JLabel("Result Filtering Parameters");
 		lblUnknownFilteringParameters.setBounds(12, 503, 144, 14);
 		contentPane.add(lblUnknownFilteringParameters);
 
 		JSeparator separator_5 = new JSeparator();
-		separator_5.setBounds(12, 520, 224, 2);
+		separator_5.setBounds(12, 520, 541, 2);
 		contentPane.add(separator_5);
 
 		chckbxInsourceFragmentFiltering = new JCheckBox("In-source Fragment Filtering");
@@ -538,7 +572,7 @@ public class PeakFinderGUI extends JInternalFrame {
 				}
 			}
 		});
-		btnConfig.setBounds(147, 524, 89, 23);
+		btnConfig.setBounds(143, 524, 89, 23);
 		contentPane.add(btnConfig);
 	}
 
