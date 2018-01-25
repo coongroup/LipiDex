@@ -200,22 +200,6 @@ O-1,200.0,1,Alkyl Fragment
 H2,200.0,1,Alkyl Fragment
 
 ---
-DG [M+NH4]+
--,999.0,1,Fragment
-C15H23O11,200.0,1,Fragment
-C15H25O12,300.0,1,Fragment
-
----
-DG [M+NH4]+
-C3H6O2,999.0,1,Alkyl Fragment
-C-12H-23O-10N-1,300.0,1,Neutral Loss
-C-12H-25O-11N-1,300.0,1,Neutral Loss
-
----
-DG [M+NH4]+
-O1H-1,999.0,1,Alkyl Neutral Loss
-
----
 HexCer[AP] [M+Ac-H]-
 C6H11O6,50.0,1,Fragment
 C-2H-4O-2,200.0,1,Neutral Loss
@@ -334,16 +318,6 @@ C5H15O4N1P1,999.0,1,Fragment
 C3H10N1,100.0,1,Fragment
 
 ---
-LysoSM [M+H]+
--,999.0,1,Alkyl Fragment
-
----
-LysoSM [M+H]+
-C3H6O2,999.0,1,Alkyl Neutral Loss
-C-6H-15O-6N-1,200.0,1,Neutral Loss
-C-6H-13O-5N-1,200.0,1,Neutral Loss
-
----
 Methyl-PA [M-H]-
 -,999.0,1,Alkyl Fragment
 C1H4O4P1,100.0,1,Fragment
@@ -434,6 +408,10 @@ C10H19O2,7.0,1,Alkyl Neutral Loss
 C8H15O2,6.0,1,Alkyl Neutral Loss
 
 ---
+PG [M+NH4]+
+C-3H-12O-6N-1P-1,999.0,1,Neutral Loss
+
+---
 PI [M+H]+
 C-6H-13O-9P-1,999.0,1,Neutral Loss
 
@@ -468,6 +446,10 @@ P1O3,200.0,1,Fragment
 C3H6O5P1,400.0,1,Fragment
 C3H5O4P1,75.0,1,Alkyl Fragment
 C-3H-5O-2N-1,100.0,1,Neutral Loss
+
+---
+PS [M+H]+
+C-3H-8O-6N-1P-1,999.0,1,Neutral Loss
 
 ---
 Plasmanyl-PC [M+Ac-H]-
