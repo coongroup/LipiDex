@@ -11,7 +11,7 @@
 
 LipiDex unifies all stages of LC-MS/MS lipid identification, empowering intelligent data filtering to greatly reduce manual result curation and increase identification confidence
 
-[Download here](https://github.com/coongroup/LipiDex/releases/latest)
+[Download](https://github.com/coongroup/LipiDex/releases/latest)
 <br><br>
 
 ## Key Features
