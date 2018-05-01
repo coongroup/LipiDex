@@ -50,13 +50,7 @@ If you encounter any issues with this software tool please contact us at lipidex
 
 Please cite the following publication if you use LipiDex to analyze your data:
 ```
-CITATION HERE
+Hutchins et al., LipiDex: An Integrated Software Package for High-Confidence Lipid Identification, Cell Systems
+(2018), https://doi.org/10.1016/j.cels.2018.03.011
 ```
-If you use the embedded LipidBlast libraries, please cite the following publications:
 
----
-Kind, T., Liu, K.-H., Lee, D.Y., DeFelice, B., Meissen, J.K., and Fiehn, O. (2013). LipidBlast in silico tandem mass spectrometry database for lipid identification. Nat. Methods 10, 755–758.
-
-Tsugawa, H., Ikeda, K., Tanaka, W., Senoo, Y., Arita, M., and Arita, M. (2017). Comprehensive identification of sphingolipid species by in silico retention time and tandem mass spectral library. J. Cheminform. 9, 1–12.
-
----
