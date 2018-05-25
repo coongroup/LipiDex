@@ -84,7 +84,7 @@ public class SpectrumSearcher
 
 		//Read fatty acids
 		readFattyAcids("src\\backup\\FattyAcids.csv");
-		
+
 		//Read in MSP Files
 		try
 		{
@@ -95,7 +95,7 @@ public class SpectrumSearcher
 			CustomError ce = new CustomError("Error loading library .msp", e);
 		}
 
-		
+
 		//Sort arrays by mass, lowest to highest
 		Collections.sort(librarySpectra);
 		updateProgress(100,"% - Sorting Libraries",true);
@@ -183,7 +183,6 @@ public class SpectrumSearcher
 					/(Double.valueOf(mgfFiles.size())))*100.0),"% - Searching Spectra",true);
 		}
 		updateProgress(100,"% - Completed",true);
-		
 	}
 
 	//Throws exception if a file is open
@@ -201,7 +200,7 @@ public class SpectrumSearcher
 				throw new CustomException("Please close "+resultFileName, null);
 			 */
 		}
-	
+
 	}
 
 	@SuppressWarnings("resource")
@@ -241,9 +240,9 @@ public class SpectrumSearcher
 			//Bin MSP LibrarySpectra
 			binMasses();
 
-			for (double l=0.1; l<3.1; l=l+.1)
+			for (double l=0.01; l<3.01; l=l+.01)
 			{
-				for (double m=0.1; m<3.1; m=m+.1)
+				for (double m=0.01; m<3.01; m=m+.01)
 				{
 					this.intWeight = l;
 					this.massWeight = m;
@@ -685,53 +684,55 @@ public class SpectrumSearcher
 		//read line if not empty
 		while ((line = reader.readLine()) != null)
 		{
-			if (line.contains("PEPMASS="))
+			if (!line.startsWith("#"))
 			{
-
-				if (line.contains(" ")) precursor = Double.valueOf(line.substring(line.indexOf("=")+1,line.lastIndexOf(" ")));
-				else precursor = Double.valueOf(line.substring(line.indexOf("=")+1));
-			}
-			else if (line.contains("RTINSECONDS"))
-			{
-				if (line.contains(" ")) retention = (Double.valueOf(line.substring(line.indexOf("=")+1,line.lastIndexOf(" "))))/60.0;
-				else retention = Double.valueOf(line.substring(line.indexOf("=")+1))/60.0;
-			}
-			else if (line.contains("CHARGE"))
-			{
-				//peakStart = true;
-
-				if (line.contains("-")) polarity = "-";
-				else polarity = "+";
-			}
-			else if (line.contains("END IONS"))
-			{
-				numSpectra++;
-
-				if (specTemp!= null) sampleMS2Spectra.add(specTemp);
-
-				specTemp = null;
-				polarity = "+";
-				precursor = 0.0;
-				retention = 0.0;
-			}
-			else if (line.contains(".") && !line.contains("PEPMASS") && !line.contains("CHARGE")  && !line.contains("TITLE"))
-			{
-				split = line.split(" ");
-
-				if (specTemp == null)
+				if (line.contains("PEPMASS="))
 				{
-					specTemp = new SampleSpectrum(precursor,polarity,file.getName(),retention,numSpectra);
+
+					if (line.contains(" ")) precursor = Double.valueOf(line.substring(line.indexOf("=")+1,line.lastIndexOf(" ")));
+					else precursor = Double.valueOf(line.substring(line.indexOf("=")+1));
 				}
-
-				if ((precursor-Double.valueOf(split[0]))>1.5 
-						&& Double.valueOf(split[0])>minMS2Mass 
-						&& Double.valueOf(split[1])>1.0)
+				else if (line.contains("RTINSECONDS"))
 				{
-					specTemp.addFrag(Double.valueOf(split[0]), Double.valueOf(split[1]));
+					if (line.contains(" ")) retention = (Double.valueOf(line.substring(line.indexOf("=")+1,line.lastIndexOf(" "))))/60.0;
+					else retention = Double.valueOf(line.substring(line.indexOf("=")+1))/60.0;
+				}
+				else if (line.contains("CHARGE"))
+				{
+					//peakStart = true;
+
+					if (line.contains("-")) polarity = "-";
+					else polarity = "+";
+				}
+				else if (line.contains("END IONS"))
+				{
+					numSpectra++;
+
+					if (specTemp!= null) sampleMS2Spectra.add(specTemp);
+
+					specTemp = null;
+					polarity = "+";
+					precursor = 0.0;
+					retention = 0.0;
+				}
+				else if (line.contains(".") && !line.contains("PEPMASS") && !line.contains("CHARGE")  && !line.contains("TITLE"))
+				{
+					split = line.split(" ");
+
+					if (specTemp == null)
+					{
+						specTemp = new SampleSpectrum(precursor,polarity,file.getName(),retention,numSpectra);
+					}
+
+					if ((precursor-Double.valueOf(split[0]))>1.5 
+							&& Double.valueOf(split[0])>minMS2Mass 
+							&& Double.valueOf(split[1])>1.0)
+					{
+						specTemp.addFrag(Double.valueOf(split[0]), Double.valueOf(split[1]));
+					}
 				}
 			}
 		}
-
 		reader.close();
 	}
 

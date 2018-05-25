@@ -674,7 +674,7 @@ public class LipidGenGUI extends JInternalFrame {
 					tree.setModel(renderFragList(tree,true));
 					expandAllNodes(tree);
 				} catch (Exception error) {
-					CustomError e1 = new CustomError(error.getMessage(), null);
+					CustomError e1 = new CustomError("Error adding rule, check formatting", error);
 				}
 			}
 		});
@@ -1317,6 +1317,8 @@ public class LipidGenGUI extends JInternalFrame {
 			//If line is a new lipid template
 			if (line.contains("]"))
 			{
+				lipidClass = null;
+				
 				//Initialize transition array
 				transitions = new ArrayList<TransitionDefinition>();
 
@@ -1335,7 +1337,8 @@ public class LipidGenGUI extends JInternalFrame {
 				if (line.contains("---"))
 				{
 					tempMS2Template = new MS2Template(lipidClass, transitions);
-					result.add(tempMS2Template);
+					if (lipidClass != null) 
+						result.add(tempMS2Template);
 				}
 				else
 				{

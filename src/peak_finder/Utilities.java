@@ -172,6 +172,8 @@ public class Utilities
 
 		return elementArray;
 	}
+	
+	
 
 	//Remove heavy isotopes elements for later processing
 	public static String removeHeavyElements(String formula)
@@ -197,27 +199,42 @@ public class Utilities
 		String tempString = removeHeavyElements(formula);
 		String[] elementArray = formulaToElementArray(tempString);
 
-		//Replace elements with commas
+		//Remove elements from formula and replace with comma
 		for (int i=0; i<elementArray.length; i++)
 		{
-			tempString.replace(elementArray[i], ",");
+			tempString.replace(elementArray[i], ", ");
 			tempString = tempString.substring(0,tempString.indexOf(elementArray[i]))
-					+","+tempString.substring(tempString.indexOf(elementArray[i])+elementArray[i].length());		
+					+", "+tempString.substring(tempString.indexOf(elementArray[i])+elementArray[i].length());		
 		}
 
-		//Split array by commas
+		//Split into array
 		String[] temp = tempString.split(",");
+		
+		
 		int[] result = new int[elementArray.length];
 
-		//Add numbers to result array
-		for (int i=0; i<temp.length-1; i++)
+		if (temp.length == 0)
 		{
-			if (!temp[i+1].equals("")) 
-				result[i] = Integer.valueOf(temp[i+1]);
-			else
-				result[i] = 1;
+			//Add counts to array
+			for (int i=0; i<result.length-1; i++)
+			{
+					result[i] = 1;
+			}
 		}
 
+		else
+		{
+			//Add counts to array
+			for (int i=0; i<temp.length-1; i++)
+			{
+				if (!temp[i+1].equals(" ")) 
+					result[i] = Integer.valueOf(temp[i+1].substring(1));
+				else
+					result[i] = 1;
+			}
+		}
+
+		//Trim array
 		if (temp.length<elementArray.length+1) result[result.length-1] = 1;
 
 		return result;

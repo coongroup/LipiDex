@@ -61,7 +61,7 @@ public class LibrarySpectrum implements Comparable<LibrarySpectrum>
 		String toAddToFA = "";
 		String[] faSplit;
 		int j;
-		
+
 		lipidClass = id.substring(0, id.indexOf(" "));
 
 		//Remove class and adduct
@@ -105,7 +105,14 @@ public class LibrarySpectrum implements Comparable<LibrarySpectrum>
 			//if lipid string does not contain "-"
 			if (faSplit[i].contains("-"))
 			{
-				j = faSplit[i].indexOf("-")+1;
+				j = faSplit[i].lastIndexOf("-")+1;
+
+				//Find integer for first number in string
+				Pattern pattern = Pattern.compile("^\\D*(\\d)");
+				Matcher matcher = pattern.matcher(faSplit[i].substring(j));
+				matcher.find();
+				j = j + matcher.start(1);
+
 			}
 			else
 			{
@@ -123,7 +130,7 @@ public class LibrarySpectrum implements Comparable<LibrarySpectrum>
 				toAddToFA += faSplit[i].substring(0, j);
 				faSplit[i] = faSplit[i].replace(faSplit[i].substring(0, j), "");
 			}
-
+			
 			numC += Double.valueOf(faSplit[i].substring(0, faSplit[i].indexOf(":")));
 			numDB += Double.valueOf(faSplit[i].substring(faSplit[i].indexOf(":")+1));
 		}

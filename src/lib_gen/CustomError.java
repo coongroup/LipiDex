@@ -32,7 +32,7 @@ public class CustomError extends JDialog {
 	{
 		//Initialize error window
 		setTitle("Error");
-		setIconImage(Toolkit.getDefaultToolkit().getImage(CustomError.class.getResource("/Icons/Error_Icon.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(CustomError.class.getResource("/icons/Error_Icon.png")));
 		try {
 			JScrollPane scrollPane_1 = new JScrollPane();
 			setMinimumSize(new Dimension(400, 300));

@@ -248,7 +248,8 @@ public class SpectrumGenerator extends JInternalFrame {
 		//Popualte menu
 		for (int i=0; i<ms2Templates.size(); i++)
 		{
-			menu.add(ms2Templates.get(i).lipidClass.name);
+			if (ms2Templates.get(i).lipidClass != null) 
+				menu.add(ms2Templates.get(i).lipidClass.name);
 		}
 
 		String[] menuArray = new String[menu.size()];
@@ -467,6 +468,8 @@ public class SpectrumGenerator extends JInternalFrame {
 			//If line is a new lipid template
 			if (line.contains("]"))
 			{
+				lipidClass = null;
+				
 				//Initialize transition array
 				transitions = new ArrayList<TransitionDefinition>();
 
@@ -486,7 +489,7 @@ public class SpectrumGenerator extends JInternalFrame {
 				if (line.contains("---"))
 				{
 					tempMS2Template = new MS2Template(lipidClass, transitions);
-					result.add(tempMS2Template);
+					if (lipidClass !=  null) result.add(tempMS2Template);
 				}
 				else
 				{

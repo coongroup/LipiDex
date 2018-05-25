@@ -32,7 +32,21 @@ public class TransitionType extends Utilities
 		}
 
 		//If moiety-based fragment
-		if (!isNeutralLoss && isFattyAcid)
+		else if (name.contains(" DG Fragment"))
+		{
+			Double fragSum = 0.0;
+
+			//Sum moiety masses
+			for (int i=0; i<faArray.size(); i++)
+			{
+				fragSum += faArray.get(i).mass;
+			}
+
+			//(Electrons + moiety mass + formula mass) / charge
+			result = addElectrons((fragSum+mass),charge, polarity)/charge;
+		}
+		//If moiety-based fragment
+		else if (!isNeutralLoss && isFattyAcid)
 		{
 			Double fragSum = 0.0;
 
@@ -89,7 +103,7 @@ public class TransitionType extends Utilities
 				if (!faArray.get(i).type.equals(fattyAcidType)) return false;
 			}
 		}
-		
+
 		return true;
 	}
 

@@ -263,37 +263,51 @@ public class Utilities
 	}
 
 	//Returns an integer array of the count of all elements in formula
-	public static int[] formulaToCountArray(String formula)
-	{
-		String tempString = removeHeavyElements(formula);
-		String[] elementArray = formulaToElementArray(tempString);
-		
-		//Remove elements from formula and replace with comma
-		for (int i=0; i<elementArray.length; i++)
+		public static int[] formulaToCountArray(String formula)
 		{
-			tempString.replace(elementArray[i], ",");
-			tempString = tempString.substring(0,tempString.indexOf(elementArray[i]))
-					+","+tempString.substring(tempString.indexOf(elementArray[i])+elementArray[i].length());		
-		}
+			String tempString = removeHeavyElements(formula);
+			String[] elementArray = formulaToElementArray(tempString);
 
-		//Split into array
-		String[] temp = tempString.split(",");
-		int[] result = new int[elementArray.length];
-		
-		//Add counts to array
-		for (int i=0; i<temp.length-1; i++)
-		{
-			if (!temp[i+1].equals("")) 
-				result[i] = Integer.valueOf(temp[i+1]);
+			//Remove elements from formula and replace with comma
+			for (int i=0; i<elementArray.length; i++)
+			{
+				tempString.replace(elementArray[i], ", ");
+				tempString = tempString.substring(0,tempString.indexOf(elementArray[i]))
+						+", "+tempString.substring(tempString.indexOf(elementArray[i])+elementArray[i].length());		
+			}
+
+			//Split into array
+			String[] temp = tempString.split(",");
+			
+			
+			int[] result = new int[elementArray.length];
+
+			if (temp.length == 0)
+			{
+				//Add counts to array
+				for (int i=0; i<result.length-1; i++)
+				{
+						result[i] = 1;
+				}
+			}
+
 			else
-				result[i] = 1;
+			{
+				//Add counts to array
+				for (int i=0; i<temp.length-1; i++)
+				{
+					if (!temp[i+1].equals(" ")) 
+						result[i] = Integer.valueOf(temp[i+1].substring(1));
+					else
+						result[i] = 1;
+				}
+			}
+
+			//Trim array
+			if (temp.length<elementArray.length+1) result[result.length-1] = 1;
+
+			return result;
 		}
-
-		//Trim array
-		if (temp.length<elementArray.length+1) result[result.length-1] = 1;
-
-		return result;
-	}
 
 	//Annotate mass with putatuve elements formula within mass tolerance
 	public String annotateMassWithMZTolerance(Double fragMass, String formula)
@@ -527,7 +541,7 @@ public class Utilities
 		String result = "";
 		int[] intArray = formulaToCountArray(formula);
 		String[] elementArray = formulaToElementArray(formula);
-
+		
 		//Iterate through elements
 		for (int i=0; i<intArray.length; i++)
 		{

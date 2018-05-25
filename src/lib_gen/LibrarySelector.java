@@ -96,7 +96,7 @@ public class LibrarySelector extends JInternalFrame {
 							setLG(availableLibraries.get(i), contentPane, label, onImage, offImage);
 							dispose();
 						} catch (Exception e1) {
-							CustomException ce = new CustomException("Error loading library", e1);
+							CustomError ce = new CustomError("Error loading library", e1);
 						}
 					}
 				}

@@ -185,9 +185,20 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 			//Iterate through looking for identical mass
 			for (int i=0; i<ms2.getTransitions().size(); i++)
 			{
-				if (ms2.getTransitions().get(i).getMass().equals(t.mass))
+				if (Math.abs(ms2.getTransitions().get(i).getMass() - t.mass) < 0.0001)
 				{
-					massMatchFound = true;
+					//Keep more intense
+					if (ms2.getTransitions().get(i).getIntensity()<t.intensity)
+					{
+						
+						ms2.getTransitions().remove(i);
+					}
+					else
+					{
+						massMatchFound = true;
+					}
+					
+					break;
 				}
 			}
 
@@ -222,7 +233,7 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 				String type = transitions.get(i).type;
 
 				//Generate cardiolipin dg transitions
-				if (type.equals("Cardiolipin DG Fragment"))
+				if (type.contains("Cardiolipin DG Fragment"))
 				{
 					if (faCounter == 0 || faCounter == 2)
 					{
@@ -263,13 +274,17 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 	//Returns transition object based on definition and lipid
 	public Transition parseTransition(TransitionDefinition td, Lipid lipid, ArrayList<FattyAcid> faArray) throws CustomException
 	{
+		System.out.println(td);
 		Double mass;
 		if (td.isFormula)
 			mass = td.typeObject.calculateMass(faArray, lipid, calculateMassFromFormula(td.formula), 
 					lipid.adduct.charge, lipid.adduct.polarity);
 		else
+		{
+			System.out.println(lipidClass.name);
 			mass = td.typeObject.calculateMass(faArray, lipid, td.mass, lipid.adduct.charge, 
 					lipid.adduct.polarity);
+		}
 
 		return new Transition(mass,td.relativeIntensity,td.massFormula+"_"+td.typeObject.name+"_"+faArray);
 	}
@@ -295,7 +310,9 @@ public class MS2Template extends Utilities implements Comparable<MS2Template>
 	@Override
 	public int compareTo(MS2Template arg0)
 	{
-		if (arg0.lipidClass.name.compareTo(this.lipidClass.name)<0) return 1;
-		else return -1;
+		if (arg0.lipidClass == null) return -1;
+		else if (this.lipidClass == null) return 1;
+		else
+		return arg0.lipidClass.name.compareTo(this.lipidClass.name);
 	}
 }

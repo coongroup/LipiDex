@@ -123,6 +123,7 @@ public class SampleSpectrum extends lib_gen.Utilities
 
 		//Sort sample array
 		Collections.sort(transitionArray);
+		Collections.sort(libArray);
 
 		int i = 0, j = 0;
 

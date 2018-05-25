@@ -115,6 +115,36 @@ public class LipidClass extends Utilities {
 		return headGroup;
 	}
 	
+	//Returns true iff a particular fatty acid is in possible fa
+	public boolean isValidFattyAcid(String fa)
+	{
+		for (int i=0; i<possibleFA.size(); i++)
+		{
+			for (int j=0; j<possibleFA.get(i).size(); j++)
+			{
+				if (possibleFA.get(i).get(j).toString().equals(fa))
+					return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	//Returns true iff a particular fatty acid is in possible fa
+	public FattyAcid getMatchingFattyAcid(String fa)
+	{
+		for (int i=0; i<possibleFA.size(); i++)
+		{
+			for (int j=0; j<possibleFA.get(i).size(); j++)
+			{
+				if (possibleFA.get(i).get(j).toString().equals(fa))
+					return possibleFA.get(i).get(j);
+			}
+		}
+		
+		return null;
+	}
+	
 	//Returns the number of fatty acids of each type allowed for class
 	public int getNumFattyAcidsofType(String type)
 	{
@@ -146,7 +176,7 @@ public class LipidClass extends Utilities {
 		{
 			faArray = new ArrayList<FattyAcid>();
 			
-			String allowedFA = "_14:0_16:0_16:1_17:1_18:0_18:1_18:2_18:3_20:0_20:1_20:2_20:3_20:5_20:4_22:0_22:6_";
+			String allowedFA = "_14:0_14:1_15:1_15:0_16:0_16:1_17:1_18:0_18:1_18:2_18:3_20:0_20:1_20:2_20:3_20:5_20:4_22:0_22:6_";
 			
 			for (int i=0; i<allFattyAcids.size(); i++)
 			{

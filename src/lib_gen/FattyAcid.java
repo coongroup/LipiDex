@@ -52,15 +52,26 @@ public class FattyAcid extends Utilities implements Comparable<FattyAcid>
 	//Comparator for sorting fa by type and molecular weight
 	public int compareTo (FattyAcid f)
 	{
-		if (Character.isLetter(f.name.charAt(0)) && !Character.isLetter(name.charAt(0))) return 1;
-		else if (!Character.isLetter(f.name.charAt(0)) && Character.isLetter(name.charAt(0))) return -1;
-		else if (f.type.equals(type))
+		if (!f.type.equals(this.type))
+		{
+			if (Character.isLetter(f.name.charAt(0)) && !Character.isLetter(name.charAt(0))) 
+				return 1;
+			else if (!Character.isLetter(f.name.charAt(0)) && Character.isLetter(name.charAt(0))) 
+				return -1;
+			else
+			{
+				if (mass>f.getMass()) return 1;
+				else if (mass<f.getMass()) return -1;
+				else return 0;
+			}
+		}
+		else
 		{
 			if (mass>f.getMass()) return 1;
 			else if (mass<f.getMass()) return -1;
 			else return 0;
 		}
-		else return (type.compareTo(f.type));
+		//else return (type.compareTo(f.type));
 	}
 
 	//Returns string representation of FA for txt file generation

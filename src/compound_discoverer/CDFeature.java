@@ -97,23 +97,31 @@ public class CDFeature extends Utilities
 	public boolean checkLipid(Lipid lipid, boolean noCoelutingPeak)
 	{
 		boolean result = true;
+		boolean debug = false;
 
 		//Check polarity
 		if (!lipid.polarity.equals(this.polarity)) result = false;
+		
+		if (debug && !lipid.polarity.equals(this.polarity)) System.out.println(lipid+" Polarity");
 
 		//Check Precursor
 		if (!(calcPPMDiff(lipid.precursor,this.mass)<MAXPPMDIFF)) result = false;
+		if (debug && !(calcPPMDiff(lipid.precursor,this.mass)<MAXPPMDIFF)) System.out.println(lipid+" Precursor");
 
 		//Check File
-
 		if (!this.sample.file.equals(lipid.sample.file)) result = false;
+		if (debug && !this.sample.file.equals(lipid.sample.file)) System.out.println(lipid+" File");
 
 		//Check that peak is the most intense isobaric peak at that retention using a gaussian peak model
 		if (!isMostIntensePeak(sample.getCorrectedRT(lipid.retention))) result = false;
+		if (debug && !isMostIntensePeak(sample.getCorrectedRT(lipid.retention))) System.out.println(lipid+" Not most intense");
 
 		//Check Retention Time
 		if ((lipid.retention < this.realRetention-this.fwhm*MINRTMULTIPLIER) 
 				|| (lipid.retention > this.realRetention+this.fwhm*MINRTMULTIPLIER)) result = false;
+		
+		if (debug && (lipid.retention < this.realRetention-this.fwhm*MINRTMULTIPLIER) 
+				|| (debug && lipid.retention > this.realRetention+this.fwhm*MINRTMULTIPLIER)) System.out.println(lipid+" out of rt range");
 
 		return result;
 	}

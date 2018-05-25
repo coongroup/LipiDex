@@ -570,6 +570,7 @@ public class CDPeakFinder extends Utilities
 		else 
 			area =  Double.valueOf(split[fGIndexArray[7]]);
 
+		
 		result = new CDFeature(split[fGIndexArray[0]], Integer.valueOf(split[fGIndexArray[1]]), 
 				Double.valueOf(split[fGIndexArray[2]]), Double.valueOf(split[fGIndexArray[3]]), 
 				Double.valueOf(split[fGIndexArray[4]]), Double.valueOf(split[fGIndexArray[5]]), 
@@ -593,12 +594,12 @@ public class CDPeakFinder extends Utilities
 		//For all area in CG line, add new AreaResult object
 		for (int i=cdAreaStart; i<split.length; i++)
 		{
-			if (split[i].equals(" "))
+			if (split[i].equals(" ") && j<samples.size())
 			{
 				temp.addResult(new CDAreaResult(samples.get(j), 0.0));
 				j++;
 			}
-			else
+			else if (j<samples.size())
 			{
 				temp.addResult(new CDAreaResult(samples.get(j), Double.valueOf(split[i])));
 				j++;
@@ -892,6 +893,7 @@ public class CDPeakFinder extends Utilities
 			if (importedLipids.get(i).dotProduct>Utilities.MINDOTPRODUCT
 					&& importedLipids.get(i).revDotProduct>Utilities.MINREVDOTPRODUCT)
 			{
+	
 				//Find min and max index for CG hash map
 				minIndex = calculateMapIndex(importedLipids.get(i).correctedRetention-avgFWHM*3.0);
 
@@ -1403,7 +1405,8 @@ public class CDPeakFinder extends Utilities
 				if (adductFiltering)
 				{
 					//Remove adducts against identified peaks
-					if (compoundGroups.get(i).quantIon != null & compoundGroups.get(counter).quantIon!= null)
+					if (compoundGroups.get(i).quantIon != null && compoundGroups.get(counter).quantIon!= null
+							&& compoundGroups.get(i).keep && compoundGroups.get(counter).keep)
 					{
 						//Check adduct for cg 1 as reference
 						if ((compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 
@@ -1420,7 +1423,7 @@ public class CDPeakFinder extends Utilities
 								if (compoundGroups.get(i).finalLipidID == null)
 								{
 									compoundGroups.get(i).keep = false;
-									compoundGroups.get(i).filterReason = "Adduct of existing peak";
+									compoundGroups.get(i).filterReason = "Adduct of existing identified peak";
 								}
 							}
 							else if(compoundGroups.get(i).finalLipidID!=null && compoundGroups.get(counter).finalLipidID == null)
@@ -1428,7 +1431,7 @@ public class CDPeakFinder extends Utilities
 								if(compoundGroups.get(counter).finalLipidID == null)
 								{
 									compoundGroups.get(counter).keep = false;
-									compoundGroups.get(counter).filterReason = "Adduct of existing peak";
+									compoundGroups.get(counter).filterReason = "Adduct of existing identified peak";
 								}
 							}
 						}
@@ -1436,8 +1439,9 @@ public class CDPeakFinder extends Utilities
 
 					//Remove adducts against unidentified peaks
 					if (compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) &&
-							compoundGroups.get(i).quantIon != null & compoundGroups.get(counter).quantIon!= null
-							&& compoundGroups.get(i).finalLipidID==null && compoundGroups.get(counter).finalLipidID==null)
+							compoundGroups.get(i).quantIon != null && compoundGroups.get(counter).quantIon!= null
+							&& compoundGroups.get(i).finalLipidID==null && compoundGroups.get(counter).finalLipidID==null
+							&& compoundGroups.get(i).keep && compoundGroups.get(counter).keep)
 					{
 						//Check adduct
 						if (compoundGroups.get(i).targetInFWHM(compoundGroups.get(counter),0.5) && 

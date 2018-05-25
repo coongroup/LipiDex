@@ -6,7 +6,7 @@ public class TransitionDefinition extends Utilities implements Comparable<Transi
 	Double mass;					//Mass of fragment if applicable
 	Double relativeIntensity;		//Relative intensity scaled to 1000
 	String formula;					//Elemental formula
-	public String displayName;				//Display name for Jtree display
+	public String displayName;		//Display name for Jtree display
 	boolean isFormula;				//Boolean if a formula was supplied
 	Integer charge;					//Charge on transition
 	String massFormula;				//String to store supplied mass/formula string
