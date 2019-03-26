@@ -48,9 +48,12 @@ If you encounter any issues with this software tool please contact us at lipidex
 
 ## Citation
 
-Please cite the following publication if you use LipiDex to analyze your data:
+Please cite the following publications if you use LipiDex to analyze your data:
 ```
 Hutchins et al., LipiDex: An Integrated Software Package for High-Confidence Lipid Identification, Cell Systems
 (2018), https://doi.org/10.1016/j.cels.2018.03.011
+
+Hutchins et al., Mapping Lipid Fragmentation for Tailored Mass Spectral Libraries, Journal of The American Society for Mass Spectrometry
+(2019), https://doi.org/10.1007/s13361-018-02125-y
 ```
 
