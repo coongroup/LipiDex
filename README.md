@@ -42,9 +42,6 @@ To install LipiDex, ensure you have installed the most recent version of 64-bit 
 
 Please read the [LipiDex Wiki](https://github.com/coongroup/LipiDex/wiki#welcome-to-the-lipidex-wiki) for detailed instructions on the major functions of LipiDex.
 
-### Troubleshooting
-
-If you encounter any issues with this software tool please contact us at lipidexcontact@gmail.com.<br><br>
 
 ## Citation
 
